@@ -144,10 +144,24 @@ header .navbar-default {
   border: none;
   text-shadow: none; /**not sure about**/
 }
+
+
+
+
+
 header .navbar-default .navbar-nav a {
 /***Navigation Links***/
 	color: $primary;
 	/*padding: 5px 8px;*/
+  
+
+
+    @media (max-width: 980px) {
+    font-size: 14px;
+}
+
+
+
 }
 header .navbar-default .navbar-nav a:hover {
 /***Navigation Links on Hover***/
@@ -176,8 +190,11 @@ header .navbar-brand {
   // background-repeat: no-repeat;
   // background-position: 15px 0;
   // height: auto;
+  
   padding-top: 6px; //MY EDIT
-
+  @media (min-width: 768px) {
+      padding-left: 50px;
+    }
 }
 
 
@@ -389,7 +406,6 @@ p,h1,h2,h3,h4,h5,h6 {
                 GUEST BOOK - SECTION
 -------------------------------------------------- */
 
-
 /* --------------------------------------------------
                 CONTACT US - SECTION
 -------------------------------------------------- */
@@ -490,6 +506,13 @@ footer .navbar-nav>li a {
                   NOT SURE????????
 -------------------------------------------------- */
 
+
+
+
+
+
+
+
 /**  Page **/
 .page {
   /*padding: 50px 0;*/
@@ -502,6 +525,36 @@ footer .navbar-nav>li a {
   /*text-align: center;*/
   /*margin-bottom: 30px;*/
 }
+
+
+
+
+EDIT LATER!!!!
+@media (max-width: 980px){
+#guestbook.container.page {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  min-height: 300px;
+}
+#registry.container.page {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  min-height: 300px;
+}
+}
+
+
+
+
+
+// .page_small {
+   
+//     padding-top: 125px;
+//     padding-bottom: 125px;
+//     min-height: 500px;
+// } 
+
+
 
 
 /*.main-container {
