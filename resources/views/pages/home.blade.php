@@ -94,7 +94,7 @@
   <div class="row featurette">
     <div class="col-md-6 col-lg-5">
       <div class="r-pad">
-        <img class="featurette-image img-responsive center-block visible-md-block visible-lg-block" src="http://www.hawaii-holidays-online.com/hawaii-accommodation/sheraton-kona-resort-and-spa-keauhou-bay/poolside-cabanas-3708.jpg">{{-- Hidden on at > 991px --}}
+        <img class="featurette-image img-responsive center-block visible-md-block visible-lg-block" src="img/hotel.jpg">{{-- Hidden on at > 991px --}}
         {{-- .img-thumbnail - BEVEL --}}
       </div>
     </div>
@@ -365,7 +365,7 @@
       <div class="row featurette">
         <div class="col-md-6 col-lg-5">
           <div class="r-pad"> 
-            <img class="featurette-image img-responsive center-block visible-md-block visible-lg-block" src="https://thenypost.files.wordpress.com/2015/04/wedding-registry.jpg">{{-- Hidden on at > 991px --}}
+            <img class="featurette-image img-responsive center-block visible-md-block visible-lg-block" src="img/gift.jpg">{{-- Hidden on at > 991px --}}
             {{-- .img-thumbnail - BEVEL --}}
           </div>
         </div>
