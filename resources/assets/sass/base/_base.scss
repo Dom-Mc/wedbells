@@ -1,0 +1,1040 @@
+
+$blue1: #66afe9;
+$blue2: #00BFFF;
+$blue3: #5bc0de;
+$blue4: #337ab7;
+$blue5: #1E90FF;
+$blue6: #3B99FC;
+$primary: #1E90FF !default;   // bondi-blue
+$secondary: #337AB7; //darker blue
+$hover: #00BFFF; // (hover) ligher blue
+$secondary-color: #777777 !default; // white-lilac
+$alert-color: #f04124 !default;     // cinnabar
+
+
+$white         : #FFFFFF !default;
+$ghost         : #FAFAFA !default;
+$snow          : #F9F9F9 !default;
+$vapor         : #F6F6F6 !default;
+$white-smoke   : #F5F5F5 !default;
+$silver        : #EFEFEF !default;
+$smoke         : #EEEEEE !default;
+$gainsboro     : #DDDDDD !default;
+$iron          : #CCCCCC !default;
+$base          : #AAAAAA !default;
+$aluminum      : #999999 !default;
+$jumbo         : #888888 !default;
+//$monsoon       : #777777 !default;
+$steel         : #666666 !default;
+$charcoal      : #555555 !default;
+$tuatara       : #444444 !default;
+$oil           : #333333 !default;
+$jet           : #222222 !default;
+$black         : #000000 !default;
+$success : #1E90FF;
+
+
+//#1E90FF (primary) dodger blue
+//#337AB7 (focus) darker blue
+//00BFFF (hover) ligher blue
+
+/*Imports your Fonts: place on top of css page*/
+@import url(http://fonts.googleapis.com/css?family=Pacifico|Kaushan+Script|Courgette|Marck+Script|Damion|Yellowtail|Raleway:400,100|Roboto);
+
+
+
+
+// font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;   //from old site
+
+/**  Basic Page CSS **/
+body, html {
+  height: 100%;
+  width: 100%;
+}
+
+
+
+
+/* --------------------------------------------------
+                    LAYOUT
+-------------------------------------------------- */
+.l-pad {
+  padding-left: 1.5em;
+}
+.r-pad {
+  padding-right: 1.5em;
+}
+
+
+/* --------------------------------------------------
+                    BUTTONS
+-------------------------------------------------- */
+.btn-success {
+    color: #fff;
+    background-color: $primary;
+    border-color: #4cae4c;  //change
+}
+
+
+/* --------------------------------------------------
+                  TYPOGRAPHY
+-------------------------------------------------- */
+body, html {
+  color: $steel;
+  font-size: 18px;
+}
+
+
+p {
+  font-size: 1rem;
+  color: $steel;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  /*font-family: "Open Sans", sans-serif;*/
+  // font-weight: 100;
+  margin-top: 0;
+  color: $steel;
+  // 
+  // 
+  // 
+  // margin-top: 20px;  //bootstrap
+  // margin-bottom: 10px;  //boostrap
+}
+
+.title {  /*not sure about*/
+  /*font-family: 'Roboto', 'Open Sans', sans-serif;*/
+  /*font-weight: 300;*/
+  /*font-size: 2em;*/
+}
+
+
+
+/* --------------------------------------------------
+                  NAVIGATION
+-------------------------------------------------- */
+
+// NOT SURE ABOUT
+.navbar-default .navbar-nav>.active>a {
+  background-color: $primary;
+}
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+	background-color: $primary;  /*not sure about*/
+	color: white;
+}
+
+// Removes the border - my edit
+a:hover, a:active, a:focus {
+  outline: 0;
+ }
+
+
+
+
+
+
+/**  Header Navigation **/
+header .navbar {
+  /*padding: 30px 0;*/
+  transition: all 1s ease-out;
+}
+header .navbar-default {
+  background-color: transparent;
+  border: none;
+  text-shadow: none; /**not sure about**/
+}
+header .navbar-default .navbar-nav a {
+/***Navigation Links***/
+	color: $primary;
+	/*padding: 5px 8px;*/
+}
+header .navbar-default .navbar-nav a:hover {
+/***Navigation Links on Hover***/
+	background-color: $hover;  /*not sure about*/
+	color: white;
+}
+header .navbar-default .navbar-nav .active a {
+/***Active Navigation Link***/
+	font-weight: 900;
+	color: white;
+	/*background: transparent;*/
+	background-color: $primary;
+  /*text-shadow: none;*/
+}
+header .navbar-default .navbar-nav .active a:hover {
+  color: white;
+  /*background: transparent;*/
+  background-color: $hover;
+  /*text-shadow: none;*/
+}
+
+
+/**  Navbar Brand **/
+header .navbar-brand {
+  // background: url(../images/wisdompetlogo.svg);
+  // background-repeat: no-repeat;
+  // background-position: 15px 0;
+  // height: auto;
+  padding-top: 6px; //MY EDIT
+
+}
+
+
+
+//GO BACK OVER LYNDA VIDEO
+header .navbar-brand span.subhead {
+  display: block;
+  // font-family: "Roboto Slab", serif;
+  font-family: Damion;
+  font-size: 1em;
+  font-weight: 100;
+}
+header .navbar-brand h1 {
+  color: $primary;
+  margin: 0;
+  font-size: 1.8em;
+  font-weight: 400;
+  // padding-left: 105px;
+  font-family: Damion;
+}
+
+
+
+/**  Navigation 'inbody' Class **/
+header .inbody {
+  background: rgba(255,255,255,.92);
+}
+header .navbar.inbody {
+/***Navigation with "inbody" class***/
+  border-bottom: 1px solid #e7e7e7;/**not sure about**/
+  border-radius: 0;/**not sure about**/
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/*
+header .navbar.inbody .navbar-nav {
+/***Navbar area links with "inbody" class***/
+ /* padding-top: 10px;
+}
+header .inbody .navbar-brand {
+  background-size: 43px;
+  background-position: top left;
+  margin-top: 5px;
+  padding-bottom: 0;
+  margin-left: 10px;
+}*/
+// header .inbody .navbar-brand h1 {
+//   font-size: 1.1em;
+//   padding-left: 38px;
+
+// }
+// header .inbody .navbar-brand span.subhead {
+//   display: none;
+// }
+
+
+/**  Navbar Toggle **/
+header .navbar-toggle {
+/***Toggle***/
+  background-color: $primary;
+}
+header .navbar-default .navbar-toggle .icon-bar {
+/***Toggle Lines***/
+  background-color: $white;
+}
+@media only screen
+and (max-width: 768px) {
+  header .navbar-collapse.in {
+  	/***Dropdown Menu***/
+    background-color: rgba(0,0,0, .5);
+  }
+}
+
+
+
+
+
+
+.navbar-default .navbar-nav > li > a:focus { //check later - from bootstrap
+  color: $primary; //text color 
+}
+.navbar-default .navbar-nav > li > a:hover { //check later - from bootstrap
+  color: $white; //text color
+}
+
+
+
+
+/* --------------------------------------------------
+              HERO/JUMBOTRON RSVP - SECTION
+-------------------------------------------------- */
+
+#rsvp {
+  height: 700px;
+  background-image: url('../img/bg/pic2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  text-align: center; /*from treehouse*/
+  margin-bottom: 0; /*my edits*/
+
+  color: $white; //text color
+  font-family: Raleway;
+  
+    h1 {
+      font-weight: 100;
+      text-shadow: 1px 1px 1px grey;
+        .title {
+          // font-weight: 100;
+          font-size: 2em;
+          // margin-top: .9em;
+          // margin-bottom: 0;
+        }
+    }
+    p{
+      color: $white;
+    }
+}
+.jumbotron .container {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+/* --------------------------------------------------
+                      Modal
+-------------------------------------------------- */
+#myModal {
+  h2 {
+    font-size: 2.5rem;
+  }
+  .info {  //h3 headings of each form section
+    font-size: 1.02rem;
+    margin: 0 0 15px 15px;
+    font-weight: 600;
+  }
+  p {
+    font-size: 1rem;
+  }
+  label {
+    font-weight: 400;  //decrease our label's font weight from bold to a medium weight
+  }
+  .note {  //side note
+    font-size: .9rem;
+    margin: 15px;
+  }
+  #radios {
+    margin-left: 60px;  //shift radio buttons left
+  }
+
+  .modal-body .fa {  //fa icon
+    font-size: .75rem;
+  }
+
+  .centered { //used to center button
+    text-align:center;
+  }
+}
+/* --------------------------------------------------
+              THE BIG DAY - SECTION
+-------------------------------------------------- */
+
+#bigday {
+
+
+  }
+
+/* --------------------------------------------------
+                VENUE - SECTION
+-------------------------------------------------- */
+
+/**  Google Maps **/
+#google_map {
+height: 500px;
+}
+
+#venue {
+p,h1,h2,h3,h4,h5,h6 {
+	color:$white;
+  text-shadow: 1px 1px 1px #808080;
+}
+}
+
+/* --------------------------------------------------
+              GET A ROOM - SECTION
+-------------------------------------------------- */
+
+
+/* --------------------------------------------------
+              FUN - SECTION
+-------------------------------------------------- */
+
+/*section background*/  
+#fun { 
+  
+  // h1,h2,h3,p {color: $white;}
+
+//   $white         : #FFFFFF !default;
+// $ghost         : #FAFAFA !default;
+// $snow          : #F9F9F9 !default;
+// $vapor         : #F6F6F6 !default;
+// $white-smoke   : #F5F5F5 !default;
+}
+
+/* --------------------------------------------------
+                GUEST BOOK - SECTION
+-------------------------------------------------- */
+
+
+/* --------------------------------------------------
+                CONTACT US - SECTION
+-------------------------------------------------- */
+
+/*section background*/
+/*#contact {
+    background:  
+    linear-gradient(
+      rgba(51, 122, 183, .9), 
+      rgba(51, 122, 183, .8)
+    ),
+    url('https://maps.googleapis.com/maps/api/staticmap?center=Kailua+Kona,+HI+96740&zoom=5&size=640x640&scale=2&maptype=roadmap&markers=color:blue%7C78-7102+Walua+Rd,+Kailua+Kona,+HI+96740')
+  no-repeat center;
+  background-size: cover;
+}*/
+
+#contact.page {
+    padding-bottom: 50px;
+  }
+
+/* --------------------------------------------------
+                PHOTOS - SECTION
+-------------------------------------------------- */
+
+
+
+/* -----------------------------------
+          REGISTRY - SECTION               
+------------------------------------*/
+
+
+
+/* -----------------------------------
+                FOOTER                
+------------------------------------*/
+
+footer {
+  background: black;
+  color: white;
+  font-size: 1em;
+  padding: 20px;
+}
+footer a {
+/*** "Back to top" link***/
+  color: white;
+}
+footer a:hover {
+  color: $hover !important;
+}
+/*
+footer .phone {
+  font-size: 1.4em;
+  font-weight: 700;
+  color: #E0E6AE;
+}
+footer .navbar {
+  margin-bottom: 0;
+  min-height: 0;
+}
+footer .navbar-default {
+  background-color: transparent;
+  border: none;
+  margin-right: 40px;
+}
+footer .navbar-nav>li a {
+  padding-top: 0;
+  padding-bottom: 0;
+  text-decoration: underline;
+  color: #EEC856 !important;
+}*/
+
+
+
+
+
+
+
+
+/* --------------------------------------------------
+                   CAROUSEL/SLIDE SHOW
+-------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------------------------------------
+                  NOT SURE????????
+-------------------------------------------------- */
+
+/**  Page **/
+.page {
+  /*padding: 50px 0;*/
+  // padding: 125px 0;
+  padding-top: 125px;
+  padding-bottom: 125px;
+  min-height: 500px;      //ADJUST LATER
+}
+.page h2 {
+  /*text-align: center;*/
+  /*margin-bottom: 30px;*/
+}
+
+
+/*.main-container {
+  padding: 10px 15px;
+}*/
+
+
+
+
+/*#bgg {
+  color: #fff;
+  padding-bottom: 100px;
+  background: url('http://halewailele.com/wp-content/uploads/2013/06/HALE-WAILELE003.jpg') no-repeat;
+  background-size: cover;
+}*/
+
+
+
+/* CSS */
+.hsContainer {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    /*opacity: 0;*/
+}
+.hsContent {
+    max-width: 450px;
+    margin: -150px auto 0 auto;
+    display: table-cell;
+    vertical-align: middle;
+    color: #ebebeb;
+    padding: 0 8%;
+    text-align: center
+}
+.bcg {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+/* Slide 1 */
+#slide-1 .bcg {background-image:url('http://halewailele.com/wp-content/uploads/2013/06/HALE-WAILELE003.jpg')}
+/* Slide 2 */
+#slide-2 .bcg {background: none; background-color: #010101; height: 310px; text-align: center}
+
+/* Slide 3 */
+#slide-3 .bcg {background-image:url('../img/pic2.jpg')}
+
+  .hsContent h2,
+  .copy h2 {
+    color: #ffffff;
+    font-size: 45px;
+    line-height: 48px;
+    margin-bottom: 12px;
+  }
+  .hsContent p {
+    width: 400px;
+    margin: 0 auto;
+    color: #b2b2b2;
+  }
+  .hsContent a {
+    color: #b2b2b2;
+    text-decoration: underline;
+  }
+  .bgBlack {
+    background-color: rgba(0,0,0,0.75);
+    padding: 3px 10px;
+  }
+
+
+
+
+
+/*CENTER COL IN BOOTSTRAP*/
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+#slide1 {
+  background-image: url('http://halewailele.com/wp-content/uploads/2013/06/HALE-WAILELE003.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+}
+#venue {
+  background-image: url('../img/bg/hi2.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  /*height: 500px;*/
+  width: 100%;
+}
+#view {
+  background-image: url('../img/bg/hi.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 500px;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+/* GLOBAL STYLES (from bootstrap template) ***GO OVER!!!
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+body {
+  /*padding-bottom: 40px;*/
+  /*color: #5a5a5a;*/
+}
+
+
+/* NAVBAR (from bootstrap template) ***GO OVER!!!
+-------------------------------------------------- */
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  /*position: absolute;*/
+  /*top: 0;*/
+  /*right: 0;*/
+  /*left: 0;*/
+  /*z-index: 20;*/
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  /*padding-right: 0;*/
+  /*padding-left: 0;*/
+}
+.navbar-wrapper .navbar {
+  /*padding-right: 15px;*/
+  /*padding-left: 15px;*/
+}
+.navbar-wrapper .navbar .container {
+  /*width: auto;*/
+}
+
+
+/*Small devices (768px and up)*/
+@media (min-width: 768px) {
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    /*margin-top: 20px;*/
+  }
+  .navbar-wrapper .container {
+    /*padding-right: 15px;*/
+    /*padding-left: 15px;*/
+  }
+  .navbar-wrapper .navbar {
+    /*padding-right: 0;*/
+    /*padding-left: 0;*/
+  }
+
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    /*border-radius: 4px;*/
+  }
+}
+
+
+/* NAVBAR (from other template) ***GO OVER!!! */
+    /* Special class on .container surrounding .navbar, used for positioning it into place. */
+    .navbar-wrapper {
+      /*margin-top: 20px;*/
+      /*margin-bottom: -90px;*/ /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
+    }
+
+    /* Remove border and change up box shadow for more contrast */
+    .navbar .navbar-inner {
+      /*border: 0;*/
+      /*-webkit-box-shadow: 0 2px 10px rgba(0,0,0,.25);*/
+         /*-moz-box-shadow: 0 2px 10px rgba(0,0,0,.25);*/
+              /*box-shadow: 0 2px 10px rgba(0,0,0,.25);*/
+    }
+
+    /* Downsize the brand/project name a bit */
+    .navbar .brand {
+      /*padding: 14px 20px 16px;*/ /* Increase vertical padding to match navbar links */
+      /*font-size: 16px;*/
+      /*font-weight: bold;*/
+      /*text-shadow: 0 -1px 0 rgba(0,0,0,.5);*/
+    }
+
+    /* Navbar links: increase padding for taller navbar */
+    .navbar .nav > li > a {
+      /*padding: 15px 20px;*/
+    }
+
+    /* Offset the responsive button for proper vertical alignment */
+    .navbar .btn-navbar {
+      /*margin-top: 10px;*/
+    }
+    @media (max-width: 979px) {
+
+      .container.navbar-wrapper {
+        /*margin-bottom: 0;*/
+        /*width: auto;*/
+      }
+      .navbar-inner {
+        /*border-radius: 0;*/
+        /*margin: -20px 0;*/
+      }
+    }
+    @media (max-width: 767px) {
+      .navbar-inner {
+        /*margin: -20px;*/
+      }
+}
+
+
+
+
+
+
+
+/** Carousel Fade **/     /*lynda*/
+.carousel.fade {
+    opacity: 1;
+}
+.carousel.fade .item {
+    transition: opacity ease-out .7s;
+    left: 0;
+    opacity: 0;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    display: block;
+}
+.carousel.fade .item:first-child {
+    top: auto;
+    opacity: 0;
+    position: relative;
+}
+.carousel.fade .item.active {
+    opacity: 1;
+}
+.carousel-control {
+    /*opacity: 0;*/  /*Navigation Controls*/
+}
+.carousel-control.right,
+.carousel-control.left {
+    background-image: none; /*Dark shadow added by bootstrap*/
+}
+#featured .item {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; //my adjustment from center center
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+// .carousel .icon-container {
+//     display: inline-block;
+//     font-size: 25px;
+//     line-height: 25px;
+//     padding: 1em;
+//     text-align: center;
+//     border-radius: 50%;
+// }
+
+// .carousel-caption {     //this didn't change anything during testing
+// margin: 0 auto; 
+// height: 320px;
+// padding: 0;
+// color: grey;
+// text-shadow: 0 1px 2px rgba(0,0,0,.6);
+// text-shadow: none;
+// }
+
+
+
+/*Activities Carousel*/   /*lynda*/
+#myCarousel .carousel-indicators {
+  bottom: 0; /*indicator position*/
+}
+#myCarousel .carousel-indicators .active{
+  background-color: grey; /*indicator fill-color*/
+}
+#myCarousel .carousel-indicators li {
+  border-color: grey; /*indicator border-color*/
+}
+
+
+
+
+/* CAROUSEL (from bootstrap template) ***GO OVER!!!
+-------------------------------------------------- */
+/* Carousel base class */
+.carousel {
+  // height: 500px;
+  margin-bottom: 60px;
+}
+#fun .carousel {
+  // margin-bottom: 0;
+  height: 700px;
+      p, h3 {
+        color: $white;
+      }
+}
+
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  *z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 700px;
+  // background-color: $silver;  //background of the slides
+}
+
+// .carousel .item {      //NOT SURE WHERE THIS CAME FROM
+//     min-height: 500px;
+//     height: 100%;
+//     width:100%; 
+// }
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 700px;
+}
+
+/*Small devices (from 768px) and up)*/
+@media (min-width: 768px) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+    color: $white;
+  }
+}
+/* CAROUSEL (from other template) ***GO OVER!!!
+-------------------------------------------------- */
+   .carousel .container {
+      //position: relative;
+      //z-index: 9;
+    }
+    .carousel-control {
+      // height: 80px;
+      //margin-top: 0;
+      //font-size: 120px;
+      //text-shadow: 0 1px 1px rgba(0,0,0,.4);
+      //background-color: transparent;
+      //border: 0;
+      //z-index: 10;
+    }
+
+    .carousel img {  /*".carousel-inner > .item > img" SELECTOR IN BOOTSTRAP TEMPLATE*/
+      // position: absolute;
+      // top: 0;
+      // left: 0;
+      // min-width: 100%;
+      //height: 500px;
+    }
+
+    .carousel-caption {
+      // background-color: transparent;
+      // position: static;
+      // max-width: 550px;
+      // padding: 0 20px;
+      // margin-top: 200px;
+    }
+    .carousel-caption h1,
+    .carousel-caption .lead {
+      // margin: 0;
+      // line-height: 1.25;
+      // color: #fff;
+      // text-shadow: 0 1px 1px rgba(0,0,0,.4);
+    }
+    .carousel-caption .btn {
+      // margin-top: 10px;
+    }
+
+    @media (max-width: 979px) {
+      .carousel .item {
+        // height: 500px;
+      }
+      .carousel img {
+        // width: auto;
+        // height: 500px;
+      }
+}
+    @media (max-width: 767px) {
+      .carousel {
+        // margin-left: -20px;
+        // margin-right: -20px;
+      }
+      .carousel .item {
+        // height: 300px;
+      }
+      .carousel img {
+        // height: 300px;
+      }
+      .carousel-caption {
+        // width: 65%;
+        // padding: 0 70px;
+        // margin-top: 100px;
+      }
+      .carousel-caption h1 {
+        // font-size: 30px;
+      }
+      .carousel-caption .lead,
+      .carousel-caption .btn {
+        // font-size: 18px;
+      }
+    }
+
+
+
+
+
+/* MARKETING CONTENT (from Bootstrap template)
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+/*.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}*/
+.marketing h2 { /*ONLY ONE NEEDED*/
+  font-weight: normal;
+}
+/*.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}*/
+
+
+    /* Featurettes (from Bootstrap template)
+    ------------------------- */
+//MY STYLE
+    .featurette-image {
+       box-shadow: 10px 10px 5px #888888;
+
+    }
+    .featurette-divider {
+      margin: 80px 0; /* Space out the Bootstrap <hr> more */
+    }
+
+    /* Thin out the marketing headings */
+    .featurette-heading {
+      font-size: 50px;
+      font-weight: 300;
+      line-height: 1;
+      letter-spacing: -1px;
+      /*margin-top: 0;*/     /* MY EDIT */
+    }
+    
+    /*Small devices (768px and up)*/ 
+    @media (min-width: 768px) {
+      .featurette-heading {
+        font-size: 50px;
+      }
+    }
+
+    /*Medium devices (992px and up)*/
+    @media (min-width: 992px) {
+      .featurette-heading {
+        // margin-top: 120px;
+      }
+    }
+
+    /* Featurettes (from other website)  *GO OVER
+    ------------------------- */
+    .featurette {
+      /*padding-top: 120px;*/ /* Vertically center images part 1: add padding above and below text. */
+      // overflow: hidden; /* Vertically center images part 2: clear their floats. */
+    }
+
+    .featurette-image {
+      // margin-top: -120px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+    }
+
+    /* Give some space on the sides of the floated elements so text doesn't run right into it. */
+    .featurette-image.pull-left {
+      // margin-right: 40px;
+    }
+    .featurette-image.pull-right {
+      // margin-left: 40px;
+    }
+
+    /*Small devices (979px and below)*/
+    @media (max-width: 979px) {
+      .featurette {
+        /*height: auto;*/
+        /*padding: 0;*/
+      }
+      .featurette-image.pull-left,
+      .featurette-image.pull-right {
+        // display: block;
+        // float: none;
+        // max-width: 40%;
+        // margin: 0 auto 20px;
+      }
+    }
+
+    /*Extra Small devices (767px and below)*/ 
+    @media (max-width: 767px) { 
+      .featurette-heading {  
+        /*font-size: 30px;*/
+      }
+      .featurette .lead {
+        /*font-size: 18px;
+        /*line-height: 1.5;*/
+      }
+    }
+
+
+
