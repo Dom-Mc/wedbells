@@ -84,7 +84,7 @@
   
 
 {{-- Google Map --}}
-<div id="google_map"  data-1000="opacity: 0;" data-2000="opacity: 1;"></div>
+{{-- <div id="google_map"  data-1000="opacity: 0;" data-2000="opacity: 1;"></div> --}}
 {{-- /Venue Section --}}
 
 
