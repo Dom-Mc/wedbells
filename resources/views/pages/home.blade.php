@@ -2,18 +2,14 @@
 
 @section('content')
 
-
 <header>
 
 {{-- Fixed navbar --}}
 
-
-
-
 @include('partials._nav')
 
 
-{{-- End Navbar --}}
+
 
 
 
@@ -326,7 +322,7 @@
 
     <!-- Story Section -->
     {{-- <section id="story"> --}}
-      <div id="featured" class="carousel fade" data-ride="carousel">
+{{--       <div id="featured" class="carousel fade" data-ride="carousel">
         <ol class="carousel-indicators">
         </ol>
         <div class="carousel-inner fullheight">
@@ -339,23 +335,23 @@
           <div class="item"><img src="img/story/2008b.jpg" alt=""></div>
           <div class="item"><img src="img/story/2009.jpg" alt=""></div>
           <div class="item"><img src="img/story/2009a.jpg" alt=""></div>
-          {{-- <div class="item"><img src="img/story/2009b.jpg" alt=""></div> --}}
+
           <div class="item"><img src="img/story/2010c.jpg" alt=""></div>
           <div class="item"><img src="img/story/2012.jpg" alt=""></div>
           <div class="item"><img src="img/story/2013a.jpg" alt=""></div>
-          {{-- <div class="item"><img src="img/story/2013b.jpg" alt=""></div> --}}
+  
           <div class="item"><img src="img/story/2014c.jpg" alt=""></div>
           <div class="item"><img src="img/story/2014.jpg" alt=""></div>
           <div class="item"><img src="img/story/2014a.jpg" alt=""></div>
           <div class="item"><img src="img/story/2014b.jpg" alt=""></div>
-        </div>{{-- .carousel-inner.fullheight --}}
+        </div>
         <a class="left carousel-control" href="#featured" role="button" data-slide="prev">
           <span class="glyphicon glyphicon-chevron-left"></span>
         </a>
         <a class="right carousel-control" href="#featured" role="button" data-slide="next">
           <span class="glyphicon glyphicon-chevron-right"></span>
         </a>
-      </div>{{-- /#featured --}}
+      </div> --}}
     {{-- </section> --}}
     <!-- /Story Section -->
 
@@ -404,7 +400,7 @@
     </div>
     <div class="col-md-6 col-lg-5 col-lg-offset-1">
       <div class="l-pad">
-        <img class="featurette-image img-responsive center-block img-circle" src="img/smile.jpg">
+        <img class="featurette-image img-responsive center-block img-circle" src="img/smiles.jpg">
         {{-- visible-md-block visible-lg-block --}}
       </div>
     </div>
@@ -415,14 +411,6 @@
 
 
 
-{{-- <hr class="featurette-divider"> --}}
-
-
-    {{-- Footer Section--}}
-{{--       <footer class="row">
-        <p class="pull-right"><a href="#rsvp">Back to top</a></p>
-        <p>&copy; 2015 nakissandom</p>
-      </footer> --}}
 
 </div>{{-- /.container.marketing --}}
 

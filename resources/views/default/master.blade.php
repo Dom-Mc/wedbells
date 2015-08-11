@@ -39,18 +39,7 @@
   	<!-- Scripts -->
   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-
-  	<script src="//maps.google.com/maps/api/js?sensor=true"></script>
-  	<script src="js/map.js"></script>
   	<script src="js/wed.js"></script>
-
-  	<script type="text/javascript" src="js/skrollr.min.js"></script>
-  	<script type="text/javascript">
-  		skrollr.init({
-			forceHeight: false //prevent extra space at the bottom of your page when changing screen sizes
-			//smoothScrolling: false
-			});
-  	</script>
 
   </body>
   </html>

@@ -18,7 +18,7 @@
           <li><a href="#room">Get a Room</a></li>
           <li><a href="#fun">Island Fun</a></li>
           <li><a href="#guestbook">Guestbook</a></li>
-          <li><a href="#featured">Our Story</a></li>
+          {{-- <li><a href="#featured">Our Story</a></li> --}}
           <li><a href="#registry">Registry</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
