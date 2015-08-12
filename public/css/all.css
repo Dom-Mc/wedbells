@@ -71,13 +71,19 @@ header .navbar-default {
   text-shadow: none;
   /**not sure about**/ }
 
+.nav > li > a {
+  /* Small devices (tablets, 768px and up) */ }
+
+@media (min-width: 700px) and (max-width: 900px) {
+  .nav > li > a {
+    font-size: 15px;
+    padding-left: 8px;
+    padding-right: 8px; } }
+
 header .navbar-default .navbar-nav a {
   /***Navigation Links***/
   color: #1E90FF;
   /*padding: 5px 8px;*/ }
-  @media (max-width: 980px) {
-    header .navbar-default .navbar-nav a {
-      font-size: 14px; } }
 
 header .navbar-default .navbar-nav a:hover {
   /***Navigation Links on Hover***/
@@ -167,32 +173,49 @@ header .navbar-default .navbar-toggle .icon-bar {
 /* --------------------------------------------------
               HERO/JUMBOTRON RSVP - SECTION
 -------------------------------------------------- */
-.bg {
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100%;
-  width: 100%;
-  position: relative; }
-
 #rsvp {
   background-image: url("../img/bg/pic2.jpg");
+  background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
   background-attachment: fixed;
+  text-align: center;
+  margin-bottom: 0;
+  color: #FFFFFF;
+  font-family: Raleway;
   text-align: center;
   /*from treehouse*/
   margin-bottom: 0;
   /*my edits*/
-  color: #FFFFFF;
-  font-family: Raleway;
   height: 300px; }
-  @media screen and (min-width: 992px) {
-    #rsvp {
-      height: 700px; } }
+  #rsvp h2 {
+    font-weight: 100;
+    text-shadow: 1px 1px 1px grey;
+    font-size: 2rem;
+    color: #FFFFFF; }
+    @media (min-width: 700px) and (max-width: 900px) {
+      #rsvp h2 {
+        font-size: 2.5rem; } }
+    @media (min-width: 901px) {
+      #rsvp h2 {
+        font-size: 3rem; } }
   #rsvp h1 {
     font-weight: 100;
-    text-shadow: 1px 1px 1px grey; }
-    #rsvp h1 .title {
-      font-size: 2em; }
+    text-shadow: 1px 1px 1px grey;
+    font-size: 3.5rem;
+    color: #FFFFFF; }
+    @media (min-width: 700px) and (max-width: 900px) {
+      #rsvp h1 {
+        font-size: 4.5rem; } }
+    @media (min-width: 901px) {
+      #rsvp h1 {
+        font-size: 5.5rem; } }
+    @media (max-width: 500px) {
+      #rsvp h1 span {
+        padding-left: 8rem;
+        padding-right: 8rem;
+        font-size: 3rem; } }
   #rsvp p {
     color: #FFFFFF; }
 

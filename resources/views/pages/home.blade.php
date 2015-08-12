@@ -17,10 +17,10 @@
 
 
 {{-- Jumbotron --}}
-<div id="rsvp" class="jumbotron bg"> {{-- .fullheight - adjusts element to takeup entire viewpoint via js --}}
+<div id="rsvp" class="jumbotron fullheight"> {{-- .fullheight - adjusts element to takeup entire viewpoint via js --}}
   <div class="container">
-    <h1><span class="title">Nakissa <strong>&amp;</strong> Dom</span><br>
-    are getting married!</h1>
+    <h1 class="title">Nakissa <span>&amp;</span> Dom</span></h1>
+    <h2>are getting married!</h2>
     <p>Join us October 17th in Kailua-Kona, Hawaii</p>
     
  <!-- Trigger the modal with a button -->
@@ -52,7 +52,8 @@
         <div class="r-pad">
           <h2 class="featurette-heading">The Big Day</h2>
           <p>On October 17th, 2015, we're getting married in beautiful Kailua-Kona, located on the Big Island of Hawaii. We are so excited to celebrate this special occasion with the family and friends we love and who have meant so much to us throughout the years.</p>
-          <p>The ceremony will begin at 4:00pm, directly followed by cocktail hour and reception. Attire for the evening will be semiformal / cocktail.</p> 
+          <p>The ceremony will begin at 4:00pm, directly followed by cocktail hour and reception.</p>
+          <p>Attire for the evening is semiformal / cocktail.</p> 
         </div>
       </div>
       <div class="col-md-5 col-lg-5">
@@ -97,7 +98,7 @@
     <div class="col-md-6 col-lg-6 col-lg-offset-1">
       <div class="l-pad">
         <h2 class="featurette-heading">Get a Room</h2>
-        <p>From vacation rentals to hotels, the Big Island offers a wide variety of lodging accommodations. A quick ten minute drive from our venue in Kailua-Kona, you’ll find numerous hotel options.</p>
+        <p>From vacation rentals to hotels, the Big Island offers a wide variety of lodging accommodations. Just 20 mins from <a href="http://hawaii.gov/koa" target="_blank" title="Kona International Airport">KOA airport</a> and a quick 10 minute drive from our venue in Kailua-Kona, you’ll find numerous hotel options.</p>
         <p>We’ve worked with the Sheraton to secure a special group rate for our guests of $149 / night. You can book this rate <a href="http://nakissandom.com/getaroom" title="nakissandom.com/getaroom">online</a> or call <a href="tel:1-844-235-6796">1-844-235-6796</a> and mention the “Gradert-McKellar Wedding.”</p>
         <p>The hotel address is 78-128 Ehukai Street, Kailua-Kona, HI 96740.</p>
         <p><a class="btn btn-primary btn-lg" href="http://nakissandom.com/getaroom" target="_blank">Book Now</a></p>
@@ -136,8 +137,8 @@
       <div class="item active">
         <img src="img/fun/1e.jpg" alt="">
         <div class="carousel-caption">
-          <h3>Stargaze ontop of Mt. Mauna Kea</h3>
-          <p>A magical place on the island - this is where Dom proposed :).</p>
+          <h3>Stargaze on top of Mauna Kea</h3>
+          <p>A magical place on the island - this is where Dom proposed :)</p>
           <p>
             <a class="btn btn-primary btn-lg" href="http://www.lovebigisland.com/stargazing/" target="_blank">Learn More</a>
           </p>
@@ -148,7 +149,7 @@
       <div class="item">
         <img src="img/fun/2d.jpg" alt="">
         <div class="carousel-caption">
-          <h3>Snorkelling at Captain Cook Bay</h3>
+          <h3>Snorkelling at Captain Cook (Kealakekua) Bay</h3>
           <p>Take a hike or a boat down to one of the most beautiful snorkeling locations in all of Hawaii!</p>
           <a class="btn btn-primary btn-lg" href="http://www.bigislandguru.com/snorkel-kealakekua-bay.html" target="_blank">Learn More</a>
         </div>
@@ -158,7 +159,7 @@
       <div class="item">
         <img src="img/fun/6a.jpg" alt="">
         <div class="carousel-caption">
-          <h3>Volcano &amp; Lava</h3>
+          <h3>Volcanoes National Park</h3>
           <p>Flowing lava and steaming vents show the earth in action.</p>
           <p>
             <a class="btn btn-primary btn-lg" href="http://www.lovebigisland.com/hawaii-volcanoes-national-park/" target="_blank">Learn More</a>
@@ -171,7 +172,7 @@
         <img src="img/fun/3.jpg" alt="">
         <div class="carousel-caption">
           <h3>Manta Ray Night Diving</h3>
-          <p>Go under the (illuminated) sea to swim with large Manta Rays.</p>
+          <p>Go under the illuminated sea to swim with large Manta Rays.</p>
           <p>
             <a class="btn btn-primary btn-lg" href="http://www.lovebigisland.com/big-island-manta-ray-night-dive/" target="_blank">Learn More</a>
           </p>
@@ -305,7 +306,7 @@
     <div class="col-md-6 col-lg-6">
       <div class="l-pad">
         <h2 class="featurette-heading">Sign our Guestbook</h2>
-        <p>Do you care are to share? If you have any thoughts, memories, or y-e-s even advice, we’d love to hear from you. Just remember this is a public forums, so please keep it PG-13 :b{{-- <i class="fa fa-smile-o fa-lg"></i> --}}</p>
+        <p>If you have any thoughts, memories, or y-e-s even advice, we’d love to hear from you. Just remember this is a public forum, so please keep it PG-13 :b{{-- <i class="fa fa-smile-o fa-lg"></i> --}}</p>
         <p><strong>Coming Soon!</strong></p>
       </div>
     </div>
@@ -356,6 +357,8 @@
     <!-- /Story Section -->
 
 
+<hr class="hidden-md hidden-lg">
+
     <!-- Registry Section -->
     <section id="registry" class="container page">
       <div class="row featurette">
@@ -393,7 +396,7 @@
     <div class="col-md-6 col-lg-6">
       <div class="r-pad">
         <h2 class="featurette-heading">Contact Us</h2>
-        <p>Do you have questions about the accommodations, scheduling, or the event? Please don’t hesitate to contact us!<br>
+        <p>Do you have questions about accommodations, scheduling, or the event? Please don’t hesitate to contact us!<br>
           <a href="mailto:nakissandom@gmail.com?subject=question"><strong>nakissandom@gmail.com</strong> <i class="fa fa-envelope-o fa-lg"></i></a>
         </p>
       </div>

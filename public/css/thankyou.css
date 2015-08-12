@@ -16,6 +16,13 @@ a:hover {
   border: 1px solid #fff;
 }
 
+btn-primary {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    /*font-weight: 400;*/
+}
+
 
 /*
  * Base structure
@@ -64,7 +71,7 @@ body {
 }
 .cover .btn-lg {
   padding: 10px 20px;
-  font-weight: bold;
+  font-weight: 400;
 }
 
 

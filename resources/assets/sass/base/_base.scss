@@ -149,20 +149,37 @@ header .navbar-default {
 
 
 
+.nav>li>a {  //controls tabs
+
+    // padding: 10px 15px; original from bootstrap
+    @media (min-width: 768px) { /* Small devices (tablets, 768px and up) */
+// font-size: 14px;
+// padding-left: 8px;
+// padding-right: 8px;
+}
+
+
+@media (min-width: 700px) and (max-width: 900px){  
+font-size: 15px;
+padding-left: 8px;
+padding-right: 8px;
+}
+
+
+
+}
+
 header .navbar-default .navbar-nav a {
 /***Navigation Links***/
 	color: $primary;
+  
 	/*padding: 5px 8px;*/
   
 
 
-    @media (max-width: 980px) {
-    font-size: 14px;
-}
-
-
 
 }
+
 header .navbar-default .navbar-nav a:hover {
 /***Navigation Links on Hover***/
 	background-color: $hover;  /*not sure about*/
@@ -288,43 +305,84 @@ and (max-width: 768px) {
               HERO/JUMBOTRON RSVP - SECTION
 -------------------------------------------------- */
 
-.bg {
 
-background-position: center center;
-background-repeat: no-repeat;
-    -webkit-background-size: cover;
+
+
+
+
+
+#rsvp {
+  // height: 700px;
+  background-image: url('../img/bg/pic2.jpg');
+  background-size: cover;
+  -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 100%;
-  width: 100%;
-  position: relative;
-}
-
-#rsvp {
-  background-image: url('../img/bg/pic2.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
   background-attachment: fixed;
+  text-align: center; //from treehouse
+  margin-bottom: 0; 
+  color: $white; //text color
+  font-family: Raleway;
 
 
   text-align: center; /*from treehouse*/
   margin-bottom: 0; /*my edits*/
-  color: $white; //text color
-  font-family: Raleway;
   height: 300px;
 
-    @media screen and (min-width: 992px) {
-        height: 700px;
+    // @media screen and (min-width: 992px) {
+    //     height: 700px;
+    // }
+    h2 {
+      font-weight: 100;
+      text-shadow: 1px 1px 1px grey;
+      font-size: 2rem;
+      color: $white; //text color
+        @media (min-width: 700px) and (max-width: 900px){ 
+          font-size: 2.5rem;
+        }
+        @media (min-width: 901px){
+          font-size: 3rem;
+        }
     }
-  
     h1 {
       font-weight: 100;
       text-shadow: 1px 1px 1px grey;
-        .title {
-          // font-weight: 100;
-          font-size: 2em;
+      font-size: 3.5rem;
+      color: $white; //text color
+        @media (min-width: 700px) and (max-width: 900px){ 
+          font-size: 4.5rem;
+        }
+        @media (min-width: 901px){
+          font-size: 5.5rem;
+        }
+        // .title {
+        //   // font-weight: 100;
+        //   font-size: 3rem;
+        //   @media (min-width: 700px) and (max-width: 900px){ 
+        //   font-size: 4rem;
+        //   }
+        //   @media (min-width: 901px){
+        //   font-size: 5rem;
+        //   }
           // margin-top: .9em;
           // margin-bottom: 0;
+        
+
+
+
+        span {
+          
+          @media (max-width: 500px){
+            padding-left: 8rem;
+            padding-right: 8rem;
+            font-size: 3rem;
+          }
         }
+
+
     }
     p {
       color: $white;
