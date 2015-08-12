@@ -167,12 +167,16 @@ header .navbar-default .navbar-toggle .icon-bar {
 /* --------------------------------------------------
               HERO/JUMBOTRON RSVP - SECTION
 -------------------------------------------------- */
+.bg {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: relative; }
+
 #rsvp {
   background-image: url("../img/bg/pic2.jpg");
-  background-size: cover;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
   background-attachment: fixed;
   text-align: center;
   /*from treehouse*/
@@ -191,9 +195,6 @@ header .navbar-default .navbar-toggle .icon-bar {
       font-size: 2em; }
   #rsvp p {
     color: #FFFFFF; }
-
-#rsvp {
-  /* STYLES GO HERE */ }
 
 .jumbotron .container {
   position: relative;

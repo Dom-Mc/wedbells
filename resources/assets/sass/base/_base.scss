@@ -288,16 +288,24 @@ and (max-width: 768px) {
               HERO/JUMBOTRON RSVP - SECTION
 -------------------------------------------------- */
 
-#rsvp {
-  background-image: url('../img/bg/pic2.jpg');
+.bg {
+
+background-position: center center;
+background-repeat: no-repeat;
     -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+#rsvp {
+  background-image: url('../img/bg/pic2.jpg');
   background-attachment: fixed;
+
+
   text-align: center; /*from treehouse*/
   margin-bottom: 0; /*my edits*/
   color: $white; //text color
@@ -322,9 +330,6 @@ and (max-width: 768px) {
       color: $white;
     }
 
-@media only screen 
-and (min-device-width : 375px) 
-and (max-device-width : 667px) { /* STYLES GO HERE */}
 
 
 
