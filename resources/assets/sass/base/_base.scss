@@ -292,7 +292,7 @@ and (max-width: 768px) {
   background-image: url('../img/bg/pic2.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center center;
   background-attachment: fixed;
   text-align: center; /*from treehouse*/
   margin-bottom: 0; /*my edits*/
@@ -313,7 +313,7 @@ and (max-width: 768px) {
           // margin-bottom: 0;
         }
     }
-    p{
+    p {
       color: $white;
     }
 
@@ -321,14 +321,11 @@ and (max-width: 768px) {
 
 
 
-
-
-}
-.jumbotron .container {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-}
+// .jumbotron .container {
+//   position: relative;
+//   top: 50%;
+//   transform: translateY(-50%);
+// }
 
 
 /* --------------------------------------------------
@@ -538,7 +535,7 @@ footer .navbar-nav>li a {
 
 
 
-EDIT LATER!!!!
+// EDIT LATER!!!!
 @media (max-width: 980px){
 #guestbook.container.page {
   padding-bottom: 20px;

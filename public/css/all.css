@@ -168,18 +168,21 @@ header .navbar-default .navbar-toggle .icon-bar {
               HERO/JUMBOTRON RSVP - SECTION
 -------------------------------------------------- */
 #rsvp {
-  height: 700px;
   background-image: url("../img/bg/pic2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center center;
   background-attachment: fixed;
   text-align: center;
   /*from treehouse*/
   margin-bottom: 0;
   /*my edits*/
   color: #FFFFFF;
-  font-family: Raleway; }
+  font-family: Raleway;
+  height: 300px; }
+  @media screen and (min-width: 992px) {
+    #rsvp {
+      height: 700px; } }
   #rsvp h1 {
     font-weight: 100;
     text-shadow: 1px 1px 1px grey; }
@@ -187,12 +190,6 @@ header .navbar-default .navbar-toggle .icon-bar {
       font-size: 2em; }
   #rsvp p {
     color: #FFFFFF; }
-
-.jumbotron .container {
-  position: relative;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%); }
 
 /* --------------------------------------------------
                       Modal
