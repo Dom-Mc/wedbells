@@ -170,6 +170,7 @@ header .navbar-default .navbar-toggle .icon-bar {
 #rsvp {
   background-image: url("../img/bg/pic2.jpg");
   background-size: cover;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
@@ -190,6 +191,9 @@ header .navbar-default .navbar-toggle .icon-bar {
       font-size: 2em; }
   #rsvp p {
     color: #FFFFFF; }
+
+#rsvp {
+  /* STYLES GO HERE */ }
 
 .jumbotron .container {
   position: relative;
