@@ -17,7 +17,7 @@
 
 
 {{-- Jumbotron --}}
-<div id="rsvp" class="jumbotron "> {{-- .fullheight - adjusts element to takeup entire viewpoint via js --}}
+<div id="rsvp" class="jumbotron fullheight"> {{-- .fullheight - adjusts element to takeup entire viewpoint via js --}}
   <div class="container">
     <h1><span class="title">Nakissa <strong>&amp;</strong> Dom</span><br>
     are getting married!</h1>
