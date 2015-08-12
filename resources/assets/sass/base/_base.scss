@@ -289,7 +289,6 @@ and (max-width: 768px) {
 -------------------------------------------------- */
 
 #rsvp {
-  body
   background-image: url('../img/bg/pic2.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -299,6 +298,7 @@ and (max-width: 768px) {
   margin-bottom: 0; /*my edits*/
   color: $white; //text color
   font-family: Raleway;
+  height: 300px;
     @media screen and (min-width: 992px) {
         height: 700px;
     }
