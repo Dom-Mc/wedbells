@@ -78,7 +78,7 @@ $(function() {
   }
 
   $('.carousel').carousel({
-    interval: 10000
+    interval: 50000
   });
 
  $(".navbar-nav li a").click(function (event) {

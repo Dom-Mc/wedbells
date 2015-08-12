@@ -894,11 +894,31 @@ body {
 }
 #fun .carousel {
   // margin-bottom: 0;
-  height: 700px;
+  height: 300px;
       p, h3 {
         color: $white;
-      }
+       }
+
+
+
+
+@media (min-width: 768px) { /* Small devices (tablets, 768px and up) */
+height: 450px;
 }
+
+
+@media (min-width: 992px) {  /* Medium devices (desktops, 992px and up) */
+height: 500px;
+}
+
+
+@media (min-width: 1200px) {  /* Large devices (large desktops, 1200px and up) */
+height: 600px;
+}
+}
+
+
+
 
 
 /* Since positioning the image, we need to help out the caption */
@@ -908,8 +928,16 @@ body {
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
-  height: 700px;
-  // background-color: $silver;  //background of the slides
+  height: 300px;
+@media (min-width: 768px) { /* Small devices (tablets, 768px and up) */
+height: 450px;
+}
+@media (min-width: 992px) {  /* Medium devices (desktops, 992px and up) */
+height: 500px;
+}
+@media (min-width: 1200px) {  /* Large devices (large desktops, 1200px and up) */
+height: 600px;
+}
 }
 
 // .carousel .item {      //NOT SURE WHERE THIS CAME FROM
@@ -922,7 +950,16 @@ body {
   top: 0;
   left: 0;
   min-width: 100%;
-  height: 700px;
+  height: 300px;
+@media (min-width: 768px) { /* Small devices (tablets, 768px and up) */
+height: 450px;
+}
+@media (min-width: 992px) {  /* Medium devices (desktops, 992px and up) */
+height: 500px;
+}
+@media (min-width: 1200px) {  /* Large devices (large desktops, 1200px and up) */
+height: 600px;
+}
 }
 
 /*Small devices (from 768px) and up)*/
