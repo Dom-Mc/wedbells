@@ -191,6 +191,12 @@ header .navbar-default .navbar-toggle .icon-bar {
   #rsvp p {
     color: #FFFFFF; }
 
+.jumbotron .container {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%); }
+
 /* --------------------------------------------------
                       Modal
 -------------------------------------------------- */
