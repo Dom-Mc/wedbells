@@ -734,8 +734,8 @@ footer .navbar-nav>li a {
   background-image: url('../img/bg/hi2.jpg');
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: contain;
-  // background-attachment: fixed;
+  background-size: cover;
+  // background-attachment: fixed;     REMOVED BG FIXED
 
   /*height: 500px;*/
   // width: 100%;
@@ -759,8 +759,8 @@ footer .navbar-nav>li a {
   background-image: url('../img/bg/temp.jpg');
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: contain;
-  // background-attachment: fixed;
+  background-size: cover;
+  // background-attachment: fixed;    REMOVED BG FIXED
   // width: 100%;
 
   height: 300px;

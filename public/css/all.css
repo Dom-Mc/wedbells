@@ -458,7 +458,7 @@ footer .navbar-nav>li a {
   background-image: url("../img/bg/hi2.jpg");
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   /*height: 500px;*/
   height: 300px; }
   @media (min-width: 700px) {
@@ -479,7 +479,7 @@ footer .navbar-nav>li a {
   background-image: url("../img/bg/temp.jpg");
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   height: 300px; }
   @media (min-width: 700px) {
     #view {
