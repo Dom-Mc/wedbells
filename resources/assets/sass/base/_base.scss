@@ -121,7 +121,7 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-default .navbar-nav>.active>a:focus,
 .navbar-default .navbar-nav>.active>a:hover {
 	background-color: $primary;  /*not sure about*/
-	color: white;
+	color: $white;
 }
 
 // Removes the border - my edit
@@ -182,21 +182,21 @@ header .navbar-default .navbar-nav a {
 
 header .navbar-default .navbar-nav a:hover {
 /***Navigation Links on Hover***/
-	background-color: $hover;  /*not sure about*/
-	color: white;
+	background-color: $secondary;  /*not sure about*/
+	color: $white;
 }
 header .navbar-default .navbar-nav .active a {
 /***Active Navigation Link***/
 	font-weight: 900;
-	color: white;
+	color: $white;
 	/*background: transparent;*/
 	background-color: $primary;
   /*text-shadow: none;*/
 }
 header .navbar-default .navbar-nav .active a:hover {
-  color: white;
+  color: $white;
   /*background: transparent;*/
-  background-color: $hover;
+  background-color: $secondary;
   /*text-shadow: none;*/
 }
 
@@ -274,18 +274,21 @@ header .navbar-toggle {
 /***Toggle***/
   background-color: $primary;
 }
-header .navbar-default .navbar-toggle .icon-bar {
+
 /***Toggle Lines***/
+header .navbar-default .navbar-toggle .icon-bar {
   background-color: $white;
 }
 @media only screen
 and (max-width: 768px) {
   header .navbar-collapse.in {
-  	/***Dropdown Menu***/
-    background-color: rgba(0,0,0, .5);
+  	/*** Dropdown Toggle Menu (on small screens) ***/
+    background-color: rgba(255,255,255,.7)
   }
 }
-
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: $secondary;
+}
 
 
 
@@ -524,16 +527,16 @@ p,h1,h2,h3,h4,h5,h6 {
 
 footer {
   background: black;
-  color: white;
+  color: $white;
   font-size: 1em;
   padding: 20px;
 }
 footer a {
 /*** "Back to top" link***/
-  color: white;
+  color: $white;
 }
 footer a:hover {
-  color: $hover !important;
+  color: $secondary !important;
 }
 /*
 footer .phone {
