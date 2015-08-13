@@ -283,7 +283,7 @@ header .navbar-default .navbar-toggle .icon-bar {
 and (max-width: 768px) {
   header .navbar-collapse.in {
   	/*** Dropdown Toggle Menu (on small screens) ***/
-    background-color: rgba(255,255,255,.7)
+    background-color: rgba(255,255,255,.92)
   }
 }
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
@@ -740,15 +740,23 @@ footer .navbar-nav>li a {
   width: 100%;
 }
 #view {
-  background-image: url('../img/bg/hi.jpg');
+  background-image: url('../img/bg/temp.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  height: 500px;
   width: 100%;
-}
 
+  height: 300px;
+          @media (min-width: 700px) { 
+          height: 400px;
+        }
+        @media (min-width: 901px){
+          
+  height: 500px;
+
+}
+}
 
 
 
