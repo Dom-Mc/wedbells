@@ -461,7 +461,10 @@ height: 500px;
 p,h1,h2,h3,h4,h5,h6 {
 	color:$white;
   text-shadow: 1px 1px 1px #808080;
+ 
 }
+
+
 }
 
 /* --------------------------------------------------
@@ -759,16 +762,19 @@ footer .navbar-nav>li a {
   background-image: url('../img/bg/temp.jpg');
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover;
+  height: 300px;
+  background-size: contain;
+
   // background-attachment: fixed;    REMOVED BG FIXED
   // width: 100%;
 
-  height: 300px;
+  
           @media (min-width: 700px) {
            background-size: cover;
            height: 400px;
         }
         @media (min-width: 901px){
+          background-attachment: fixed;
           background-size: cover;
           height: 450px;
           padding-top: 125px;
@@ -776,6 +782,8 @@ footer .navbar-nav>li a {
                  }
 
          @media (min-width: 1200px){
+          background-attachment: fixed;
+          background-size: cover;
           height: 500px;
 }
 }

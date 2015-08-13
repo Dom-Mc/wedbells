@@ -479,20 +479,23 @@ footer .navbar-nav>li a {
   background-image: url("../img/bg/temp.jpg");
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover;
-  height: 300px; }
+  height: 300px;
+  background-size: contain; }
   @media (min-width: 700px) {
     #view {
       background-size: cover;
       height: 400px; } }
   @media (min-width: 901px) {
     #view {
+      background-attachment: fixed;
       background-size: cover;
       height: 450px;
       padding-top: 125px;
       padding-bottom: 125px; } }
   @media (min-width: 1200px) {
     #view {
+      background-attachment: fixed;
+      background-size: cover;
       height: 500px; } }
 
 /* GLOBAL STYLES (from bootstrap template) ***GO OVER!!!
