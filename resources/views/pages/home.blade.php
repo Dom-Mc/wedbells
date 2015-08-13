@@ -68,8 +68,8 @@
  
 
 {{-- Venue Section --}}
-<div id="venue">
-  <section class="container">  {{-- REMOVED .PAGE --}}
+
+  <section id="venue" class="container-fluid">  {{-- REMOVED .PAGE --}}
     <div class="row featurette">
       <div class="col-sm-6 col-centered text-center">
         <h2 class="featurette-heading">Wedding Venue</h2>
@@ -78,7 +78,7 @@
         </div>
       </div>{{-- /.row.featurette --}}
     </section>
-  </div>
+
 
 {{-- Google Map --}}
 {{-- <div id="google_map"  data-1000="opacity: 0;" data-2000="opacity: 1;"></div> --}}
