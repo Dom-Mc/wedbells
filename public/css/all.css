@@ -168,23 +168,21 @@ body {
 /**  Google Maps **/
 #rsvp {
   background-image: url("../img/bg/pic2.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center; }
+  height: 300px; }
   @media (min-width: 768px) {
     #rsvp {
-      background-size: cover;
       height: 400px; } }
   @media (min-width: 992px) {
     #rsvp {
-      background-size: cover;
-      height: 450px;
-      padding-top: 125px;
-      padding-bottom: 125px;
-      background-attachment: fixed; } }
+      background-attachment: fixed !important;
+      height: 450px; } }
   @media (min-width: 1200px) {
     #rsvp {
       height: 500px; } }
@@ -198,20 +196,14 @@ body {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-attachment: fixed !important;
-  position: static !important;
-  z-index: -1 !important;
   height: 300px; }
   @media (min-width: 768px) {
     #venue {
-      background-size: cover;
       height: 400px; } }
   @media (min-width: 992px) {
     #venue {
-      background-size: cover;
-      height: 450px;
-      padding-top: 125px;
-      padding-bottom: 125px; } }
+      background-attachment: fixed !important;
+      height: 450px; } }
   @media (min-width: 1200px) {
     #venue {
       height: 500px; } }
@@ -225,49 +217,16 @@ body {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-attachment: fixed !important;
-  position: static !important;
-  z-index: -1 !important;
   height: 300px; }
   @media (min-width: 768px) {
     #view {
-      background-size: cover;
       height: 400px; } }
   @media (min-width: 992px) {
     #view {
-      background-size: cover;
-      height: 450px;
-      padding-top: 125px;
-      padding-bottom: 125px; } }
+      background-attachment: fixed !important;
+      height: 450px; } }
   @media (min-width: 1200px) {
     #view {
-      height: 500px; } }
-
-#rsvp {
-  background-image: url("../img/bg/pic2.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-attachment: fixed !important;
-  position: static !important;
-  z-index: -1 !important;
-  height: 300px; }
-  @media (min-width: 768px) {
-    #rsvp {
-      background-size: cover;
-      height: 400px; } }
-  @media (min-width: 992px) {
-    #rsvp {
-      background-size: cover;
-      height: 450px;
-      padding-top: 125px;
-      padding-bottom: 125px; } }
-  @media (min-width: 1200px) {
-    #rsvp {
       height: 500px; } }
 
 /* --------------------------------------------------
