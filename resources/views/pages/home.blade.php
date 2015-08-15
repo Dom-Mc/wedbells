@@ -2,35 +2,20 @@
 
 @section('content')
 
-<header>
+
 
 {{-- Fixed navbar --}}
 
 @include('partials._nav')
 
 
-{{-- Jumbotron --}}
-<div id="rsvp" class="jumbotron fullheight"> {{-- .fullheight - adjusts element to takeup entire viewpoint via js --}}
-  <div class="container">
-    <h1 class="title">Nakissa <span>&amp;</span> Dom</h1>
-    <h2>are getting married!</h2>
-    <p>Join us October 17th in Kailua-Kona, Hawaii</p>
-    
- <!-- Trigger the modal with a button -->
-  <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">RSVP Today</button>
 
-    
-  </div>{{-- /.container --}}
-</div>{{-- /#rsvp --}}
-{{-- /Jumbotron --}}
-
-</header>
 
 
  
 
 <!-- Modal -->
-@include('partials._form')
+
 {{-- /Modal --}}
 
 
@@ -155,13 +140,6 @@
 
 
 
-{{-- View Background img --}}
-<div id="view">
-<div class="container"> {{-- REMOVED .PAGE --}}
-
-</div>
-</div>
-{{-- /Looking Down pic --}}
 
 
 <!-- Contact Section -->
