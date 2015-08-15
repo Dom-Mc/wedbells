@@ -103,7 +103,7 @@
 
 
 <!-- Fun Section -->
-@include('partials._fun')
+
 
 
 <!-- Guest Book Section -->
