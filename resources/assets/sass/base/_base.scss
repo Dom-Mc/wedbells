@@ -1,148 +1,148 @@
 
-// /*Imports your Fonts: place on top of css page*/
-// //@import url(http://fonts.googleapis.com/css?family=Pacifico|Kaushan+Script|Courgette|Marck+Script|Damion|Yellowtail|Raleway:400,100|Roboto);
+/*Imports your Fonts: place on top of css page*/
+//@import url(http://fonts.googleapis.com/css?family=Pacifico|Kaushan+Script|Courgette|Marck+Script|Damion|Yellowtail|Raleway:400,100|Roboto);
 
 
 
 
-// // font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;   //from old site
+// font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;   //from old site
 
-// /**  Basic Page CSS **/
-// body, html {
-//   height: 100%;
-//   width: 100%;
-// }
+/**  Basic Page CSS **/
+body, html {
+  height: 100%;
+  width: 100%;
+}
 
 
 
 
-// /* --------------------------------------------------
-//                     LAYOUT
-// -------------------------------------------------- */
-// .l-pad {
-//   padding-left: 1.5em;
-// }
-// .r-pad {
-//   padding-right: 1.5em;
-// }
+/* --------------------------------------------------
+                    LAYOUT
+-------------------------------------------------- */
+.l-pad {
+  padding-left: 1.5em;
+}
+.r-pad {
+  padding-right: 1.5em;
+}
 
 
 
 
 
-// /* --------------------------------------------------
-//                   TYPOGRAPHY
-// -------------------------------------------------- */
-// body, html {
-//   @include text(1rem, $color: $color-text-base);
-//   background: $color-body;
-//   font-family: $font-family--primary;
-// }
+/* --------------------------------------------------
+                  TYPOGRAPHY
+-------------------------------------------------- */
+body, html {
+  @include text(1rem, $color: $color-text-base);
+  background: $color-body;
+  font-family: $font-family--primary;
+}
 
 
-// p {
-//   // font-size: 1rem;
-// }
+p {
+  // font-size: 1rem;
+}
 
-// h1, h2, h3, h4, h5, h6 {
-//   margin-top: 0;
-//   // margin-top: 20px;  //bootstrap
-//   // margin-bottom: 10px;  //boostrap
-// }
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  // margin-top: 20px;  //bootstrap
+  // margin-bottom: 10px;  //boostrap
+}
 
-// .title {  /*not sure about*/
-//   /*font-family: $font-family--roboto*/
-//   /*font-weight: 300;*/
-//   /*font-size: 2em;*/
-// }
+.title {  /*not sure about*/
+  /*font-family: $font-family--roboto*/
+  /*font-weight: 300;*/
+  /*font-size: 2em;*/
+}
 
 
 
 
 
 
-// /* --------------------------------------------------
-//                   Links
-// -------------------------------------------------- */
+/* --------------------------------------------------
+                  Links
+-------------------------------------------------- */
 
-// // Removes the border - my edit
-// // 
-// a {
-//   &:link { //Unvisited Link
-//     //color: $color-link-default;
-//     @extend %link;
-//   }
-//   &:visited { //Unvisited Link
-//     //color: $color-link-visited;
-//     @extend %link; 
-//   }
-//   &:hover { //Mouse-Over Link
-//     //color: $color-link-hover;
-//     @extend %link;
-//   }
-//   &:active { //Selected Link
-//     //color: $color-link-active;
-//     @extend %link;
-//   }
-// }
+// Removes the border - my edit
+// 
+a {
+  &:link { //Unvisited Link
+    //color: $color-link-default;
+    @extend %link;
+  }
+  &:visited { //Unvisited Link
+    //color: $color-link-visited;
+    @extend %link; 
+  }
+  &:hover { //Mouse-Over Link
+    //color: $color-link-hover;
+    @extend %link;
+  }
+  &:active { //Selected Link
+    //color: $color-link-active;
+    @extend %link;
+  }
+}
 
 
 
 
 
-// /* --------------------------------------------------
-//               THE BIG DAY - SECTION
-// -------------------------------------------------- */
+/* --------------------------------------------------
+              THE BIG DAY - SECTION
+-------------------------------------------------- */
 
 
-// /* --------------------------------------------------
-//                 VENUE - SECTION
-// -------------------------------------------------- */
+/* --------------------------------------------------
+                VENUE - SECTION
+-------------------------------------------------- */
 
-// #venue {
-//   @include text($color: $color-text-light);
-//   text-shadow: 1px 1px 1px #808080; 
-// }
+#venue {
+  @include text($color: $color-text-light);
+  text-shadow: 1px 1px 1px #808080; 
+}
 
 
-// /* --------------------------------------------------
-//               GET A ROOM - SECTION
-// -------------------------------------------------- */
+/* --------------------------------------------------
+              GET A ROOM - SECTION
+-------------------------------------------------- */
 
 
-// /* --------------------------------------------------
-//               FUN - SECTION
-// -------------------------------------------------- */
+/* --------------------------------------------------
+              FUN - SECTION
+-------------------------------------------------- */
 
 
-// /* --------------------------------------------------
-//                 GUEST BOOK - SECTION
-// -------------------------------------------------- */
+/* --------------------------------------------------
+                GUEST BOOK - SECTION
+-------------------------------------------------- */
 
-// /* --------------------------------------------------
-//                 CONTACT US - SECTION
-// -------------------------------------------------- */
+/* --------------------------------------------------
+                CONTACT US - SECTION
+-------------------------------------------------- */
 
-// #contact.page {
-//     padding-bottom: 50px;
-//   }
+#contact.page {
+    padding-bottom: 50px;
+  }
 
-// /* --------------------------------------------------
-//                 PHOTOS - SECTION
-// -------------------------------------------------- */
+/* --------------------------------------------------
+                PHOTOS - SECTION
+-------------------------------------------------- */
 
 
 
-// /* -----------------------------------
-//           REGISTRY - SECTION               
-// ------------------------------------*/
+/* -----------------------------------
+          REGISTRY - SECTION               
+------------------------------------*/
 
 
 
 
-// /* --------------------------------------------------
-//                   NOT SURE????????
-// -------------------------------------------------- */
+/* --------------------------------------------------
+                  NOT SURE????????
+-------------------------------------------------- */
 
 
 
@@ -150,43 +150,43 @@
 
 
 
-// /**  Page **/
-// .page {
-//   /*padding: 50px 0;*/
-//   // padding: 125px 0;
-//   padding-top: 125px;
-//   padding-bottom: 125px;
-//   min-height: 500px;      //ADJUST LATER
-// }
+/**  Page **/
+.page {
+  /*padding: 50px 0;*/
+  // padding: 125px 0;
+  padding-top: 125px;
+  padding-bottom: 125px;
+  min-height: 500px;      //ADJUST LATER
+}
 
 
 
 
 
-// // EDIT LATER!!!!
-// @media (max-width: 980px){
-// #guestbook.container.page {
-//   padding-bottom: 20px;
-//   padding-top: 20px;
-//   min-height: 300px;
-// }
-// #registry.container.page {
-//   padding-bottom: 20px;
-//   padding-top: 20px;
-//   min-height: 300px;
-// }
-// }
+// EDIT LATER!!!!
+@media (max-width: 980px){
+#guestbook.container.page {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  min-height: 300px;
+}
+#registry.container.page {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  min-height: 300px;
+}
+}
 
 
 
 
 
-// // .page_small {
+// .page_small {
    
-// //     padding-top: 125px;
-// //     padding-bottom: 125px;
-// //     min-height: 500px;
-// // } 
+//     padding-top: 125px;
+//     padding-bottom: 125px;
+//     min-height: 500px;
+// } 
 
 
 
@@ -198,11 +198,11 @@
 
 
 
-// /*CENTER COL IN BOOTSTRAP*/
-// .col-centered{
-//     float: none;
-//     margin: 0 auto;
-// }
+/*CENTER COL IN BOOTSTRAP*/
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
 
 
 
@@ -215,13 +215,13 @@
 
 
 
-// /* GLOBAL STYLES (from bootstrap template) ***GO OVER!!!
-// -------------------------------------------------- */
-// /* Padding below the footer and lighter body text */
-// body {
-//   /*padding-bottom: 40px;*/
-//   /*color: #5a5a5a;*/
-// }
+/* GLOBAL STYLES (from bootstrap template) ***GO OVER!!!
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+body {
+  /*padding-bottom: 40px;*/
+  /*color: #5a5a5a;*/
+}
 
 
 
@@ -232,101 +232,101 @@
 
 
 
-// /* MARKETING CONTENT (from Bootstrap template)
-// -------------------------------------------------- */
+/* MARKETING CONTENT (from Bootstrap template)
+-------------------------------------------------- */
 
-// /* Center align the text within the three columns below the carousel */
-// /*.marketing .col-lg-4 {
-//   margin-bottom: 20px;
-//   text-align: center;
-// }*/
-// .marketing h2 { /*ONLY ONE NEEDED*/
-//   font-weight: normal;
-// }
-// /*.marketing .col-lg-4 p {
-//   margin-right: 10px;
-//   margin-left: 10px;
-// }*/
+/* Center align the text within the three columns below the carousel */
+/*.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}*/
+.marketing h2 { /*ONLY ONE NEEDED*/
+  font-weight: normal;
+}
+/*.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}*/
 
 
-//     /* Featurettes (from Bootstrap template)
-//     ------------------------- */
-// //MY STYLE
-//     .featurette-image {
-//        box-shadow: 10px 10px 5px #888888;
+    /* Featurettes (from Bootstrap template)
+    ------------------------- */
+//MY STYLE
+    .featurette-image {
+       box-shadow: 10px 10px 5px #888888;
 
-//     }
-//     .featurette-divider {
-//       margin: 80px 0; /* Space out the Bootstrap <hr> more */
-//     }
+    }
+    .featurette-divider {
+      margin: 80px 0; /* Space out the Bootstrap <hr> more */
+    }
 
-//     /* Thin out the marketing headings */
-//     .featurette-heading {
-//       font-size: 50px;
-//       font-weight: 300;
-//       line-height: 1;
-//       letter-spacing: -1px;
-//       /*margin-top: 0;*/     /* MY EDIT */
-//     }
+    /* Thin out the marketing headings */
+    .featurette-heading {
+      font-size: 50px;
+      font-weight: 300;
+      line-height: 1;
+      letter-spacing: -1px;
+      /*margin-top: 0;*/     /* MY EDIT */
+    }
     
-//     /*Small devices (768px and up)*/ 
-//     @media (min-width: 768px) {
-//       .featurette-heading {
-//         font-size: 50px;
-//       }
-//     }
+    /*Small devices (768px and up)*/ 
+    @media (min-width: 768px) {
+      .featurette-heading {
+        font-size: 50px;
+      }
+    }
 
-//     /*Medium devices (992px and up)*/
-//     @media (min-width: 992px) {
-//       .featurette-heading {
-//         // margin-top: 120px;
-//       }
-//     }
+    /*Medium devices (992px and up)*/
+    @media (min-width: 992px) {
+      .featurette-heading {
+        // margin-top: 120px;
+      }
+    }
 
-//     /* Featurettes (from other website)  *GO OVER
-//     ------------------------- */
-//     .featurette {
-//       /*padding-top: 120px;*/ /* Vertically center images part 1: add padding above and below text. */
-//       // overflow: hidden; /* Vertically center images part 2: clear their floats. */
-//     }
+    /* Featurettes (from other website)  *GO OVER
+    ------------------------- */
+    .featurette {
+      /*padding-top: 120px;*/ /* Vertically center images part 1: add padding above and below text. */
+      // overflow: hidden; /* Vertically center images part 2: clear their floats. */
+    }
 
-//     .featurette-image {
-//       // margin-top: -120px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
-//     }
+    .featurette-image {
+      // margin-top: -120px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+    }
 
-//     /* Give some space on the sides of the floated elements so text doesn't run right into it. */
-//     .featurette-image.pull-left {
-//       // margin-right: 40px;
-//     }
-//     .featurette-image.pull-right {
-//       // margin-left: 40px;
-//     }
+    /* Give some space on the sides of the floated elements so text doesn't run right into it. */
+    .featurette-image.pull-left {
+      // margin-right: 40px;
+    }
+    .featurette-image.pull-right {
+      // margin-left: 40px;
+    }
 
-//     /*Small devices (979px and below)*/
-//     @media (max-width: 979px) {
-//       .featurette {
-//         /*height: auto;*/
-//         /*padding: 0;*/
-//       }
-//       .featurette-image.pull-left,
-//       .featurette-image.pull-right {
-//         // display: block;
-//         // float: none;
-//         // max-width: 40%;
-//         // margin: 0 auto 20px;
-//       }
-//     }
+    /*Small devices (979px and below)*/
+    @media (max-width: 979px) {
+      .featurette {
+        /*height: auto;*/
+        /*padding: 0;*/
+      }
+      .featurette-image.pull-left,
+      .featurette-image.pull-right {
+        // display: block;
+        // float: none;
+        // max-width: 40%;
+        // margin: 0 auto 20px;
+      }
+    }
 
-//     /*Extra Small devices (767px and below)*/ 
-//     @media (max-width: 767px) { 
-//       .featurette-heading {  
-//         /*font-size: 30px;*/
-//       }
-//       .featurette .lead {
-//         /*font-size: 18px;
-//         /*line-height: 1.5;*/
-//       }
-//     }
+    /*Extra Small devices (767px and below)*/ 
+    @media (max-width: 767px) { 
+      .featurette-heading {  
+        /*font-size: 30px;*/
+      }
+      .featurette .lead {
+        /*font-size: 18px;
+        /*line-height: 1.5;*/
+      }
+    }
 
 
 
