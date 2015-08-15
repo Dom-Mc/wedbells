@@ -7,7 +7,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand hidden-sm hidden-md" href="#rsvp"><h1>Nakissa &amp; Dom</h1></a>{{-- hidden at 1200px and smaller screens --}}
+      <a class="navbar-brand " href="#rsvp"><h1>Nakissa &amp; Dom</h1></a>{{-- hidden at 1200px and smaller screens --}}
     </div>{{-- /.navbar-header --}}
 
     <div id="collapse" class="collapse navbar-collapse" >
