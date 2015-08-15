@@ -2,9 +2,95 @@
 
  
 // Text
-@mixin text($size: nul, $l-height: null, $weight: null, $color: null) {  //only $size is required
+@mixin text($size: nul, $l-height: null, $weight: null, $color: null) {  //null is excepted for all args
   font-size: $size;
   line-height: $l-height;
   font-weight: $weight;
   color: $color;
+}
+
+
+
+@mixin bg_img($img, $h: null, $w: null) {  //only $size is required
+	background-image: url('#{$path--img}/#{$img}');  //url('#{$path--img}/bg/hi2.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: $h; //300px;
+	background-attachment: fixed !important;
+}
+
+		// @media #{$brk-sm} { 
+		// 	background-size: cover;
+		// 	height: 400px;
+		// }
+		// @media #{$brk-md}{
+		// 	background-size: cover;
+		// 	height: 450px;
+		// 	padding-top: 125px;
+		// 	padding-bottom: 125px;
+		// }
+		// @media #{$brk-lg}{
+		// 	height: 500px;
+		// }
+
+
+
+//   background-image: url('#{$path--img}/bg/pic2.jpg');
+
+//   background-size: cover;
+//   -webkit-background-size: cover;
+//   -moz-background-size: cover;
+//   -o-background-size: cover;
+
+//   background-repeat: no-repeat;
+//   background-position: center center;
+ 
+
+// 		@media #{$brk-sm} { 
+// 			background-size: cover;
+// 			height: 400px;
+// 		}
+
+// 		@media #{$brk-md}{
+// 			background-size: cover;
+// 			height: 450px;
+// 			padding-top: 125px;
+// 			padding-bottom: 125px;
+// 			 background-attachment: fixed;
+// 		}
+
+// 		@media #{$brk-lg}{
+// 			height: 500px;
+// 		}
+// }
+
+@mixin bg ($img) {
+	background-image: url('#{$path--img}/#{$img}');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-attachment: fixed !important;
+	// width: 100%;
+	height: 300px;
+
+		@media #{$brk-sm} { 
+			background-size: cover;
+			height: 400px;
+		}
+
+		@media #{$brk-md}{
+			background-size: cover;
+			height: 450px;
+			padding-top: 125px;
+			padding-bottom: 125px;
+		}
+
+		@media #{$brk-lg}{
+			height: 500px;
+		}
 }

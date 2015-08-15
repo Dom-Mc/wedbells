@@ -194,6 +194,11 @@ body {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-attachment: fixed !important;
   height: 300px; }
   @media (min-width: 768px) {
     #venue {
@@ -214,6 +219,11 @@ body {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-attachment: fixed !important;
   height: 300px; }
   @media (min-width: 768px) {
     #view {
@@ -222,14 +232,36 @@ body {
   @media (min-width: 992px) {
     #view {
       background-size: cover;
-      background-attachment: fixed;
       height: 450px;
       padding-top: 125px;
       padding-bottom: 125px; } }
   @media (min-width: 1200px) {
     #view {
+      height: 500px; } }
+
+#rsvp {
+  background-image: url("../img/bg/pic2.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-attachment: fixed !important;
+  height: 300px; }
+  @media (min-width: 768px) {
+    #rsvp {
       background-size: cover;
-      background-attachment: fixed;
+      height: 400px; } }
+  @media (min-width: 992px) {
+    #rsvp {
+      background-size: cover;
+      height: 450px;
+      padding-top: 125px;
+      padding-bottom: 125px; } }
+  @media (min-width: 1200px) {
+    #rsvp {
       height: 500px; } }
 
 /* --------------------------------------------------
