@@ -1,0 +1,5 @@
+// _functions.scss
+
+@if variable-exists(font-url--google) {
+  @import url($font-url--google);
+}

@@ -1,0 +1,33 @@
+
+// Center Text
+%centered {
+ text-align: center;  // place in any rule - .foo { @extend %centered; }
+}
+
+
+// Top & Bottom Border
+%t-border {
+  border-top: 2px solid $color-border-light;
+}
+%b-border {
+  border-top: 2px solid $color-border-light;
+}
+
+
+
+// Clearfix
+%clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+
+
+// Links
+%link {
+	text-decoration: none;
+    outline: 0;
+}

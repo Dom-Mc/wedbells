@@ -1,11 +1,9 @@
-/* IMPORTS ALL FILES IN THE BASE DIRECTORY */
-
 // ==========================================================================
 // Base Imports
 // ==========================================================================
 
-
 @import 'variables';
-// @import 'mixins';
+@import 'functions';
+@import 'mixins';
+@import 'extends';
 @import 'base';
-//@import 'extends';

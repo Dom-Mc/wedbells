@@ -1,0 +1,10 @@
+// Mixins should be included first in a rule
+
+ 
+// Text
+@mixin text($size: nul, $l-height: null, $weight: null, $color: null) {  //only $size is required
+  font-size: $size;
+  line-height: $l-height;
+  font-weight: $weight;
+  color: $color;
+}

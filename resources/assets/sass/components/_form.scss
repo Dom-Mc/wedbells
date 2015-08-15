@@ -1,0 +1,34 @@
+/* --------------------------------------------------
+                      Modal
+-------------------------------------------------- */
+#myModal {
+  h2 {
+    font-size: 2.5rem;
+  }
+  .info {  //h3 headings of each form section
+    font-size: 1.02rem;
+    margin: 0 0 15px 15px;
+    font-weight: 600;
+  }
+  p {
+    font-size: 1rem;
+  }
+  label {
+    font-weight: 400;  //decrease our label's font weight from bold to a medium weight
+  }
+  .note {  //side note
+    font-size: .9rem;
+    margin: 15px;
+  }
+  #radios {
+    margin-left: 60px;  //shift radio buttons left
+  }
+
+  .modal-body .fa {  //fa icon
+    font-size: .75rem;
+  }
+
+  .centered { //used to center button
+    text-align:center;
+  }
+}
