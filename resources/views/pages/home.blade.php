@@ -15,11 +15,16 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#featured"><h1>Wisdom <span class="subhead">Pet Medicine</span></h1></a>
+        <a class="navbar-brand" href="#featured"></a>
       </div><!-- navbar-header -->
       <div class="collapse navbar-collapse" id="collapse">
         <ul class="nav navbar-nav navbar-right">
           <li class="active"><a href="#featured">Home</a></li>
+          <li><a href="#mission">Mission</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#staff">Staff</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+
           <li><a href="#mission">Mission</a></li>
           <li><a href="#services">Services</a></li>
           <li><a href="#staff">Staff</a></li>
