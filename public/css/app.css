@@ -392,6 +392,9 @@ header .navbar-default {
   text-shadow: none;
   /**not sure about**/ }
 
+.navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
+  max-height: none; }
+
 /* --------------------------------------------------
                   Nav Links
 -------------------------------------------------- */

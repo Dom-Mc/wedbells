@@ -14,9 +14,9 @@ header .navbar-default {
 }
 
 
-.navbar-collapse {
+.navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
   // max-height: 340px;
-max-height:none:
+max-height: none;
 }
 
 
