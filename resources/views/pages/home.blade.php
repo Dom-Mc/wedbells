@@ -2,47 +2,35 @@
 
 @section('content')
 
-
+<header>
 
 {{-- Fixed navbar --}}
 
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Project name</a>
-        </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-                      <li class="active"><a href="#featured">Home</a></li>
-          <li><a href="#mission">Mission</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#staff">Staff</a></li>
-          <li><a href="#testimonials">Testimonials</a></li>
-          <li><a href="#mission">Mission</a></li>
-          <li><a href="#services">Services</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </nav>
+@include('partials._nav')
 
 
+{{-- Jumbotron --}}
+<div id="rsvp" class="jumbotron fullheight"> {{-- .fullheight - adjusts element to takeup entire viewpoint via js --}}
+  <div class="container">
+    <h1 class="title">Nakissa <span>&amp;</span> Dom</h1>
+    <h2>are getting married!</h2>
+    <p>Join us October 17th in Kailua-Kona, Hawaii</p>
+    
+ <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">RSVP Today</button>
 
+    
+  </div>{{-- /.container --}}
+</div>{{-- /#rsvp --}}
+{{-- /Jumbotron --}}
 
+</header>
 
 
  
 
 <!-- Modal -->
-
+@include('partials._form')
 {{-- /Modal --}}
 
 
@@ -167,6 +155,13 @@
 
 
 
+{{-- View Background img --}}
+<div id="view">
+<div class="container"> {{-- REMOVED .PAGE --}}
+
+</div>
+</div>
+{{-- /Looking Down pic --}}
 
 
 <!-- Contact Section -->
