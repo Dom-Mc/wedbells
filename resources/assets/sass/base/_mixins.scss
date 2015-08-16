@@ -1,5 +1,21 @@
 // Mixins should be included first in a rule
 
+
+@mixin section {
+	margin-top: 10%;
+	margin-bottom: 10%;
+	@media (max-height:991px) {
+		padding-right: 7%;
+		padding-left: 7%;
+	}
+		// @media #{$brk-sm} { 
+		// 	height: 400px;
+		// }
+		// @media #{$brk-md}{
+		// 	height: 450px;
+		// }
+		// @media #{$brk-lg}{
+}
  
 // Text
 @mixin text($size: nul, $l-height: null, $weight: null, $color: null) {  //null is excepted for all args
@@ -26,10 +42,10 @@
 			height: 400px;
 		}
 		@media #{$brk-md}{
-			background-attachment: fixed !important;
 			height: 450px;
 		}
 		@media #{$brk-lg}{
+			background-attachment: fixed !important;
 			height: 500px;
 		}
 }

@@ -1,0 +1,45 @@
+
+
+
+
+/* --------------------------------------------------
+                VENUE - SECTION
+-------------------------------------------------- */
+#venue .row {
+  @extend %v-center;
+  @include text($color: $color-text-light);
+  text-shadow: 1px 1px 1px #808080;
+}
+
+#bigday, #venue, #room, #guestbook, #registry  {
+@include section;
+}
+#contact {
+	@include section;
+	margin-bottom: 0;
+}
+
+.v-center {
+
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  // margin-left: auto;
+  // margin-right: auto;
+
+}
+
+
+/* --------------------------------------------------
+                    LAYOUT
+-------------------------------------------------- */
+
+.l-pad {
+  padding-left: 1.5em;
+}
+.r-pad {
+  padding-right: 8.33333%;
+}
+.pad {
+	padding: 12%;
+}

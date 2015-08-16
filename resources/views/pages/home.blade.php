@@ -39,18 +39,18 @@
 
 
   {{-- The Big Day Section --}}
-  <section id="bigday" class="container page">
+  <section id="bigday" class="container">
     <div class="row featurette">
-      <div class="col-md-6 col-lg-6 col-lg-offset-1">
-        <div class="r-pad">
+      <div class="col-md-6 col-lg-6">
+        <div class="">
           <h2 class="featurette-heading">The Big Day</h2>
           <p>On October 17th, 2015, we're getting married in beautiful Kailua-Kona, located on the Big Island of Hawaii. We are so excited to celebrate this special occasion with the family and friends we love and who have meant so much to us throughout the years.</p>
           <p>The ceremony will begin at 4:00pm, directly followed by cocktail hour and reception.</p>
           <p>Attire for the evening is semiformal / cocktail.</p> 
         </div>
       </div>
-      <div class="col-md-5 col-lg-5">
-        <div class="l-pad">
+      <div class="col-md-6 col-lg-5 col-lg-offset-1">
+        <div class="pad hidden-sm hidden-xs">    {{-- REMOVE LATER --}}
           <img class="featurette-image img-responsive center-block img-circle visible-md-block visible-lg-block" src="img/kiss.jpg">{{-- Hidden on at > 991px --}}
         {{-- .img-thumbnail - BEVEL --}}
         </div>
@@ -131,7 +131,7 @@
 {{-- @include('partials._featured') --}}
    
 
-<hr class="hidden-md hidden-lg">
+
 
     <!-- Registry Section -->
     <section id="registry" class="container page">
@@ -168,15 +168,15 @@
 <section id="contact" class="container page"> 
   <div class="row featurette">
     <div class="col-md-6 col-lg-6">
-      <div class="r-pad">
+
         <h2 class="featurette-heading">Contact Us</h2>
         <p>Do you have questions about accommodations, scheduling, or the event? Please don’t hesitate to contact us!<br>
           <a href="mailto:nakissandom@gmail.com?subject=question"><strong>nakissandom@gmail.com</strong> <i class="fa fa-envelope-o fa-lg"></i></a>
         </p>
-      </div>
+
     </div>
-    <div class="col-md-6 col-lg-5 col-lg-offset-1">
-      <div class="l-pad">
+    <div class="col-md-5 col-md-offset-1 col-lg-5 col-lg-offset-1">
+      <div class="pad">
         <img class="featurette-image img-responsive center-block img-circle" src="img/smiles.jpg">
         {{-- visible-md-block visible-lg-block --}}
       </div>

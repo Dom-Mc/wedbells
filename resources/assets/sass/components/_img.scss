@@ -15,3 +15,23 @@
 #view {
 	@include bg_img("bg/temp.jpg");
 }
+
+    .featurette-image {
+       box-shadow: 10px 10px 5px #888888;
+    }
+#bigday .featurette-image, #contact .featurette-image {
+  box-shadow: 3px 3px 5px #888888;
+}
+
+#contact .pad {
+	padding: 20%;
+		@media #{$brk-sm} { 
+			padding: 20%;
+		}
+		@media #{$brk-md}{
+			padding: 12%;
+		}
+		@media #{$brk-lg}{
+			padding: 12%;
+		}
+	}
