@@ -55,8 +55,8 @@
 
           <div class="form-group">
             {!! Form::label("guest_last_name", "Last Name:", ["class" => "col-sm-3 col-sm-offset-1 control-label"]) !!}
-            <div class="col-md-5"> 
-              {!! Form::text("guest_last_name", null, ["class" => "form-control", "placeholder" => "Last Name of guest"] ) !!}
+            <div class="col-sm-5"> 
+              {!! Form::text("guest_last_name", null, ["class" => "form-control", "placeholder" => "Last Name of guest"]) !!}
             </div>
           </div>
         </section>

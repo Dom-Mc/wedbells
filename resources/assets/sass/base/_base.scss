@@ -3,8 +3,6 @@
 //@import url(http://fonts.googleapis.com/css?family=Pacifico|Kaushan+Script|Courgette|Marck+Script|Damion|Yellowtail|Raleway:400,100|Roboto);
 
 
-
-
 // font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;   //from old site
 
 /**  Basic Page CSS **/
@@ -12,12 +10,6 @@ body, html {
   height: 100%;
   width: 100%;
 }
-
-
-
-
-
-
 
 
 
@@ -50,9 +42,6 @@ h1, h2, h3, h4, h5, h6 {
 
 
 
-
-
-
 /* --------------------------------------------------
                   Links
 -------------------------------------------------- */
@@ -79,57 +68,9 @@ a {
 }
 
 
-
-
-
-/* --------------------------------------------------
-              THE BIG DAY - SECTION
--------------------------------------------------- */
-
-
-
-
-
-/* --------------------------------------------------
-              GET A ROOM - SECTION
--------------------------------------------------- */
-
-
-/* --------------------------------------------------
-              FUN - SECTION
--------------------------------------------------- */
-
-
-/* --------------------------------------------------
-                GUEST BOOK - SECTION
--------------------------------------------------- */
 #guestbook {
   @extend %b-border;
 }
-/* --------------------------------------------------
-                CONTACT US - SECTION
--------------------------------------------------- */
-
-
-
-/* --------------------------------------------------
-                PHOTOS - SECTION
--------------------------------------------------- */
-
-
-
-/* -----------------------------------
-          REGISTRY - SECTION               
-------------------------------------*/
-
-
-
-
-/* --------------------------------------------------
-                  NOT SURE????????
--------------------------------------------------- */
-
-
 
 
 
@@ -143,9 +84,6 @@ a {
 //   padding-bottom: 125px;
 //   min-height: 500px;      //ADJUST LATER
 // }
-
-
-
 
 
 // EDIT LATER!!!!
@@ -163,37 +101,11 @@ a {
 }
 
 
-
-
-
-// .page_small {
-   
-//     padding-top: 125px;
-//     padding-bottom: 125px;
-//     min-height: 500px;
-// } 
-
-
-
-
-
-
-
-
-
-
-
 /*CENTER COL IN BOOTSTRAP*/
 .col-centered{
     float: none;
     margin: 0 auto;
 }
-
-
-
-
-
-
 
 
 
@@ -207,13 +119,6 @@ body {
   /*padding-bottom: 40px;*/
   /*color: #5a5a5a;*/
 }
-
-
-
-
-
-
-
 
 
 
@@ -237,30 +142,24 @@ body {
     /* Featurettes (from Bootstrap template)
     ------------------------- */
 //MY STYLE
-
- 
     .featurette-divider {
       margin: 80px 0; /* Space out the Bootstrap <hr> more */
     }
-
     /* Thin out the marketing headings */
     .featurette-heading {
-
-
       font-size: 2.25rem;
       font-weight: 300;
       line-height: 1;
       letter-spacing: -1px;
       /*margin-top: 0;*/     /* MY EDIT */
     }
-    
+  
     /*Small devices (768px and up)*/ 
     @media (min-width: 768px) {
       .featurette-heading {
         //font-size: 50px;
       }
     }
-
     /*Medium devices (992px and up)*/
     @media (min-width: 992px) {
       .featurette-heading {
@@ -269,53 +168,12 @@ body {
     }
 
 
-
  #venue .featurette-heading {
-
-
       font-size: 1.25rem;
       @media #{$brk-sm} { 
       font-size: 2.25rem;
     }
 }
-
-    /* Featurettes (from other website)  *GO OVER
-    ------------------------- */
-    .featurette {
-      /*padding-top: 120px;*/ /* Vertically center images part 1: add padding above and below text. */
-      // overflow: hidden; /* Vertically center images part 2: clear their floats. */
-    }
-
-    .featurette-image {
-      // margin-top: -120px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
-    }
-
-
-    /*Small devices (979px and below)*/
-    @media (max-width: 979px) {
-      .featurette {
-        /*height: auto;*/
-        /*padding: 0;*/
-      }
-      .featurette-image.pull-left,
-      .featurette-image.pull-right {
-        // display: block;
-        // float: none;
-        // max-width: 40%;
-        // margin: 0 auto 20px;
-      }
-    }
-
-    /*Extra Small devices (767px and below)*/ 
-    @media (max-width: 767px) { 
-      .featurette-heading {  
-        /*font-size: 30px;*/
-      }
-      .featurette .lead {
-        /*font-size: 18px;
-        /*line-height: 1.5;*/
-      }
-    }
 
 
 

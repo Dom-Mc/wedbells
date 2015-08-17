@@ -27,14 +27,6 @@
 </header>
 
 
- 
-
-<!-- Modal -->
-@include('partials._form')
-{{-- /Modal --}}
-
-
-
 <div class="marketing">
 
 
@@ -114,6 +106,13 @@
         <h2 class="featurette-heading">Sign our Guestbook</h2>
         <p>If you have any thoughts, memories, or y-e-s even advice, we’d love to hear from you. Just remember this is a public forum, so please keep it PG-13 :b{{-- <i class="fa fa-smile-o fa-lg"></i> --}}</p>
         <p><strong>Coming Soon!</strong></p>
+
+
+ <!-- Trigger the modal with a button -->
+  {{-- <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#gbModal">Guestbook</button> --}}
+
+
+
       </div>
     </div>
     <div class="col-md-6 col-lg-5 col-lg-offset-1">
@@ -125,6 +124,9 @@
   </div>{{-- /.row.featurette --}}
 </section>
 <!-- /Guest Book Section -->
+
+
+
 
 
 <!-- Featured Section -->
@@ -188,5 +190,11 @@
 
 
 </div>{{-- /.container.marketing --}}
+
+<!-- Modal -->
+@include('partials._rsvp-form')
+
+
+
 
 @stop
