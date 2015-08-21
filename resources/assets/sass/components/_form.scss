@@ -1,34 +1,54 @@
 /* --------------------------------------------------
-                      Modal
+                      FORM
 -------------------------------------------------- */
+.msg {
+  @media #{$brk-sm}{
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+}
+
 #myModal {
-  h2 {
-    font-size: 2.5rem;
-  }
-  .info {  //h3 headings of each form section
-    font-size: 1.02rem;
-    margin: 0 0 15px 15px;
-    font-weight: 600;
-  }
-  p {
-    font-size: 1rem;
-  }
   label {
     font-weight: 400;  //decrease our label's font weight from bold to a medium weight
   }
-  .note {  //side note
-    font-size: .9rem;
-    margin: 15px;
-  }
   #radios {
-    margin-left: 60px;  //shift radio buttons left
+    margin-left: 10px;  //shift radio buttons left
+    @media #{$brk-sm}{
+      margin-left: 20px;  //shift radio buttons left
+    }
+    @media #{$brk-md}{
+      margin-left: 60px;  //shift radio buttons left
+    }
+      label {
+        @media (max-width: 480px){
+          font-size: .9rem;
+        }
+      }
   }
+}
 
-  .modal-body .fa {  //fa icon
-    font-size: .75rem;
-  }
+    
 
-  .centered { //used to center button
-    text-align:center;
+//Custom class for form labels: .input-x
+@media (max-width: 992px) {
+@media screen and (-webkit-min-device-pixel-ratio:0){
+  .input-group-x input[type=date],.input-group-x input[type=time],.input-group-x input[type=datetime-local],.input-group-x input[type=month],input[type=date].input-x,input[type=time].input-x,input[type=datetime-local].input-x,input[type=month].input-x{
+    line-height:46px
   }
+}
+
+.input-x{
+  height:46px;
+  padding:10px 16px;
+  font-size:.9rem;
+  line-height:1.3333333;
+  border-radius:6px
+}
+
+.form-group-x .form-control+.form-control-feedback,.input-group-x+.form-control-feedback,.input-x+.form-control-feedback{
+  width:46px;
+  height:46px;
+  line-height:46px
+}
 }

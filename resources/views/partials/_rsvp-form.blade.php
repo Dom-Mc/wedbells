@@ -14,7 +14,7 @@
 
 
         {{-- ERRORS --}}
-        @include ('errors._list')
+        {{-- @include ('errors._rsvp-error') --}}
 
 
       </div>{{-- /.modal-header --}}
@@ -30,13 +30,13 @@
           <div class="form-group">
             {!! Form::label("first_name", "First Name:", ["class" => "col-sm-3 col-sm-offset-1 control-label"]) !!}
             <div class="col-sm-5">
-              {!! Form::text("first_name", null, ["class" => "form-control", "placeholder" => "Your First Name"]) !!}
+              {!! Form::text("first_name", null, ["class" => "form-control input-x", "placeholder" => "Your First Name"]) !!}
             </div>
           </div>
           <div class="form-group"> 
             {!! Form::label("last_name", "Last Name:", ["class" => "col-sm-3 col-sm-offset-1 control-label"]) !!}
             <div class="col-sm-5">
-              {!! Form::text("last_name", null, ["class" => "form-control", "placeholder" => "Your Last Name"]) !!}
+              {!! Form::text("last_name", null, ["class" => "form-control input-x", "placeholder" => "Your Last Name"]) !!}
             </div>
           </div>
         </section>
@@ -49,14 +49,14 @@
           <div class="form-group">
             {!! Form::label("guest_first_name", "First Name:", ["class" => "col-sm-3 col-sm-offset-1 control-label"]) !!} 
             <div class="col-sm-5"> 
-              {!! Form::text("guest_first_name", null, ["class" => "form-control", "placeholder" => "First Name of guest"]) !!}
+              {!! Form::text("guest_first_name", null, ["class" => "form-control input-x", "placeholder" => "First Name of guest"]) !!}
             </div>
           </div>
 
           <div class="form-group">
             {!! Form::label("guest_last_name", "Last Name:", ["class" => "col-sm-3 col-sm-offset-1 control-label"]) !!}
             <div class="col-sm-5"> 
-              {!! Form::text("guest_last_name", null, ["class" => "form-control", "placeholder" => "Last Name of guest"]) !!}
+              {!! Form::text("guest_last_name", null, ["class" => "form-control input-x", "placeholder" => "Last Name of guest"]) !!}
             </div>
           </div>
         </section>
@@ -87,9 +87,9 @@
 
         <!-- Text Area -->
         <h3 class="info">Wedding questions or comments:</h3>
-        <div class="form-group">
+        <div class="form-group msg">
           {!! Form::label('comments', 'Comments', ['class' => 'sr-only']) !!}
-          {!! Form::textarea('comments', null, ['class' => 'form-control', 'rows' => 2]) !!}
+          {!! Form::textarea('comments', null, ['class' => 'form-control input-x', 'placeholder' => 'Leave a Question or Comment', 'rows' => 3]) !!}
         </div>
 
       </div>{{-- /.modal-body --}}

@@ -12,8 +12,6 @@ body, html {
 }
 
 
-
-
 /* --------------------------------------------------
                   TYPOGRAPHY
 -------------------------------------------------- */
@@ -68,15 +66,9 @@ a {
 }
 
 
-#guestbook {
-  @extend %b-border;
-}
 
 
 
-
-
-/**  Page **/
 // .page {
 //   /*padding: 50px 0;*/
 //   // padding: 125px 0;
@@ -84,30 +76,6 @@ a {
 //   padding-bottom: 125px;
 //   min-height: 500px;      //ADJUST LATER
 // }
-
-
-// EDIT LATER!!!!
-@media (max-width: 980px){
-#guestbook.container.page {
-  padding-bottom: 20px;
-  padding-top: 20px;
-  min-height: 300px;
-}
-#registry.container.page {
-  padding-bottom: 20px;
-  padding-top: 20px;
-  min-height: 300px;
-}
-}
-
-
-/*CENTER COL IN BOOTSTRAP*/
-.col-centered{
-    float: none;
-    margin: 0 auto;
-}
-
-
 
 
 
@@ -175,5 +143,100 @@ body {
     }
 }
 
+// EDIT LATER!!!!
+@media (max-width: 980px){
+#guestbook.container.page {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  min-height: 300px;
+}
+#registry.container.page {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  min-height: 300px;
+}
+}
+#guestbook {
+  @extend %b-border;
+}
 
 
+/*CENTER COL IN BOOTSTRAP*/
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+//ERROR and THANKYOU PAGE
+/* Links */
+body#alt {
+  background: url(/img/bg/default.jpg) center center no-repeat fixed;
+  background-size: cover;
+  text-align: center;
+  
+    a {
+      color: #fff;
+    }
+
+    .site-wrapper {
+      display: table;
+      width: 100%;
+      height: 100%; /* For at least Firefox */
+      min-height: 100%;
+      -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+              box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+    }
+    .site-wrapper-inner {
+      display: table-cell;
+      vertical-align: top;
+    }
+    .cover-container {
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+    .cover .btn-lg {
+      margin-top: 1rem;
+    }
+
+      .site-wrapper-inner {
+      /* Start the vertical centering */
+        vertical-align: middle;
+        padding-right: 1rem;
+        padding-left: 1rem;    
+      }
+    /*
+     * Affix and center
+     */
+    @media (min-width: 768px) {
+
+
+      /* Handle the widths */
+      .cover-container {
+        width: 100%; /* Must be percentage or pixels for horizontal alignment */
+      }
+    }
+
+    @media (min-width: 992px) {
+      .cover-container {
+        width: 700px;
+      }
+    }
+
+    #error404 {
+        @include text(2.5rem, $weight: $font-weight--thin, $color: $color-text-light);
+        font-family: $font-family--raleway;
+        text-shadow: 1px 1px 1px grey;
+    }
+
+    #thx {
+         @include text(6rem, $weight: $font-weight--thin, $color: $color-text-light);
+        font-family: $font-family--raleway;
+        text-shadow: 1px 1px 1px grey; 
+    }
+}

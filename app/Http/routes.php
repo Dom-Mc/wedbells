@@ -12,8 +12,14 @@
 */
 
 
-
 Route::get('/', ['as' => 'home', 'uses' => 'RsvpController@home']);
 Route::post('/', ['as' => 'store', 'uses' => 'RsvpController@store']);
+
+Route::get('contact', ['as' => 'index_contact', 'uses' => 'ContactController@index']);
+Route::post('contact', ['as' => 'store_contact', 'uses' => 'ContactController@store']);
+
+Route::get('guestbook', ['as' => 'index_guestbook', 'uses' => 'guestbookController@index']);
+Route::post('guestbook', ['as' => 'store_guestbook', 'uses' => 'guestbookController@store']);
+
 Route::get('thankyou', ['as' => 'thankyou', 'uses' => 'RsvpController@thankyou']);
 Route::get('getaroom', ['as' => 'hotel', 'uses' => 'RsvpController@hotel']);

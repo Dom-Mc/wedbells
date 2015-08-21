@@ -14,7 +14,6 @@ class RsvpController extends Controller {
 	public function home()
 	{
 		return view('pages.home');
-		
 	}
 
 	// public function store(CreateAddressRequest $request)

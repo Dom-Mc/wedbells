@@ -23,7 +23,7 @@ class CreateRsvpRequest extends Request {
 	{
 		return [
 			 'first_name' => 'required|between:2,50', // 50, min of 5 characters in length
-			 'last_name' => 'required|between:2,50', // 50
+			 'last_name' => 'required|between:2,50' // 50
 			 //'guest_first_name' => 'required|between:2,50',
 			 //'guest_last_name' => 'required|between:2,50',
 			 //sometimes your rules will be different for create and update requests

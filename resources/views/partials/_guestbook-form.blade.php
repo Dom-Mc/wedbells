@@ -8,27 +8,29 @@
         <h2 class="modal-title text-center">Guestbook</h2>
         <p class="text-center">Thank you for taking the time to sign our guestbook!</p>
 
+
         {{-- ERRORS --}}
-        @include ('errors._list')
+       {{--  @include ('errors._guestbook-error') --}}
+
 
       </div>{{-- /.modal-header --}}
 
       <div class="modal-body">
 
         <!-- Form Start -->
-        {!! Form::open() !!}
+        {!! Form::open(['route' => 'store_guestbook']) !!}
         
         <section class="form-horizontal">
           <div class="form-group">
             {!! Form::label("name", "Name:", ["class" => "col-sm-4 control-label"]) !!}
             <div class="col-sm-6">
-              {!! Form::text("name", null, ["class" => "form-control", "placeholder" => "You Name"]) !!}
+              {!! Form::text("name", null, ["class" => "form-control input-x", "placeholder" => "Your Name"]) !!}
             </div>
           </div>
           <div class="form-group"> 
             {!! Form::label("message", "Message:", ["class" => "col-sm-4 control-label"]) !!}
             <div class="col-sm-6">
-              {!! Form::textarea("message", null, ["class" => "form-control", "placeholder" => "Leave a Message", 'rows' => 2]) !!}
+              {!! Form::textarea("message", null, ["class" => "form-control input-x", "placeholder" => "Leave a Message", 'rows' => 2]) !!}
             </div>
           </div>
         </section>
