@@ -42,7 +42,6 @@
 
         <div class="centered">
           {!! Form::submit('Submit', ['class' => 'btn btn-primary btn-lg']) !!}
-
           {!! Form::close() !!}
         </div>
 

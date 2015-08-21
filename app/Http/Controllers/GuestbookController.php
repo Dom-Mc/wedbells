@@ -20,5 +20,4 @@ class GuestbookController extends Controller {
 		Guestbook::create($request->all() );
 		return redirect('thankyou');  //return named route from controller
 	}
-
 }
