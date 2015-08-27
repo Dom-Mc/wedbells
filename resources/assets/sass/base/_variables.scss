@@ -2,7 +2,8 @@
 // Global Variables
 // ==========================================================================
 
-
+//@import url(http://fonts.googleapis.com/css?family=Pacifico|Kaushan+Script|Courgette|Marck+Script|Damion|Yellowtail|Raleway:400,100|Roboto);
+// font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;   //from old site
 // Google Web Font URLs
 $font-url--google        : 'http://fonts.googleapis.com/css?family=Pacifico|Kaushan+Script|Courgette|Marck+Script|Damion|Yellowtail|Raleway:400,100|Roboto';
 
@@ -126,7 +127,6 @@ $brk-md : '(min-width: 992px)';
 $brk-lg	: '(min-width: 1200px)';
 
 // Breakpoints
-
-// $brkpoint-sm    : 1px;
-// $brkpoint-md    : 768px;
-// $brkpoint-lg    : 1100px;
+$brkpoint-sm    : 1px;
+$brkpoint-md    : 768px;
+$brkpoint-lg    : 1100px;

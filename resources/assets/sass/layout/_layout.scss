@@ -1,19 +1,13 @@
-
-
-
-
 /* --------------------------------------------------
-                VENUE - SECTION
+                    LAYOUT
 -------------------------------------------------- */
-#venue .row {
-  @extend %v-center;
-  @include text($color: $color-text-light);
-  text-shadow: 1px 1px 1px #808080;
-}
+
+
 
 #bigday, #venue, #room, #guestbook, #registry  {
-@include section;
+  @include section;
 }
+
 #contact {
 	@include section;
 	margin-bottom: 0;
@@ -30,16 +24,21 @@
 }
 
 
-/* --------------------------------------------------
-                    LAYOUT
--------------------------------------------------- */
+
 
 .l-pad {
-  padding-left: 1.5em;
+  //padding-left: ; //8.33333%  1.5em
 }
 .r-pad {
-  padding-right: 8.33333%;
+  //padding-right: 8.33333%;
 }
 .pad {
-	padding: 12%;
+	padding: 12%; //used for circle images
+}
+
+
+/*CENTER COL IN BOOTSTRAP*/
+.col-centered{
+    float: none;
+    margin: 0 auto;
 }

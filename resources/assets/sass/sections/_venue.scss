@@ -1,0 +1,8 @@
+// --------------------------------------------------
+//                VENUE - SECTION
+//---------------------------------------------------
+#venue .row {
+  @extend %v-center;
+  @include text($color: $color-text-light);
+  text-shadow: 1px 1px 1px #808080;
+}

@@ -4,7 +4,7 @@
 @mixin section {
 	margin-top: 10%;
 	margin-bottom: 10%;
-	@media (max-height:991px) {
+	@media (max-width:991px) {
 		padding-right: 7%;
 		padding-left: 7%;
 	}
@@ -49,3 +49,64 @@
 			height: 500px;
 		}
 }
+
+
+
+
+
+
+// Media queries
+
+// Media queries
+
+@mixin mq($breakpoint) {
+
+  $mq-xs: "(max-width: 767px)";
+  $mq-sm: "(min-width: 768px) and (max-width: 991px)";
+  $mq-md: "(min-width: 992px) and (max-width: 1199px)";
+  $mq-lg: "(min-width: 1200px)";
+
+  @if $breakpoint == xs {
+    @media #{$mq-xs} { @content; }
+  }
+  @else if $breakpoint == sm {
+    @media #{$mq-sm} { @content; }
+  }
+  @else if $breakpoint == md {
+    @media #{$mq-md}  { @content; }
+  }
+  @else if $breakpoint == lg {
+    @media #{$mq-lg}  { @content; }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+// @mixin mq($break) {
+
+//   @if $break == "small" {
+//     @media (min-width: $brkpoint-sm) and (max-width: $brkpoint-md) {
+//       @content;
+//     }
+//   }
+//   @else if $break == "medium" {
+//     @media (min-width: $brkpoint-md + 1) {
+//       @content;
+//     }
+//   }
+//   @else if $break == "large" {
+//     @media (min-width: $brkpoint-lg) {
+//       @content;
+//     }
+//   }
+//    @else {
+//    	@error "Whoops! No value could be retrieved for `#{$break}`. "
+//   }
+// }

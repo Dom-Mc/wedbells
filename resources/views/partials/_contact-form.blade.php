@@ -31,7 +31,7 @@
           <div class="form-group"> 
             {!! Form::label("message", "Message:", ["class" => "col-sm-4 control-label"]) !!}
             <div class="col-sm-6">
-              {!! Form::textarea("message", null, ["class" => "form-control input-x", "placeholder" => "Leave a Question or Comment", 'rows' => 3]) !!}
+              {!! Form::textarea("message", null, ["class" => "form-control input-x", "placeholder" => "Leave a Question or Comment", "rows" => 3]) !!}
             </div>
           </div>
         </section>

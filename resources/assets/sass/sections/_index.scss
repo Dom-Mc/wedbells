@@ -1,9 +1,7 @@
 // ==========================================================================
-// Base Imports
+// Sections Imports
 // ==========================================================================
 
-@import 'variables';
-@import 'functions';
-@import 'extends'; //not sure
-@import 'mixins';
-@import 'base';
+@import 'venue';
+@import 'guestbook';
+@import 'thankyou';

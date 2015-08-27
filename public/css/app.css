@@ -12,7 +12,6 @@ a:link, a:visited, a:hover, a:active {
   text-decoration: none;
   outline: 0; }
 
-/*Imports your Fonts: place on top of css page*/
 /**  Basic Page CSS **/
 body, html {
   height: 100%;
@@ -30,23 +29,8 @@ body, html {
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0; }
 
-.title {
-  /*not sure about*/
-  /*font-family: $font-family--roboto*/
-  /*font-weight: 300;*/
-  /*font-size: 2em;*/ }
-
 /* --------------------------------------------------
                   Links
--------------------------------------------------- */
-/* GLOBAL STYLES (from bootstrap template) ***GO OVER!!!
--------------------------------------------------- */
-/* Padding below the footer and lighter body text */
-body {
-  /*padding-bottom: 40px;*/
-  /*color: #5a5a5a;*/ }
-
-/* MARKETING CONTENT (from Bootstrap template)
 -------------------------------------------------- */
 /* Center align the text within the three columns below the carousel */
 /*.marketing .col-lg-4 {
@@ -61,8 +45,8 @@ body {
   margin-right: 10px;
   margin-left: 10px;
 }*/
-/* Featurettes (from Bootstrap template)
-    ------------------------- */
+/* Featurettes
+------------------------- */
 .featurette-divider {
   margin: 80px 0;
   /* Space out the Bootstrap <hr> more */ }
@@ -94,75 +78,13 @@ body {
     padding-top: 20px;
     min-height: 300px; } }
 
-/*CENTER COL IN BOOTSTRAP*/
-.col-centered {
-  float: none;
-  margin: 0 auto; }
-
-/* Links */
-body#alt {
-  background: url(/img/bg/default.jpg) center center no-repeat fixed;
-  background-size: cover;
-  text-align: center;
-  /*
-     * Affix and center
-     */ }
-  body#alt a {
-    color: #fff; }
-  body#alt .site-wrapper {
-    display: table;
-    width: 100%;
-    height: 100%;
-    /* For at least Firefox */
-    min-height: 100%;
-    box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.5); }
-  body#alt .site-wrapper-inner {
-    display: table-cell;
-    vertical-align: top; }
-  body#alt .cover-container {
-    margin-right: auto;
-    margin-left: auto; }
-  body#alt .cover .btn-lg {
-    margin-top: 1rem; }
-  body#alt .site-wrapper-inner {
-    /* Start the vertical centering */
-    vertical-align: middle;
-    padding-right: 1rem;
-    padding-left: 1rem; }
-  @media (min-width: 768px) {
-    body#alt {
-      /* Handle the widths */ }
-      body#alt .cover-container {
-        width: 100%;
-        /* Must be percentage or pixels for horizontal alignment */ } }
-  @media (min-width: 992px) {
-    body#alt .cover-container {
-      width: 700px; } }
-  body#alt #error404 {
-    font-size: 2.5rem;
-    font-weight: 100;
-    color: #FFFFFF;
-    font-family: Raleway;
-    text-shadow: 1px 1px 1px grey; }
-  body#alt #thx {
-    font-size: 6rem;
-    font-weight: 100;
-    color: #FFFFFF;
-    font-family: Raleway;
-    text-shadow: 1px 1px 1px grey; }
-
 /* --------------------------------------------------
-                VENUE - SECTION
+                    LAYOUT
 -------------------------------------------------- */
-#venue .row {
-  font-size: nul;
-  color: #FFFFFF;
-  text-shadow: 1px 1px 1px #808080; }
-
 #bigday, #venue, #room, #guestbook, #registry {
   margin-top: 10%;
   margin-bottom: 10%; }
-  @media (max-height: 991px) {
+  @media (max-width: 991px) {
     #bigday, #venue, #room, #guestbook, #registry {
       padding-right: 7%;
       padding-left: 7%; } }
@@ -171,7 +93,7 @@ body#alt {
   margin-top: 10%;
   margin-bottom: 10%;
   margin-bottom: 0; }
-  @media (max-height: 991px) {
+  @media (max-width: 991px) {
     #contact {
       padding-right: 7%;
       padding-left: 7%; } }
@@ -182,17 +104,13 @@ body#alt {
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%); }
 
-/* --------------------------------------------------
-                    LAYOUT
--------------------------------------------------- */
-.l-pad {
-  padding-left: 1.5em; }
-
-.r-pad {
-  padding-right: 8.33333%; }
-
 .pad {
   padding: 12%; }
+
+/*CENTER COL IN BOOTSTRAP*/
+.col-centered {
+  float: none;
+  margin: 0 auto; }
 
 .arrow {
   width: 50px;
@@ -287,6 +205,9 @@ body#alt {
   color: #fff;
   background-color: #1E90FF;
   border-color: #4cae4c; }
+
+button {
+  outline: 0; }
 
 /* --------------------------------------------------
                       FORM
@@ -647,5 +568,62 @@ header .navbar-default .navbar-toggle .icon-bar {
   top: 50%;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%); }
+
+#venue .row {
+  font-size: nul;
+  color: #FFFFFF;
+  text-shadow: 1px 1px 1px #808080; }
+
+/* Links */
+body#alt {
+  background: url(/img/bg/default.jpg) center center no-repeat fixed;
+  background-size: cover;
+  text-align: center;
+  /*
+     * Affix and center
+     */ }
+  body#alt a {
+    color: #fff; }
+  body#alt .site-wrapper {
+    display: table;
+    width: 100%;
+    height: 100%;
+    /* For at least Firefox */
+    min-height: 100%;
+    box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.5); }
+  body#alt .site-wrapper-inner {
+    display: table-cell;
+    vertical-align: top; }
+  body#alt .cover-container {
+    margin-right: auto;
+    margin-left: auto; }
+  body#alt .cover .btn-lg {
+    margin-top: 1rem; }
+  body#alt .site-wrapper-inner {
+    /* Start the vertical centering */
+    vertical-align: middle;
+    padding-right: 1rem;
+    padding-left: 1rem; }
+  @media (min-width: 768px) {
+    body#alt {
+      /* Handle the widths */ }
+      body#alt .cover-container {
+        width: 100%;
+        /* Must be percentage or pixels for horizontal alignment */ } }
+  @media (min-width: 992px) {
+    body#alt .cover-container {
+      width: 700px; } }
+  body#alt #error404 {
+    font-size: 2.5rem;
+    font-weight: 100;
+    color: #FFFFFF;
+    font-family: Raleway;
+    text-shadow: 1px 1px 1px grey; }
+  body#alt #thx {
+    font-size: 6rem;
+    font-weight: 100;
+    color: #FFFFFF;
+    font-family: Raleway;
+    text-shadow: 1px 1px 1px grey; }
 
 /*# sourceMappingURL=app.css.map */
