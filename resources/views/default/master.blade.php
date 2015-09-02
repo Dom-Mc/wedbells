@@ -42,9 +42,9 @@
   	<!-- Scripts -->
   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.5.7/slick.min.js"></script>
-    <script src="js/wed.js"></script>
     <script src="js/vendor/owl.carousel.js"></script>
+    <script src="js/wed.js"></script>
+
 
         
 
