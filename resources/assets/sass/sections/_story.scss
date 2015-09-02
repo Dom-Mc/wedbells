@@ -1,0 +1,54 @@
+#story .item{
+  margin: 3px;
+}
+#story .item img{
+  display: block;
+  width: 100%;
+  height: 375px;
+
+  @include mq(sm) {
+    height: 375px;
+  }
+  @include mq(md) {
+    height: 415px;
+  }
+    @include mq(lg) {
+    height: 400px;
+  }
+    @include mq(xl) {
+    height: 475px;
+  }
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+
+}
+.owl-theme .owl-controls .owl-buttons div {
+  padding: 5px 9px;
+}
+ 
+.owl-theme .owl-buttons i{
+  margin-top: 2px;
+}
+.owl-controls .owl-buttons div{
+  cursor: pointer;
+}
+#owl-demo {cursor: pointer;}
+
+.owl-pagination {
+  @media (max-width: 900px){
+    display:none;
+  }
+}
+.owl-item.loading {
+    min-height: 250px;
+  }
+//use styles below to disable ugly selection
+
+/*.a2005    { background-image: url("img/story/2005.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+.a2007 { background: blue; }
+.a2008  { background: green; }
+.a2009   { background: pink; }*/

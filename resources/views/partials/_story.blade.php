@@ -43,7 +43,7 @@
     <div class="item"><img class="lazyOwl" data-src="img/story/2008e.jpg" alt=""></div>
     <div class="item"><img class="lazyOwl" data-src="img/story/2008f.jpg" alt=""></div>
     {{-- 2007 --}}
-    <div class="item"><img class="lazyOwl" data-src="img/story/2007b.jpg" alt=""></div>
+    <div class="item"><img class="lazyOwl" data-src="img/story/2007z.jpg" alt=""></div>
     <div class="item"><img class="lazyOwl" data-src="img/story/2007e.jpg" alt=""></div>
     <div class="item"><img class="lazyOwl" data-src="img/story/2007.jpg" alt=""></div>
     <div class="item"><img class="lazyOwl" data-src="img/story/2007h.jpg" alt=""></div>
