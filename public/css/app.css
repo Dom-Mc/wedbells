@@ -644,6 +644,15 @@ header .navbar-default .navbar-toggle .icon-bar {
 
 #story .item {
   margin: 3px; }
+  @media (min-width: 500px) and (max-width: 749px) {
+    #story .item {
+      padding-top: .75rem;
+      padding-right: 1.5rem;
+      padding-bottom: .75rem;
+      padding-left: 1.5rem; } }
+
+.owl-carousel .owl-wrapper-outer {
+  background-color: #222222; }
 
 #story .item img {
   display: block;
@@ -662,6 +671,9 @@ header .navbar-default .navbar-toggle .icon-bar {
   @media (min-width: 1450px) {
     #story .item img {
       height: 475px; } }
+  @media (min-width: 500px) and (max-width: 749px) {
+    #story .item img {
+      height: 300px; } }
 
 .owl-theme .owl-controls .owl-buttons div {
   padding: 5px 9px; }

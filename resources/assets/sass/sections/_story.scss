@@ -1,5 +1,14 @@
 #story .item{
   margin: 3px;
+    @media (min-width: 500px) and (max-width: 749px){
+   padding-top: .75rem;
+   padding-right: 1.5rem;
+   padding-bottom: .75rem;
+   padding-left: 1.5rem;
+  }
+}
+.owl-carousel .owl-wrapper-outer {
+    background-color: #222222;
 }
 #story .item img{
   display: block;
@@ -17,6 +26,9 @@
   }
     @include mq(xl) {
     height: 475px;
+  }
+  @media (min-width: 500px) and (max-width: 749px){
+    height: 300px;
   }
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
