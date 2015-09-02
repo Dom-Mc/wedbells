@@ -9,12 +9,14 @@ body, html {
   width: 100%;
 }
 
-
+header .hides {
+  display: none;
+}
 /* --------------------------------------------------
                   TYPOGRAPHY
 -------------------------------------------------- */
 body, html {
-  @include text(1rem, $color: $color-text-base);
+  @include text($color-text-base, 100%);
   background: $color-body;
   font-family: $font-family--primary;
 }
@@ -28,7 +30,17 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
 }
 
-
+//Line Breaks
+/* .rwd-line {
+  display: block;
+  font-size: 3rem;
+  @media (max-width: 500px){
+    display: inline;
+  }
+  @media (min-width: 1000px){
+    display: inline;
+  }
+} */
 /* --------------------------------------------------
                   Links
 -------------------------------------------------- */
@@ -79,32 +91,32 @@ a {
     }
     /* Thin out the marketing headings */
     .featurette-heading {
-      font-size: 2.25rem;
+      font-size: 2.25rem; // 40.5/18=2.25rem
       font-weight: 300;
       line-height: 1;
       letter-spacing: -1px;
       /*margin-top: 0;*/     /* MY EDIT */
     }
   
-    /*Small devices (768px and up)*/ 
-    @media (min-width: 768px) {
-      .featurette-heading {
+    //Small devices (768px and up) 
+    .featurette-heading {
+      @include mq(sm) {
         //font-size: 50px;
       }
     }
-    /*Medium devices (992px and up)*/
-    @media (min-width: 992px) {
-      .featurette-heading {
-        // margin-top: 120px;
-      }
-    }
+        
+//Medium devices (992px and up)
+.featurette-heading {
+   @include mq(sm) {
+    //margin-top: 120px;    ADD THIS LATER
+  }
+}
 
-
- #venue .featurette-heading {
-      font-size: 1.25rem;
-      @media #{$brk-sm} { 
-      font-size: 2.25rem;
-    }
+#venue .featurette-heading {
+  @include mq(sm) {
+    font-size: 2.25rem;  // 40.5/18=2.25rem
+  }
+  font-size: 1.25rem;  // 22.5/18=2.25rem
 }
 
 // EDIT LATER!!!!
@@ -126,6 +138,60 @@ a {
 
 
 
+#story .item{
+  margin: 3px;
+}
+#story .item img{
+  display: block;
+  width: 100%;
+  height: 375px;
+
+  @include mq(sm) {
+    height: 375px;
+  }
+  @include mq(md) {
+    height: 415px;
+  }
+    @include mq(lg) {
+    height: 400px;
+  }
+    @include mq(xl) {
+    height: 475px;
+  }
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+
+}
+.owl-theme .owl-controls .owl-buttons div {
+  padding: 5px 9px;
+}
+ 
+.owl-theme .owl-buttons i{
+  margin-top: 2px;
+}
+.owl-controls .owl-buttons div{
+  cursor: pointer;
+}
+#owl-demo {cursor: pointer;}
+
+.owl-pagination {
+  @media (max-width: 900px){
+    display:none;
+  }
+}
+.owl-item.loading {
+    min-height: 250px;
+  }
+//use styles below to disable ugly selection
+
+/*.a2005    { background-image: url("img/story/2005.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+.a2007 { background: blue; }
+.a2008  { background: green; }
+.a2009   { background: pink; }*/
 
 
 // .page {

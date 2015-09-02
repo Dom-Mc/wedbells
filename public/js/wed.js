@@ -35,9 +35,13 @@ $(function() {
   if(hash !== '#rsvp') {    
   //used to be #featured
     $('header nav').addClass('inbody');
+    $('.navbar').show(); //added
   } else {
     $('header nav').removeClass('inbody');
+    $('.navbar').hide(); //added
   }
+
+
 
   // Add an inbody class to nav when scrollspy event fires
   $('.navbar-fixed-top').on('activate.bs.scrollspy', function() {
@@ -45,10 +49,17 @@ $(function() {
     if(hash !== '#rsvp') {    
     //used to be #featured
       $('header nav').addClass('inbody');
+      $('.navbar').show('slow'); //added
     } else {
       $('header nav').removeClass('inbody');
+      $('.navbar').hide('slow'); //added
     }
   });
+
+
+
+
+
 
 
   //Use smooth scrolling when clicking on navigation
@@ -88,6 +99,29 @@ $(function() {
       $(".navbar-collapse").collapse('hide');
     }
   });
+
+
+  var story = $("#story");
+ 
+  story.owlCarousel({
+      itemsCustom : [
+        [0, 1],
+        [750, 2],
+        [1250, 3],
+      ],
+      autoPlay: 3000, //Set AutoPlay to 10 seconds
+      //paginationSpeed : 10000,
+      //goToFirstSpeed : 2000,
+      //slideSpeed : 500,
+      stopOnHover : true,
+      items : 3,
+      lazyLoad : true,
+      // navigation : true,
+      //pagination : true, //set back to true
+      transitionStyle:"fade"
+      //rewindNav: true, //Slide to first item.
+      //rewindSpeed: 2000
+    });
 
 
 }); //JQuery end

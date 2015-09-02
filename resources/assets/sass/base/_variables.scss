@@ -48,6 +48,7 @@ $vapor         : #F6F6F6 !default;
 $white-smoke   : #F5F5F5 !default;
 $silver        : #EFEFEF !default;
 $smoke         : #EEEEEE !default;
+$mercury       : #E7E7E7 !default;
 $gainsboro     : #DDDDDD !default;
 $iron          : #CCCCCC !default;
 $base          : #AAAAAA !default;
@@ -89,7 +90,7 @@ $color-text-base    : $river-bed;// ($steel is old base)
 
 
 // Border Color
-$color-border-light : $smoke;
+$color-border-light : $mercury;
 $color-border-dark  : $river-bed;
 
 
@@ -103,30 +104,38 @@ $color-border-dark  : $river-bed;
 
 
 // Border radius
-$br--default    : .4em;
-$br--round      : 50%;
+$br--default : .4em;
+$br--round   : 50%;
 
 
 
 // Transitions
-$trns-duration  : .3s;
+$trns-duration : .3s;
 
 
 
 // Path to Assets
-$path--img      : "../img";
-$path--font      : "../fonts";
+$path--img  : "../img";
+$path--font : "../fonts";
 
 
 
 
 
-// Breakpoints
+// Breakpoints (being used in _base.scss)
 $brk-sm : '(min-width: 768px)';
 $brk-md : '(min-width: 992px)';
 $brk-lg	: '(min-width: 1200px)';
 
-// Breakpoints
-$brkpoint-sm    : 1px;
-$brkpoint-md    : 768px;
-$brkpoint-lg    : 1100px;
+
+  $mq-portrait: "(min-width: 320px) and (max-width: 480px)"; // @include mq(portrait) { 320px and 480px }
+  $mq-xs: "(max-width: 767px)";  // @include mq(xs) { 767px and lower }
+  $mq-sm: "(min-width: 768px)";  // @include mq(sm) { 768px and up }
+  $mq-md: "(min-width: 992px)";  // @include mq(md) { 992px and up }
+  $mq-lg: "(min-width: 1200px)"; // @include mq(lg) { 1200px and up }
+  $mq-xl: "(min-width: 1450px)"; // @include mq(xl) { 768px and up }
+
+  // $mq-xs: "(max-width: 767px)";
+  // $mq-sm: "(min-width: 768px) and (max-width: 991px)";
+  // $mq-md: "(min-width: 992px) and (max-width: 1199px)";
+  // $mq-lg: "(min-width: 1200px)";

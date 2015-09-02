@@ -92,28 +92,20 @@
   margin-bottom: 60px;
 }
 #fun .carousel {
+  @include mq(sm) { /* Small devices (tablets, 768px and up) */
+    height: 450px;
+  }
+  @include mq(md) {  /* Medium devices (desktops, 992px and up) */
+    height: 500px;
+  }
+  @include mq(lg) {  /* Large devices (large desktops, 1200px and up) */
+    height: 600px;
+  }
   // margin-bottom: 0;
   height: 300px;
-      p, h3 {
-        color: $white;
-       }
-
-
-
-
-@media (min-width: 768px) { /* Small devices (tablets, 768px and up) */
-height: 450px;
-}
-
-
-@media (min-width: 992px) {  /* Medium devices (desktops, 992px and up) */
-height: 500px;
-}
-
-
-@media (min-width: 1200px) {  /* Large devices (large desktops, 1200px and up) */
-height: 600px;
-}
+    p, h3 {
+      color: $white;
+     }
 }
 
 
@@ -127,16 +119,16 @@ height: 600px;
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
+    @include mq(sm) { /* Small devices (tablets, 768px and up) */
+      height: 450px;
+    }
+    @include mq(md) {  /* Medium devices (desktops, 992px and up) */
+      height: 500px;
+    }
+    @include mq(lg) {  /* Large devices (large desktops, 1200px and up) */
+      height: 600px;
+    }
   height: 300px;
-@media (min-width: 768px) { /* Small devices (tablets, 768px and up) */
-height: 450px;
-}
-@media (min-width: 992px) {  /* Medium devices (desktops, 992px and up) */
-height: 500px;
-}
-@media (min-width: 1200px) {  /* Large devices (large desktops, 1200px and up) */
-height: 600px;
-}
 }
 
 // .carousel .item {      //NOT SURE WHERE THIS CAME FROM
@@ -145,26 +137,27 @@ height: 600px;
 //     width:100%; 
 // }
 .carousel-inner > .item > img {
+  @include mq(sm) { /* Small devices (tablets, 768px and up) */
+    height: 450px;
+  }
+  @include mq(md) {  /* Medium devices (desktops, 992px and up) */
+    height: 500px;
+  }
+  @include mq(lg) {  /* Large devices (large desktops, 1200px and up) */
+    height: 600px;
+  }
   position: absolute;
   top: 0;
   left: 0;
   min-width: 100%;
   height: 300px;
-@media (min-width: 768px) { /* Small devices (tablets, 768px and up) */
-height: 450px;
-}
-@media (min-width: 992px) {  /* Medium devices (desktops, 992px and up) */
-height: 500px;
-}
-@media (min-width: 1200px) {  /* Large devices (large desktops, 1200px and up) */
-height: 600px;
-}
 }
 
-/*Small devices (from 768px) and up)*/
-@media (min-width: 768px) {
-  /* Bump up size of carousel content */
-  .carousel-caption p {
+
+
+/* Bump up size of carousel content */
+.carousel-caption p {
+  @include mq(sm) {  //Small devices (from 768px) and up)
     margin-bottom: 20px;
     font-size: 21px;
     line-height: 1.4;

@@ -5,8 +5,8 @@
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%); }
 
-#guestbook {
-  border-bottom: 2px solid #EEEEEE; }
+.navbar.inbody {
+  border-bottom: 1px solid #E7E7E7; }
 
 a:link, a:visited, a:hover, a:active {
   text-decoration: none;
@@ -17,18 +17,31 @@ body, html {
   height: 100%;
   width: 100%; }
 
+header .hides {
+  display: none; }
+
 /* --------------------------------------------------
                   TYPOGRAPHY
 -------------------------------------------------- */
 body, html {
-  font-size: 1rem;
   color: #48525C;
+  font-size: 100%;
   background: #F5F5F5;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0; }
 
+/* .rwd-line {
+  display: block;
+  font-size: 3rem;
+  @media (max-width: 500px){
+    display: inline;
+  }
+  @media (min-width: 1000px){
+    display: inline;
+  }
+} */
 /* --------------------------------------------------
                   Links
 -------------------------------------------------- */
@@ -60,8 +73,6 @@ h1, h2, h3, h4, h5, h6 {
   /*margin-top: 0;*/
   /* MY EDIT */ }
 
-/*Small devices (768px and up)*/
-/*Medium devices (992px and up)*/
 #venue .featurette-heading {
   font-size: 1.25rem; }
   @media (min-width: 768px) {
@@ -78,6 +89,53 @@ h1, h2, h3, h4, h5, h6 {
     padding-top: 20px;
     min-height: 300px; } }
 
+#story .item {
+  margin: 3px; }
+
+#story .item img {
+  display: block;
+  width: 100%;
+  height: 375px;
+  border-radius: 3px; }
+  @media (min-width: 768px) {
+    #story .item img {
+      height: 375px; } }
+  @media (min-width: 992px) {
+    #story .item img {
+      height: 415px; } }
+  @media (min-width: 1200px) {
+    #story .item img {
+      height: 400px; } }
+  @media (min-width: 1450px) {
+    #story .item img {
+      height: 475px; } }
+
+.owl-theme .owl-controls .owl-buttons div {
+  padding: 5px 9px; }
+
+.owl-theme .owl-buttons i {
+  margin-top: 2px; }
+
+.owl-controls .owl-buttons div {
+  cursor: pointer; }
+
+#owl-demo {
+  cursor: pointer; }
+
+@media (max-width: 900px) {
+  .owl-pagination {
+    display: none; } }
+
+.owl-item.loading {
+  min-height: 250px; }
+
+/*.a2005    { background-image: url("img/story/2005.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+.a2007 { background: blue; }
+.a2008  { background: green; }
+.a2009   { background: pink; }*/
 /* --------------------------------------------------
                     LAYOUT
 -------------------------------------------------- */
@@ -118,7 +176,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /**  Google Maps **/
 #rsvp {
-  background-image: url("../img/bg/pic2.jpg");
+  background-image: url("../img/bg/bg-sm.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -126,7 +184,9 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  height: 300px; }
+  width: 100%;
+  height: 300px;
+  background-position: bottom center; }
   @media (min-width: 768px) {
     #rsvp {
       height: 400px; } }
@@ -134,6 +194,98 @@ h1, h2, h3, h4, h5, h6 {
     #rsvp {
       height: 450px; } }
   @media (min-width: 1200px) {
+    #rsvp {
+      background-attachment: fixed !important;
+      height: 500px; } }
+  @media (min-width: 320px) and (max-width: 480px) {
+    #rsvp {
+      background-image: url("../img/bg/bg-xs.jpg");
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-size: cover;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      width: 100%;
+      height: 300px;
+      background-position: bottom center; } }
+  @media (min-width: 320px) and (max-width: 480px) and (min-width: 768px) {
+    #rsvp {
+      height: 400px; } }
+  @media (min-width: 320px) and (max-width: 480px) and (min-width: 992px) {
+    #rsvp {
+      height: 450px; } }
+  @media (min-width: 320px) and (max-width: 480px) and (min-width: 1200px) {
+    #rsvp {
+      background-attachment: fixed !important;
+      height: 500px; } }
+  @media (min-width: 992px) {
+    #rsvp {
+      background-image: url("../img/bg/bg-md.jpg");
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-size: cover;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      width: 100%;
+      height: 300px;
+      background-position: bottom center; } }
+  @media (min-width: 992px) and (min-width: 768px) {
+    #rsvp {
+      height: 400px; } }
+  @media (min-width: 992px) and (min-width: 992px) {
+    #rsvp {
+      height: 450px; } }
+  @media (min-width: 992px) and (min-width: 1200px) {
+    #rsvp {
+      background-attachment: fixed !important;
+      height: 500px; } }
+  @media (min-width: 1200px) {
+    #rsvp {
+      background-image: url("../img/bg/bg-lg.jpg");
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-size: cover;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      width: 100%;
+      height: 300px;
+      background-position: bottom center; } }
+  @media (min-width: 1200px) and (min-width: 768px) {
+    #rsvp {
+      height: 400px; } }
+  @media (min-width: 1200px) and (min-width: 992px) {
+    #rsvp {
+      height: 450px; } }
+  @media (min-width: 1200px) and (min-width: 1200px) {
+    #rsvp {
+      background-attachment: fixed !important;
+      height: 500px; } }
+  @media (min-width: 1450px) {
+    #rsvp {
+      background-image: url("../img/bg/bg-xl.jpg");
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-size: cover;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      width: 100%;
+      height: 300px;
+      background-position: bottom center; } }
+  @media (min-width: 1450px) and (min-width: 768px) {
+    #rsvp {
+      height: 400px; } }
+  @media (min-width: 1450px) and (min-width: 992px) {
+    #rsvp {
+      height: 450px; } }
+  @media (min-width: 1450px) and (min-width: 1200px) {
     #rsvp {
       background-attachment: fixed !important;
       height: 500px; } }
@@ -147,6 +299,7 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  width: 100%;
   height: 300px; }
   @media (min-width: 768px) {
     #venue {
@@ -168,6 +321,7 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  width: 100%;
   height: 300px; }
   @media (min-width: 768px) {
     #view {
@@ -209,6 +363,9 @@ h1, h2, h3, h4, h5, h6 {
 button {
   outline: 0; }
 
+#rsvp button {
+  margin-top: .5rem; }
+
 /* --------------------------------------------------
                       FORM
 -------------------------------------------------- */
@@ -220,16 +377,16 @@ button {
 #myModal label {
   font-weight: 400; }
 
-#myModal #radios {
+#radios {
   margin-left: 10px; }
   @media (min-width: 768px) {
-    #myModal #radios {
+    #radios {
       margin-left: 20px; } }
   @media (min-width: 992px) {
-    #myModal #radios {
+    #radios {
       margin-left: 60px; } }
-  @media (max-width: 480px) {
-    #myModal #radios label {
+  @media (min-width: 320px) and (max-width: 480px) {
+    #radios label {
       font-size: .9rem; } }
 
 @media screen and (max-width: 992px) and (-webkit-min-device-pixel-ratio: 0) {
@@ -338,8 +495,6 @@ button {
 
 #fun .carousel {
   height: 300px; }
-  #fun .carousel p, #fun .carousel h3 {
-    color: #FFFFFF; }
   @media (min-width: 768px) {
     #fun .carousel {
       /* Small devices (tablets, 768px and up) */
@@ -352,6 +507,8 @@ button {
     #fun .carousel {
       /* Large devices (large desktops, 1200px and up) */
       height: 600px; } }
+  #fun .carousel p, #fun .carousel h3 {
+    color: #FFFFFF; }
 
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -392,9 +549,8 @@ button {
       /* Large devices (large desktops, 1200px and up) */
       height: 600px; } }
 
-/*Small devices (from 768px) and up)*/
+/* Bump up size of carousel content */
 @media (min-width: 768px) {
-  /* Bump up size of carousel content */
   .carousel-caption p {
     margin-bottom: 20px;
     font-size: 21px;
@@ -409,97 +565,77 @@ button {
 /* --------------------------------------------------
                   NAVIGATION
 -------------------------------------------------- */
-header .navbar {
-  /*padding: 30px 0;*/
-  transition: all 1s ease-out; }
-
+/**  Header Navigation **/
 header .navbar-default {
-  background-color: transparent;
   border: none;
-  text-shadow: none;
-  /**not sure about**/ }
+  text-shadow: none; }
 
-.navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
+header .navbar-fixed-bottom .navbar-collapse, header .navbar-fixed-top .navbar-collapse {
   max-height: none; }
 
 /* --------------------------------------------------
                   Nav Links
 -------------------------------------------------- */
-.navbar-default .navbar-nav > .active > a {
-  background-color: green; }
-
-.navbar-default .navbar-nav > .active > a:focus,
-.navbar-default .navbar-nav > .active > a:hover {
-  background-color: #1E90FF;
-  /*not sure about*/
-  color: #FFFFFF; }
+/**  Navbar inactive state **/
+.navbar-default .navbar-nav > li > a {
+  color: #1E90FF; }
+  @media (min-width: 700px) and (max-width: 900px) {
+    .navbar-default .navbar-nav > li > a {
+      font-size: 14px;
+      padding-left: 8px;
+      padding-right: 8px; } }
 
 .nav > li > a {
   /* Small devices (tablets, 768px and up) */ }
 
-@media (min-width: 700px) and (max-width: 900px) {
-  .nav > li > a {
-    font-size: 14px;
-    padding-left: 8px;
-    padding-right: 8px; } }
-
-/***Navigation Links***/
-header .navbar-default .navbar-nav a {
-  color: #1E90FF;
-  /*padding: 5px 8px;*/ }
-
-header .navbar-default .navbar-nav a:hover {
-  /***Navigation Links on Hover***/
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover {
   background-color: #337AB7;
   /*not sure about*/
   color: #FFFFFF; }
 
-header .navbar-default .navbar-nav .active a {
-  /***Active Navigation Link***/
-  font-weight: 900;
-  color: #FFFFFF;
-  /*background: transparent;*/
+/**  Navbar active state **/
+.navbar-default .navbar-nav > .active > a {
   background-color: #1E90FF;
-  /*text-shadow: none;*/ }
-
-header .navbar-default .navbar-nav .active a:hover {
   color: #FFFFFF;
-  /*background: transparent;*/
-  background-color: #337AB7;
-  /*text-shadow: none;*/ }
+  font-weight: 900; }
 
-/**  Navbar Brand **/
-header .navbar-brand {
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+  background-color: #337AB7;
+  color: #FFFFFF; }
+
+/* --------------------------------------------------
+                  Navbar Brand
+-------------------------------------------------- */
+.navbar-brand {
   padding-top: 6px; }
   @media (min-width: 768px) {
-    header .navbar-brand {
+    .navbar-brand {
       padding-left: 50px; } }
+  @media (min-width: 760px) and (max-width: 1100px) {
+    .navbar-brand {
+      display: none; } }
 
-header .navbar-brand span.subhead {
-  display: block;
-  font-family: Damion;
-  font-size: 1em;
-  font-weight: 100; }
-
-header .navbar-brand h1 {
+.navbar-brand h1 {
   color: #1E90FF;
-  margin: 0;
-  font-size: 1.8em;
+  font-size: 1.8rem;
   font-weight: 400;
-  font-family: Damion; }
+  font-family: Damion;
+  margin: 0; }
 
-/** Navigation with ".inbody" class **/
-header .navbar.inbody {
+/* --------------------------------------------------
+              Navbar with .inbody class
+-------------------------------------------------- */
+.navbar.inbody {
   background: rgba(255, 255, 255, 0.92);
-  border-bottom: 1px solid #e7e7e7;
   border-radius: 0;
   padding-top: 0;
   padding-bottom: 0; }
 
-header .navbar.inbody .navbar-nav {
-  /***Navbar area links with "inbody" class***/ }
-
-/**  Navbar Toggle **/
+/* --------------------------------------------------
+              Navbar Toggle
+-------------------------------------------------- */
 header .navbar-toggle {
   background-color: #1E90FF; }
 
@@ -513,12 +649,6 @@ header .navbar-default .navbar-toggle .icon-bar {
 
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
   background-color: #337AB7; }
-
-.navbar-default .navbar-nav > li > a:focus {
-  color: #1E90FF; }
-
-.navbar-default .navbar-nav > li > a:hover {
-  color: #FFFFFF; }
 
 /* --------------------------------------------------
               HERO/JUMBOTRON RSVP - SECTION
@@ -547,7 +677,7 @@ header .navbar-default .navbar-toggle .icon-bar {
   #rsvp h1 {
     font-weight: 100;
     text-shadow: 1px 1px 1px grey;
-    font-size: 3.5rem;
+    font-size: 3rem;
     color: #FFFFFF; }
     @media (min-width: 700px) and (max-width: 900px) {
       #rsvp h1 {
@@ -555,11 +685,6 @@ header .navbar-default .navbar-toggle .icon-bar {
     @media (min-width: 901px) {
       #rsvp h1 {
         font-size: 5.5rem; } }
-    @media (max-width: 500px) {
-      #rsvp h1 span {
-        padding-left: 8rem;
-        padding-right: 8rem;
-        font-size: 3rem; } }
   #rsvp p {
     color: #FFFFFF; }
 
@@ -570,8 +695,8 @@ header .navbar-default .navbar-toggle .icon-bar {
   transform: translateY(-50%); }
 
 #venue .row {
-  font-size: nul;
   color: #FFFFFF;
+  font-size: nul;
   text-shadow: 1px 1px 1px #808080; }
 
 /* Links */
@@ -614,15 +739,15 @@ body#alt {
     body#alt .cover-container {
       width: 700px; } }
   body#alt #error404 {
+    color: #FFFFFF;
     font-size: 2.5rem;
     font-weight: 100;
-    color: #FFFFFF;
     font-family: Raleway;
     text-shadow: 1px 1px 1px grey; }
   body#alt #thx {
+    color: #FFFFFF;
     font-size: 6rem;
     font-weight: 100;
-    color: #FFFFFF;
     font-family: Raleway;
     text-shadow: 1px 1px 1px grey; }
 

@@ -6,7 +6,25 @@
 // }
 
 #rsvp {
-	@include bg_img("bg/pic2.jpg");
+	@include bg_img("bg/bg-sm.jpg"); //bg_img("bg/pic2.jpg");
+	 	background-position: bottom center;
+	@include mq(portrait) {
+		@include bg_img("bg/bg-xs.jpg");
+		background-position: bottom center;
+	}		
+	@include mq(md) {
+		@include bg_img("bg/bg-md.jpg"); //bg_img("bg/pic2.jpg");
+		background-position: bottom center;
+	}
+	@include mq(lg) {
+		@include bg_img("bg/bg-lg.jpg"); //bg_img("bg/pic2.jpg");
+		background-position: bottom center;
+	}
+	@include mq(xl) {
+		@include bg_img("bg/bg-xl.jpg"); //bg_img("bg/pic2.jpg");
+		background-position: bottom center;
+	}
+	
 }
 
 #venue {

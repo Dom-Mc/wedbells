@@ -3,36 +3,31 @@
                   NAVIGATION
 -------------------------------------------------- */
 
-header .navbar {
-  /*padding: 30px 0;*/
-  transition: all 1s ease-out;
+/**  Header Navigation **/  
+header {
+  .navbar {
+    //transition: all 1s ease-out; //transition added via jquery
+  }
+  .navbar-default {
+    border: none;
+    text-shadow: none;
+  }
+  .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse { //makes scrollable on ios devices
+    max-height: none;
+  }
 }
-header .navbar-default {
-  background-color: transparent;
-  border: none;
-  text-shadow: none; /**not sure about**/
-}
-
-
-.navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
-  // max-height: 340px;
-max-height: none;
-}
-
-
-
 /* --------------------------------------------------
                   Nav Links
 -------------------------------------------------- */
 
-// NOT SURE ABOUT
-.navbar-default .navbar-nav>.active>a {
-  background-color: green;
-}
-.navbar-default .navbar-nav>.active>a:focus,
-.navbar-default .navbar-nav>.active>a:hover {
-	background-color: $color-one;  /*not sure about*/
-	color: $white;
+/**  Navbar inactive state **/
+.navbar-default .navbar-nav > li > a {  
+  color: $color-one;
+  @media (min-width: 700px) and (max-width: 900px){  
+    font-size: 14px;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
 }
 
 
@@ -46,112 +41,64 @@ max-height: none;
 
 
 
-
-
-@media (min-width: 700px) and (max-width: 900px){  
-  font-size: 14px;
-  padding-left: 8px;
-  padding-right: 8px;
-}
 }
 
-/***Navigation Links***/
-header .navbar-default .navbar-nav a {  
-	color: $color-one;
-	/*padding: 5px 8px;*/
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover {
+  background-color: $color-two;  /*not sure about*/
+  color: $color-text-light;
 }
 
-header .navbar-default .navbar-nav a:hover {
-/***Navigation Links on Hover***/
-	background-color: $color-two;  /*not sure about*/
-	color: $white;
+/**  Navbar active state **/
+.navbar-default .navbar-nav > .active > a {
+  background-color: $color-one;
+  color: $color-text-light;
+  font-weight: 900;
 }
-header .navbar-default .navbar-nav .active a {
-/***Active Navigation Link***/
-	font-weight: 900;
-	color: $white;
-	/*background: transparent;*/
-	background-color: $color-one;
-  /*text-shadow: none;*/
-}
-
-header .navbar-default .navbar-nav .active a:hover {
-  color: $white;
-  /*background: transparent;*/
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
   background-color: $color-two;
-  /*text-shadow: none;*/
+  color: $color-text-light;
 }
 
 
-/**  Navbar Brand **/
-header .navbar-brand {
-  // background: url(../images/wisdompetlogo.svg);
-  // background-repeat: no-repeat;
-  // background-position: 15px 0;
+
+/* --------------------------------------------------
+                  Navbar Brand
+-------------------------------------------------- */
+.navbar-brand {
   // height: auto;
-  
   padding-top: 6px; //MY EDIT
-  @media (min-width: 768px) {
+  @include mq(sm) {
       padding-left: 50px;
     }
+    @media (min-width: 760px) and (max-width: 1100px){ 
+    display: none;
+  }
 }
-
-
-
-//GO BACK OVER LYNDA VIDEO
-header .navbar-brand span.subhead {
-  display: block;
-  // font-family: $font-family--primary;
-  font-family: Damion;
-  font-size: 1em;
-  font-weight: 100;
-}
-header .navbar-brand h1 {
-  color: $color-one;
-  margin: 0;
-  font-size: 1.8em;
-  font-weight: 400;
-  // padding-left: 105px;
+.navbar-brand h1 {
+  @include text($color-one, 1.8rem, $font-weight--medium);
   font-family: $font-family--damion;
+  margin: 0;
+  //padding-left: 105px;
 }
 
 
-
-
-/** Navigation with ".inbody" class **/
-header .navbar.inbody {
+/* --------------------------------------------------
+              Navbar with .inbody class
+-------------------------------------------------- */
+.navbar.inbody {
+  @extend %b-border; //border style on navigation (#e7e7e7 old value)
   background: rgba(255,255,255,.92); //background color on navigation
-  border-bottom: 1px solid #e7e7e7; //border style on navigation
   border-radius: 0; //removes rounded edge of border on navigation
   padding-top: 0;
   padding-bottom: 0;
 }
 
 
-header .navbar.inbody .navbar-nav {
-/***Navbar area links with "inbody" class***/
-
-}
-// header .inbody .navbar-brand {
-//   background-size: 43px;
-//   background-position: top left;
-//   margin-top: 5px;
-//   padding-bottom: 0;
-//   margin-left: 10px;
-// }
-// header .inbody .navbar-brand h1 {
-//   font-size: 1.1em;
-//   padding-left: 38px;
-
-// }
-// header .inbody .navbar-brand span.subhead {
-//   display: none;
-// }
-
-
-
-
-/**  Navbar Toggle **/
+/* --------------------------------------------------
+              Navbar Toggle
+-------------------------------------------------- */
 header .navbar-toggle {
   background-color: $color-one; //Toggle color
 }
@@ -171,131 +118,3 @@ and (max-width: 768px) {
     background-color: $color-two;
 }
 
-
-
-
-
-.navbar-default .navbar-nav > li > a:focus { //check later - from bootstrap
-  color: $color-one; //text color 
-}
-.navbar-default .navbar-nav > li > a:hover { //check later - from bootstrap
-  color: $white; //text color
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// /* NAVBAR (from bootstrap template) ***GO OVER!!!
-// -------------------------------------------------- */
-// /* Special class on .container surrounding .navbar, used for positioning it into place. */
-// .navbar-wrapper {
-//   /*position: absolute;*/
-//   /*top: 0;*/
-//   /*right: 0;*/
-//   /*left: 0;*/
-//   /*z-index: 20;*/
-// }
-
-// /* Flip around the padding for proper display in narrow viewports */
-// .navbar-wrapper > .container {
-//   /*padding-right: 0;*/
-//   /*padding-left: 0;*/
-// }
-// .navbar-wrapper .navbar {
-//   /*padding-right: 15px;*/
-//   /*padding-left: 15px;*/
-// }
-// .navbar-wrapper .navbar .container {
-//   /*width: auto;*/
-// }
-
-
-// /*Small devices (768px and up)*/
-// @media (min-width: 768px) {
-//   /* Navbar positioning foo */
-//   .navbar-wrapper {
-//     /*margin-top: 20px;*/
-//   }
-//   .navbar-wrapper .container {
-//     /*padding-right: 15px;*/
-//     /*padding-left: 15px;*/
-//   }
-//   .navbar-wrapper .navbar {
-//     /*padding-right: 0;*/
-//     /*padding-left: 0;*/
-//   }
-
-//   /* The navbar becomes detached from the top, so we round the corners */
-//   .navbar-wrapper .navbar {
-//     /*border-radius: 4px;*/
-//   }
-// }
-
-
-// /* NAVBAR (from other template) ***GO OVER!!! */
-//     /* Special class on .container surrounding .navbar, used for positioning it into place. */
-//     .navbar-wrapper {
-//       /*margin-top: 20px;*/
-//       /*margin-bottom: -90px;*/ /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
-//     }
-
-//     /* Remove border and change up box shadow for more contrast */
-//     .navbar .navbar-inner {
-//       /*border: 0;*/
-//       /*-webkit-box-shadow: 0 2px 10px rgba(0,0,0,.25);*/
-//          /*-moz-box-shadow: 0 2px 10px rgba(0,0,0,.25);*/
-//               /*box-shadow: 0 2px 10px rgba(0,0,0,.25);*/
-//     }
-
-//     /* Downsize the brand/project name a bit */
-//     .navbar .brand {
-//       /*padding: 14px 20px 16px;*/ /* Increase vertical padding to match navbar links */
-//       /*font-size: 16px;*/
-//       /*font-weight: bold;*/
-//       /*text-shadow: 0 -1px 0 rgba(0,0,0,.5);*/
-//     }
-
-//     /* Navbar links: increase padding for taller navbar */
-//     .navbar .nav > li > a {
-//       /*padding: 15px 20px;*/
-//     }
-
-//     /* Offset the responsive button for proper vertical alignment */
-//     .navbar .btn-navbar {
-//       /*margin-top: 10px;*/
-//     }
-//     @media (max-width: 979px) {
-
-//       .container.navbar-wrapper {
-//         /*margin-bottom: 0;*/
-//         /*width: auto;*/
-//       }
-//       .navbar-inner {
-//         /*border-radius: 0;*/
-//         /*margin: -20px 0;*/
-//       }
-//     }
-//     @media (max-width: 767px) {
-//       .navbar-inner {
-//         /*margin: -20px;*/
-//       }
-// }

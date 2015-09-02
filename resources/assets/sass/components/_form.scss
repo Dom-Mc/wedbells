@@ -2,7 +2,7 @@
                       FORM
 -------------------------------------------------- */
 .msg {
-  @media #{$brk-sm}{
+  @include mq(sm) {
     padding-right: 1rem;
     padding-left: 1rem;
   }
@@ -12,21 +12,24 @@
   label {
     font-weight: 400;  //decrease our label's font weight from bold to a medium weight
   }
-  #radios {
-    margin-left: 10px;  //shift radio buttons left
-    @media #{$brk-sm}{
-      margin-left: 20px;  //shift radio buttons left
+}
+
+#radios {
+  @include mq(sm) {
+    margin-left: 20px;  //shift radio buttons left
+  }
+  @include mq(md) {
+    margin-left: 60px;  //shift radio buttons left
+  }
+  margin-left: 10px;  //shift radio buttons left
+
+  label {
+    @include mq(portrait) {
+      font-size: .9rem;
     }
-    @media #{$brk-md}{
-      margin-left: 60px;  //shift radio buttons left
-    }
-      label {
-        @media (max-width: 480px){
-          font-size: .9rem;
-        }
-      }
   }
 }
+
 
     
 

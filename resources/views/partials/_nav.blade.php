@@ -7,7 +7,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand hidden-sm hidden-md" href="#rsvp"><h1>Nakissa &amp; Dom</h1></a>{{-- hidden at 1200px and smaller screens --}}
+      <a class="navbar-brand" href="#rsvp"><h1>Nakissa &amp; Dom</h1></a>{{-- hidden at 1200px and smaller screens --}}
     </div>{{-- /.navbar-header --}}
 
     <div id="collapse" class="collapse navbar-collapse" >
@@ -18,7 +18,7 @@
         <li><a href="#room">Get a Room</a></li>
         <li><a href="#fun">Island Fun</a></li>
         <li><a href="#guestbook">Guestbook</a></li>
-        {{-- <li><a href="#featured">Our Story</a></li> --}}
+        <li><a href="#story">Our Story</a></li>
         <li><a href="#registry">Registry</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>

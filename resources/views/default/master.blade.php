@@ -12,8 +12,15 @@
 	{{-- Bootstrap optional theme --}}
 	{{-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"> --}}
 
-	<link rel="stylesheet" type="text/css" href="css/app.css">
 
+
+
+
+
+
+<link rel="stylesheet" href="css/vendor/owl.carousel.css">
+<link rel="stylesheet" href="css/vendor/owl.theme.css">
+<link rel="stylesheet" type="text/css" href="css/app.css">
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -35,7 +42,11 @@
   	<!-- Scripts -->
   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-  	<script src="js/wed.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.5.7/slick.min.js"></script>
+    <script src="js/wed.js"></script>
+    <script src="js/vendor/owl.carousel.js"></script>
+
+        
 
   </body>
 </html>

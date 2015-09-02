@@ -55,13 +55,13 @@ body#alt {
     }
 
     #error404 {
-        @include text(2.5rem, $weight: $font-weight--thin, $color: $color-text-light);
+        @include text($color-text-light, 2.5rem, $font-weight--thin);
         font-family: $font-family--raleway;
         text-shadow: 1px 1px 1px grey;
     }
 
     #thx {
-         @include text(6rem, $weight: $font-weight--thin, $color: $color-text-light);
+         @include text($color-text-light, 6rem, $font-weight--thin);
         font-family: $font-family--raleway;
         text-shadow: 1px 1px 1px grey; 
     }
