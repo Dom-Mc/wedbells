@@ -646,13 +646,13 @@ header .navbar-default .navbar-toggle .icon-bar {
   margin: 3px; }
   @media (min-width: 500px) and (max-width: 749px) {
     #story .item {
-      padding-top: .75rem;
-      padding-right: 1.5rem;
-      padding-bottom: .75rem;
-      padding-left: 1.5rem; } }
+      padding-top: .5rem;
+      padding-right: 2.25rem;
+      padding-bottom: .5rem;
+      padding-left: 2.25rem; } }
 
 .owl-carousel .owl-wrapper-outer {
-  background-color: #222222; }
+  background-color: #48525C; }
 
 #story .item img {
   display: block;
@@ -673,7 +673,8 @@ header .navbar-default .navbar-toggle .icon-bar {
       height: 475px; } }
   @media (min-width: 500px) and (max-width: 749px) {
     #story .item img {
-      height: 300px; } }
+      height: 300px;
+      border-radius: 5px; } }
 
 .owl-theme .owl-controls .owl-buttons div {
   padding: 5px 9px; }

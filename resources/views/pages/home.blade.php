@@ -148,7 +148,7 @@
         <div class="col-md-6 col-lg-6 col-lg-offset-1">
           <div class="l-pad">
             <h2 class="featurette-heading">Registry</h2>
-            <p>Your presence at our wedding is our present :) We feel very fortunate that you will be making the trip to help us celebrate our special day! As a result we have not created a wedding registry. However, if you would like to give a gift, please visit our honeyfund page for more information.</p>
+            <p>Your presence at our wedding is our present :) We feel very fortunate that you will be making the trip to help us celebrate our special day! If you would like to give a gift, please visit our honeyfund page for more information.</p>
             <p><a class="btn btn-primary btn-lg" href="http://www.honeyfund.com/wedding/nakissandom" target="_blank">Learn More</a></p>
           </div>
         </div>

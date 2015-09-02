@@ -1,19 +1,22 @@
 #story .item{
   margin: 3px;
     @media (min-width: 500px) and (max-width: 749px){
-   padding-top: .75rem;
-   padding-right: 1.5rem;
-   padding-bottom: .75rem;
-   padding-left: 1.5rem;
+   padding-top: .5rem;
+   padding-right: 2.25rem;
+   padding-bottom: .5rem;
+   padding-left: 2.25rem;
   }
 }
 .owl-carousel .owl-wrapper-outer {
-    background-color: #222222;
+    background-color: $river-bed;
 }
 #story .item img{
   display: block;
   width: 100%;
   height: 375px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
 
   @include mq(sm) {
     height: 375px;
@@ -29,10 +32,10 @@
   }
   @media (min-width: 500px) and (max-width: 749px){
     height: 300px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
   }
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
 
 }
 .owl-theme .owl-controls .owl-buttons div {
