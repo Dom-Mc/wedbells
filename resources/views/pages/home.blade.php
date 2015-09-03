@@ -70,17 +70,6 @@
 {{-- /Venue Section --}}
 
 
-
-  <div class="lazy">
-    <div><img data-lazy="img/story/2014.jpg"/></div>
-    <div><img data-lazy="img/story/2014a.jpg"/></div>
-    <div><img data-lazy="img/story/2014b.jpg"/></div>
-    <div><img data-lazy="img/story/2014d.jpg"/></div>
-  </div>
-
-
-
-
 <!-- Get a Room Section -->
 <section id="room" class="container page"> 
   <div class="row featurette">
