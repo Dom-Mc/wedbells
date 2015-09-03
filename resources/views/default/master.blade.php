@@ -15,6 +15,9 @@
   <link rel="stylesheet" href="css/vendor/owl.carousel.css">
   <link rel="stylesheet" href="css/vendor/owl.theme.css">
   <link rel="stylesheet" type="text/css" href="css/app.css">
+
+
+  
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -27,16 +30,16 @@
 
       <script src="/js/vendor/modernizr.js"></script>
       {{-- <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDKcpBAyAKbtL2CDtQ0O0qNSIH_xo5X_Kk&sensor=false"></script> --}}
+
   </head>
 
   <body>
   	@yield('content')
 
   	<!-- Scripts -->
-  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script src="js/vendor/owl.carousel.js"></script>
     <script src="js/wed.js"></script>
-
   </body>
 </html>

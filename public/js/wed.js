@@ -2,11 +2,8 @@ $(function() {
 
   "use strict";
   var topoffset = 50; //variable for menu height
-
   var wheight = $(window).height(); //get the height of the window
-
-
-
+  var story = $('#story');
 
 
   $('.fullheight').css('height', wheight); //set to window tallness 
@@ -75,9 +72,9 @@ $(function() {
     } //click function
   }); //smooth scrolling
 
-  $('.carousel').carousel({
-    interval: 50000
-  });
+  // $('.carousel').carousel({
+  //   interval: 50000
+  // });
 
 
  $(".navbar-nav li a").click(function (event) {
@@ -89,8 +86,6 @@ $(function() {
   });
 
 
-  var story = $("#story");
- 
   story.owlCarousel({
       itemsCustom : [
         [0, 1],
@@ -116,26 +111,6 @@ $(function() {
     });
 
 
-  // var slideqty = $('#featured .item').length;
-  // var randSlide = Math.floor(Math.random()*slideqty);
 
-  // $('#featured .item').eq(randSlide).addClass('active');
-
-  // //replace IMG inside carousels with a background image
-  // $('#featured .item img').each(function() {
-  //   var imgSrc = $(this).attr('src');
-  //   $(this).parent().css({'background-image': 'url('+imgSrc+')'});
-  //   $(this).remove();
-  // });
-
-  // //Automatically generate carousel indicators
-  // for (var i=0; i < slideqty; i++) {
-  //   var insertText = '<li data-target="#featured" data-slide-to="' + i + '"';
-  //   if (i === randSlide) {
-  //     insertText += ' class="active" ';
-  //   }
-  //   insertText += '></li>';
-  //   $('#featured ol').append(insertText);
-  // }
 
 }); //JQuery end

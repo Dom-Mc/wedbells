@@ -651,9 +651,6 @@ header .navbar-default .navbar-toggle .icon-bar {
       padding-bottom: .5rem;
       padding-left: 2.25rem; } }
 
-.owl-carousel .owl-wrapper-outer {
-  background-color: #48525C; }
-
 #story .item img {
   display: block;
   width: 100%;
@@ -695,13 +692,6 @@ header .navbar-default .navbar-toggle .icon-bar {
 .owl-item.loading {
   min-height: 250px; }
 
-/*.a2005    { background-image: url("img/story/2005.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover; }
-.a2007 { background: blue; }
-.a2008  { background: green; }
-.a2009   { background: pink; }*/
 /* Links */
 body#alt {
   background: url(/img/bg/default.jpg) center center no-repeat fixed;
