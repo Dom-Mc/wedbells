@@ -28,7 +28,7 @@
       {{-- Fonts --}}
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
-      <script src="/js/vendor/modernizr.js"></script>
+
       {{-- <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDKcpBAyAKbtL2CDtQ0O0qNSIH_xo5X_Kk&sensor=false"></script> --}}
 
   </head>

@@ -95,8 +95,8 @@ $(function() {
       autoPlay: 10000, //Set AutoPlay to 10 seconds
       pagination : true,
       paginationSpeed : 800,
-      rewindSpeed : 1000,
-      //goToFirstSpeed : 2000,
+      //rewindSpeed : 1000,
+      goToFirstSpeed : 2000,
       slideSpeed : 500,
       //stopOnHover : true,
       items : 3,
@@ -105,9 +105,9 @@ $(function() {
       lazyEffect : "fade",
       // navigation : true,
       //pagination : true, //set back to true
-      transitionStyle : "fade"
-      //rewindNav: true, //Slide to first item.
-      //rewindSpeed: 2000
+      transitionStyle : "fade",
+      rewindNav: true, //Slide to first item.
+      rewindSpeed: 2000
     });
 
 

@@ -55,6 +55,20 @@
     display:none;
   }
 }
-.owl-item.loading {
-    min-height: 250px;
+
+.owl-theme .owl-controls .owl-page span{
+	width: 12px;
+	height: 12px;
+	margin: 5px 7px;
+	  @media (max-width: 900px){
+    //  width: 8px;
+    // height: 8px;
+    // margin: 5px 3px;
   }
+
+}
+/* preloading images */
+.owl-item.loading{
+	min-height: 250px;  //150px original setting
+	//background: url(AjaxLoader.gif) no-repeat center center
+}
