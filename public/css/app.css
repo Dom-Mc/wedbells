@@ -119,7 +119,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /**  Google Maps **/
 #rsvp {
-  background-image: url("../img/bg/bg-sm.jpg");
+  background-image: url("../img/bg/sm-bg.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -142,7 +142,7 @@ h1, h2, h3, h4, h5, h6 {
       height: 500px; } }
   @media (min-width: 320px) and (max-width: 480px) {
     #rsvp {
-      background-image: url("../img/bg/bg-xs.jpg");
+      background-image: url("../img/bg/xs-bg.jpg");
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -165,7 +165,7 @@ h1, h2, h3, h4, h5, h6 {
       height: 500px; } }
   @media (min-width: 992px) {
     #rsvp {
-      background-image: url("../img/bg/bg-md.jpg");
+      background-image: url("../img/bg/md-bg.jpg");
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -188,7 +188,7 @@ h1, h2, h3, h4, h5, h6 {
       height: 500px; } }
   @media (min-width: 1200px) {
     #rsvp {
-      background-image: url("../img/bg/bg-lg.jpg");
+      background-image: url("../img/bg/lg-bg.jpg");
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -211,7 +211,7 @@ h1, h2, h3, h4, h5, h6 {
       height: 500px; } }
   @media (min-width: 1450px) {
     #rsvp {
-      background-image: url("../img/bg/bg-xl.jpg");
+      background-image: url("../img/bg/xl-bg.jpg");
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover;
