@@ -92,22 +92,56 @@ $(function() {
         [750, 2],
         [1250, 3],
       ],
-      autoPlay: 10000, //Set AutoPlay to 10 seconds
-      pagination : true,
-      paginationSpeed : 800,
-      //rewindSpeed : 1000,
-      goToFirstSpeed : 2000,
+
+      //Basic Speeds
       slideSpeed : 500,
-      //stopOnHover : true,
-      items : 3,
+      paginationSpeed : 800,
+      rewindSpeed : 1000,
+      
+      //Autoplay
+      autoPlay : 10000, //Change to any integrer for example autoPlay : 5000 to play every 5 seconds. If you set autoPlay: true default speed will be 5 seconds.
+      stopOnHover : false,
+      
+          // Navigation
+      navigation : false,
+      //navigationText : ["prev","next"],
+      rewindNav : true,
+      scrollPerPage : false,
+      
+          //Pagination
+      pagination : true,
+      paginationNumbers: false,
+
+      
+          // Responsive 
+      responsive: true,
+      responsiveRefreshRate : 200,
+      responsiveBaseWidth: window,
+
+      //Lazy load
       lazyLoad : true,
-      lazyFollow : false,
+      lazyFollow : true,
       lazyEffect : "fade",
+
+
+          //Mouse Events
+      dragBeforeAnimFinish : true,
+      mouseDrag : true,
+      touchDrag : true,
+      
+
+
+      //rewindSpeed : 1000,
+      
+
+
+
+
       // navigation : true,
       //pagination : true, //set back to true
-      transitionStyle : "fade",
-      rewindNav: true, //Slide to first item.
-      rewindSpeed: 2000
+      //transitionStyle : "fade",
+
+      //rewindSpeed: 5000
     });
 
 
