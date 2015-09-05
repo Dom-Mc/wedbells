@@ -6,26 +6,30 @@
 // }
 
 #rsvp {
+	background-color: #7FAFE7;
 	@include bg_img("bg/sm-bg.jpg"); //bg_img("bg/pic2.jpg");
 	 	background-position: bottom center;
 
 	@include mq(portrait) {
+		background-color: #7FAFE7;
 		@include bg_img("bg/xs-bg.jpg");
 		background-position: bottom center;
 	}		
 	@include mq(md) {
+		background-color: #7FAFE7;
 		@include bg_img("bg/md-bg.jpg"); //bg_img("bg/pic2.jpg");
 		background-position: bottom center;
 	}
 	@include mq(lg) {
+		background-color: #7FAFE7;
 		@include bg_img("bg/lg-bg.jpg"); //bg_img("bg/pic2.jpg");
 		background-position: bottom center;
 	}
 	@include mq(xl) {
+		background-color: #7FAFE7;
 		@include bg_img("bg/xl-bg.jpg"); //bg_img("bg/pic2.jpg");
 		background-position: bottom center;
 	}
-	
 }
 
 #venue {

@@ -2,9 +2,30 @@
 
 /* Links */
 body#alt {
-  background: url(/img/bg/default.jpg) center center no-repeat fixed;
-  background-size: cover;
+  @include bg_img2("bg/sm-bg.jpg");
+    background-position: bottom center;
+  @include mq(portrait) {
+    //background-color: #7FAFE7;
+    @include bg_img2("bg/xs-bg.jpg");
+    background-position: bottom center;
+  } 
+  @include mq(md) {
+    //background-color: #7FAFE7;
+    @include bg_img2("bg/md-bg.jpg");
+    background-position: bottom center;
+  }
+  @include mq(lg) {
+    //background-color: #7FAFE7;
+    @include bg_img2("bg/lg-bg.jpg");
+    background-position: bottom center;
+  }
+  @include mq(xl) {
+    //background-color: #7FAFE7;
+    @include bg_img2("bg/xl-bg.jpg");
+    background-position: bottom center;
+  }
   text-align: center;
+
   
     a {
       color: #fff;

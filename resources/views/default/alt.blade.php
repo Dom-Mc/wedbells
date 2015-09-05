@@ -14,7 +14,7 @@
 	{{-- My Custom stylesheet --}}
 
 
-	<link rel="stylesheet" type="text/css" href="css/all.css">
+	<link rel="stylesheet" type="text/css" href="css/app.css">
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -26,7 +26,7 @@
     {{-- Fonts --}}
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
-	<script src="/js/vendor/modernizr.js"></script>
+	
 	{{-- <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDKcpBAyAKbtL2CDtQ0O0qNSIH_xo5X_Kk&sensor=false"></script> --}}
 
   </head>

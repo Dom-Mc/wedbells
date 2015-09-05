@@ -18,7 +18,7 @@
     
  <!-- Trigger the modal with a button -->
   <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">RSVP Today</button>
-
+<img class="arrow" src="img/arrow.svg" alt="Down arrow">
     
   </div>{{-- /.container --}}
 </div>{{-- /#rsvp --}}

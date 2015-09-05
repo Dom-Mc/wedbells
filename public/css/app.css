@@ -114,11 +114,11 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 auto; }
 
 .arrow {
-  width: 50px;
-  margin-top: 150px; }
+  width: 50px; }
 
 /**  Google Maps **/
 #rsvp {
+  background-color: #7FAFE7;
   background-image: url("../img/bg/sm-bg.jpg");
   background-position: center center;
   background-repeat: no-repeat;
@@ -142,6 +142,7 @@ h1, h2, h3, h4, h5, h6 {
       height: 500px; } }
   @media (min-width: 320px) and (max-width: 480px) {
     #rsvp {
+      background-color: #7FAFE7;
       background-image: url("../img/bg/xs-bg.jpg");
       background-position: center center;
       background-repeat: no-repeat;
@@ -165,6 +166,7 @@ h1, h2, h3, h4, h5, h6 {
       height: 500px; } }
   @media (min-width: 992px) {
     #rsvp {
+      background-color: #7FAFE7;
       background-image: url("../img/bg/md-bg.jpg");
       background-position: center center;
       background-repeat: no-repeat;
@@ -188,6 +190,7 @@ h1, h2, h3, h4, h5, h6 {
       height: 500px; } }
   @media (min-width: 1200px) {
     #rsvp {
+      background-color: #7FAFE7;
       background-image: url("../img/bg/lg-bg.jpg");
       background-position: center center;
       background-repeat: no-repeat;
@@ -211,6 +214,7 @@ h1, h2, h3, h4, h5, h6 {
       height: 500px; } }
   @media (min-width: 1450px) {
     #rsvp {
+      background-color: #7FAFE7;
       background-image: url("../img/bg/xl-bg.jpg");
       background-position: center center;
       background-repeat: no-repeat;
@@ -700,12 +704,63 @@ header .navbar-default .navbar-toggle .icon-bar {
 
 /* Links */
 body#alt {
-  background: url(/img/bg/default.jpg) center center no-repeat fixed;
+  background-color: #7FAFE7;
+  background-image: url("../img/bg/sm-bg.jpg");
+  background-repeat: no-repeat;
   background-size: cover;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-position: bottom center;
   text-align: center;
   /*
      * Affix and center
      */ }
+  @media (min-width: 320px) and (max-width: 480px) {
+    body#alt {
+      background-color: #7FAFE7;
+      background-image: url("../img/bg/xs-bg.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-size: cover;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-position: bottom center; } }
+  @media (min-width: 992px) {
+    body#alt {
+      background-color: #7FAFE7;
+      background-image: url("../img/bg/md-bg.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-size: cover;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-position: bottom center; } }
+  @media (min-width: 1200px) {
+    body#alt {
+      background-color: #7FAFE7;
+      background-image: url("../img/bg/lg-bg.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-size: cover;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-position: bottom center; } }
+  @media (min-width: 1450px) {
+    body#alt {
+      background-color: #7FAFE7;
+      background-image: url("../img/bg/xl-bg.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-size: cover;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-position: bottom center; } }
   body#alt a {
     color: #fff; }
   body#alt .site-wrapper {
