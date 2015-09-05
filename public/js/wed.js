@@ -1,7 +1,7 @@
 $(function() {
 
   "use strict";
-  var topoffset = 50; //variable for menu height
+  var topoffset = 60; //50 variable for menu height
   var wheight = $(window).height(); //get the height of the window
   var story = $('#story');
 
@@ -43,10 +43,10 @@ $(function() {
     if(hash !== '#rsvp') {    
     //used to be #featured
       $('header nav').addClass('inbody');
-      $('.navbar').show('slow'); //added
+      $('.navbar').show(1000); //added
     } else {
       $('header nav').removeClass('inbody');
-      $('.navbar').hide('slow'); //added
+      $('.navbar').hide(1000); //added
     }
   });
 
@@ -72,9 +72,27 @@ $(function() {
     } //click function
   }); //smooth scrolling
 
-  // $('.carousel').carousel({
-  //   interval: 50000
-  // });
+
+  $('#drop a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') === 
+      this.pathname.replace(/^\//,'') && 
+      location.hostname === this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top-topoffset+2
+        }, 900);  //scroll speed
+        return false;
+      } //target.length
+    } //click function
+  }); //smooth scrolling
+
+
+
+  $('.carousel').carousel({
+    interval: 50000
+  });
 
 
  $(".navbar-nav li a").click(function (event) {
