@@ -11,6 +11,7 @@
 
 {{-- Jumbotron --}}
 <div id="rsvp" class="jumbotron fullheight"> {{-- .fullheight - adjusts element to takeup entire viewpoint via js --}}
+  
   <div class="container">
 
     <h1 class="title">Nakissa <span class="rwd-line">&amp;</span> Dom</h1>
@@ -29,14 +30,18 @@
 {{-- /Jumbotron --}}
 
 </header>
-
+<div id="top"></div>
 
 <div class="marketing">
 
 
   {{-- The Big Day Section --}}
   <section id="bigday" class="container">
-    <div class="row featurette">
+
+    <div class="row featurette"
+    data-center="opacity:1"
+    data-bottom-center="opacity:0">
+
       <div class="col-md-6 col-lg-6">
         <div class="">
           <h2 class="featurette-heading">The Big Day</h2>
@@ -57,26 +62,36 @@
  
 
 {{-- Venue Section --}}
-
+<div>
   <section id="venue" class="container-fluid">  {{-- REMOVED .PAGE --}}
     <div class="row featurette">
-      <div class="col-sm-6 col-centered text-center">
+      <div class="col-sm-6 col-centered text-center"
+      data-center="opacity:0" 
+      data-top="opacity:1">
+
         <h2 class="featurette-heading">Wedding Venue</h2>
         <p>78-7102 Walua Road<br>
           Kailua Kona, HI 96740<br></p>
         </div>
       </div>{{-- /.row.featurette --}}
     </section>
+</div>
 
+<!-- Google Map  -->
+<div id="google_map"
+data-bottom="opacity:0;" 
+data-top="opacity:1;">
 
-{{-- Google Map --}}
-{{-- <div id="google_map"  data-1000="opacity: 0;" data-2000="opacity: 1;"></div> --}}
+</div>
 {{-- /Venue Section --}}
 
 
 <!-- Get a Room Section -->
-<section id="room" class="container page"> 
-  <div class="row featurette">
+<section id="room" class="container page">
+  <div class="row featurette"
+  data-bottom-center="opacity:0" 
+  data-center-top="opacity:1">
+
     <div class="col-md-6 col-lg-5">
       <div class="r-pad">
         <img class="featurette-image img-responsive center-block visible-md-block visible-lg-block" src="img/hotel.jpg">{{-- Hidden on at > 991px --}}
@@ -102,7 +117,9 @@
 
 
 <!-- Guest Book Section -->
-<section id="guestbook" class="container page">
+<section id="guestbook" class="container page"
+data-bottom="opacity:0"
+data-center-bottom="opacity:1">
   <div class="row featurette">
     <div class="col-md-6 col-lg-6">
       <div class="l-pad">
@@ -141,7 +158,12 @@
 
     <!-- Registry Section -->
     <section id="registry" class="container page">
-      <div class="row featurette">
+
+
+      <div class="row featurette"
+      data-bottom="left:-200%;"
+      data-center-top="left:0;">
+
         <div class="col-md-6 col-lg-5">
           <div class="r-pad"> 
             <img class="featurette-image img-responsive center-block visible-md-block visible-lg-block" src="img/gift.jpg">{{-- Hidden on at > 991px --}}
@@ -181,10 +203,10 @@
         <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#contactModal">Contact</button>
     </div>
     <div class="col-md-5 col-md-offset-1 col-lg-5 col-lg-offset-1">
-      <div class="pad">
+
         <img class="featurette-image img-responsive center-block img-circle" src="img/smiles.jpg">
         {{-- visible-md-block visible-lg-block --}}
-      </div>
+
     </div>
   </div>{{-- /.row.featurette --}}
 </section>

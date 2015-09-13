@@ -121,6 +121,27 @@ $path--font : "../fonts";
 
 
 
+// 480   960   1440
+// 768   1536  2304
+// 992   1984  2976
+// 1200  2400  3600
+
+
+
+
+// 768   1536(1600)  2304(2400)
+// 992   1984(2400)  2976(3600)
+// 1200  2400  3600
+// 1600  3600
+
+
+// 480
+// 768
+// 992
+// 1200 2400 3600
+// 1440 
+// 2400
+// 3600
 
 // Breakpoints (being used in _base.scss)
 $brk-sm : '(min-width: 768px)';
@@ -132,8 +153,8 @@ $brk-lg	: '(min-width: 1200px)';
   $mq-xs: "(max-width: 767px)";  // @include mq(xs) { 767px and lower }
   $mq-sm: "(min-width: 768px)";  // @include mq(sm) { 768px and up }
   $mq-md: "(min-width: 992px)";  // @include mq(md) { 992px and up }
-  $mq-lg: "(min-width: 1200px)"; // @include mq(lg) { 1200px and up }
-  $mq-xl: "(min-width: 1450px)"; // @include mq(xl) { 768px and up }
+  $mq-lg: "(min-width: 1200px)"; // @include mq(lg) { 1200px - 1799px }1440
+  $mq-xl: "(min-width: 1800px)"; // @include mq(xl) { 180px and up }
 
   // $mq-xs: "(max-width: 767px)";
   // $mq-sm: "(min-width: 768px) and (max-width: 991px)";

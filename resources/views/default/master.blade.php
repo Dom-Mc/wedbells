@@ -27,9 +27,22 @@
 
       {{-- Fonts --}}
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <script>
+    // Picture element HTML5 shiv
+    document.createElement( "picture" );
+  </script>
+  <script src="js/vendor/picturefill.min.js" async></script>
 
+    <script type="text/javascript">
 
-      {{-- <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDKcpBAyAKbtL2CDtQ0O0qNSIH_xo5X_Kk&sensor=false"></script> --}}
+    window.onload=function(){
+      skrollr.init({
+      forceHeight: false
+      //further options..
+        });
+      };
+   </script>
+      
 
   </head>
 
@@ -39,7 +52,15 @@
   	<!-- Scripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    
+    <script src="//maps.google.com/maps/api/js?sensor=true"></script>
+    
+    <script src="js/map.js"></script>
     <script src="js/vendor/owl.carousel.js"></script>
     <script src="js/wed.js"></script>
+
+<script type="text/javascript" src="js/skrollr.min.js"></script>
+
+
   </body>
 </html>

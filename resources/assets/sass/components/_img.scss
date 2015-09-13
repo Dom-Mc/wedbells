@@ -1,34 +1,45 @@
 
-
-/**  Google Maps **/
-// #google_map {
-// height: 500px;
-// }
-
 #rsvp {
-	background-color: #7FAFE7;
-	@include bg_img("bg/sm-bg.jpg"); //bg_img("bg/pic2.jpg");
-	 	background-position: bottom center;
+	background-position: bottom center;
 
-	@include mq(portrait) {
-		background-color: #7FAFE7;
-		@include bg_img("bg/xs-bg.jpg");
-		background-position: bottom center;
-	}		
-	@include mq(md) {
-		background-color: #7FAFE7;
-		@include bg_img("bg/md-bg.jpg"); //bg_img("bg/pic2.jpg");
-		background-position: bottom center;
+	@include bg_img("bg/banner-767.jpg");
+	@include mq(retina) {
+		@include bg_img("bg/banner-1500.jpg");
 	}
-	@include mq(lg) {
-		background-color: #7FAFE7;
-		@include bg_img("bg/lg-bg.jpg"); //bg_img("bg/pic2.jpg");
-		background-position: bottom center;
+	// @include mq(portrait) {
+	// 	@include bg_img("bg/banner-767.jpg");
+	// 	@include mq(retina) {
+	// 		@include bg_img("bg/banner-1500.jpg");
+	// 	}
+	// }	
+	
+	@include mq(sm) { // 768px-991px
+		@include bg_img("bg/banner-992.jpg");
+		@include mq(retina) {
+			@include bg_img("bg/banner-1800.jpg");
+		}
 	}
-	@include mq(xl) {
-		background-color: #7FAFE7;
-		@include bg_img("bg/xl-bg.jpg"); //bg_img("bg/pic2.jpg");
-		background-position: bottom center;
+// 992/1200/1800/2400/3600
+	@include mq(md) { // 992px-1199px
+		@include bg_img("bg/banner-1200.jpg");
+		@include mq(retina) {
+			@include bg_img("bg/banner-2400.jpg");
+		}
+	}
+
+
+	@include mq(lg) { // 1200px-1799px
+		@include bg_img("bg/banner-1800.jpg");
+		@include mq(retina) {
+			@include bg_img("bg/banner-3600.jpg");
+		}
+	}
+
+	@include mq(xl) { // 1800px - up
+		@include bg_img("bg/banner-2400.jpg");
+		@include mq(retina) {
+			@include bg_img("bg/banner-3600.jpg");
+		}
 	}
 }
 
@@ -46,15 +57,16 @@
   box-shadow: 3px 3px 5px #888888;
 }
 
-#contact .pad {
-	padding: 20%;
-		@media #{$brk-sm} { 
-			padding: 20%;
-		}
-		@media #{$brk-md}{
-			padding: 12%;
-		}
-		@media #{$brk-lg}{
-			padding: 12%;
-		}
-	}
+#contact img {
+	// padding: 20%;
+	// 	@media #{$brk-sm} { 
+	// 		padding: 20%;
+	// 	}
+	// 	@media #{$brk-md}{
+	// 		padding: 12%;
+	// 	}
+	// 	@media #{$brk-lg}{
+	// 		padding: 12%;
+	// 	}
+	max-width: 80%;
+}

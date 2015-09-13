@@ -2,12 +2,17 @@
 // Base Styles
 // ==========================================================================
 
-
+.featurette {position: relative;}
+section {position: relative;}
+.marketing {position: relative;}
 
 /**  Basic Page CSS **/
 body, html {
   height: 100%;
   width: 100%;
+
+
+  
 }
 
 header .hides {
@@ -21,7 +26,9 @@ body, html {
   background: $color-body;
   font-family: $font-family--primary;
 }
-
+body,html {
+  background-color: rgba(245, 245, 245,.9);
+}
 
 p {
   // font-size: 1rem;

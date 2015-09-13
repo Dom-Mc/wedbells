@@ -17,6 +17,15 @@ a:link, a:visited, a:hover, a:active {
   text-decoration: none;
   outline: 0; }
 
+.featurette {
+  position: relative; }
+
+section {
+  position: relative; }
+
+.marketing {
+  position: relative; }
+
 /**  Basic Page CSS **/
 body, html {
   height: 100%;
@@ -33,6 +42,9 @@ body, html {
   font-size: 100%;
   background: #F5F5F5;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+body, html {
+  background-color: rgba(245, 245, 245, 0.9); }
 
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0; }
@@ -126,10 +138,9 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px;
   border-radius: 50%; }
 
-/**  Google Maps **/
 #rsvp {
-  background-color: #7FAFE7;
-  background-image: url("../img/bg/sm-bg.jpg");
+  background-position: bottom center;
+  background-image: url("../img/bg/banner-767.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -138,8 +149,7 @@ h1, h2, h3, h4, h5, h6 {
   -moz-background-size: cover;
   -o-background-size: cover;
   width: 100%;
-  height: 300px;
-  background-position: bottom center; }
+  height: 300px; }
   @media (min-width: 768px) {
     #rsvp {
       height: 400px; } }
@@ -150,10 +160,9 @@ h1, h2, h3, h4, h5, h6 {
     #rsvp {
       background-attachment: fixed !important;
       height: 500px; } }
-  @media (min-width: 320px) and (max-width: 480px) {
+  @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
     #rsvp {
-      background-color: #7FAFE7;
-      background-image: url("../img/bg/xs-bg.jpg");
+      background-image: url("../img/bg/banner-1500.jpg");
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -162,22 +171,64 @@ h1, h2, h3, h4, h5, h6 {
       -moz-background-size: cover;
       -o-background-size: cover;
       width: 100%;
-      height: 300px;
-      background-position: bottom center; } }
-  @media (min-width: 320px) and (max-width: 480px) and (min-width: 768px) {
+      height: 300px; } }
+  @media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px), only screen and (min--moz-device-pixel-ratio: 2) and (min-width: 768px), only screen and (min-device-pixel-ratio: 2) and (min-width: 768px), only screen and (min-resolution: 192dpi) and (min-width: 768px), only screen and (min-resolution: 2dppx) and (min-width: 768px) {
     #rsvp {
       height: 400px; } }
-  @media (min-width: 320px) and (max-width: 480px) and (min-width: 992px) {
+  @media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 992px), only screen and (min--moz-device-pixel-ratio: 2) and (min-width: 992px), only screen and (min-device-pixel-ratio: 2) and (min-width: 992px), only screen and (min-resolution: 192dpi) and (min-width: 992px), only screen and (min-resolution: 2dppx) and (min-width: 992px) {
     #rsvp {
       height: 450px; } }
-  @media (min-width: 320px) and (max-width: 480px) and (min-width: 1200px) {
+  @media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1200px), only screen and (min--moz-device-pixel-ratio: 2) and (min-width: 1200px), only screen and (min-device-pixel-ratio: 2) and (min-width: 1200px), only screen and (min-resolution: 192dpi) and (min-width: 1200px), only screen and (min-resolution: 2dppx) and (min-width: 1200px) {
+    #rsvp {
+      background-attachment: fixed !important;
+      height: 500px; } }
+  @media (min-width: 768px) {
+    #rsvp {
+      background-image: url("../img/bg/banner-992.jpg");
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-size: cover;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      width: 100%;
+      height: 300px; } }
+  @media (min-width: 768px) and (min-width: 768px) {
+    #rsvp {
+      height: 400px; } }
+  @media (min-width: 768px) and (min-width: 992px) {
+    #rsvp {
+      height: 450px; } }
+  @media (min-width: 768px) and (min-width: 1200px) {
+    #rsvp {
+      background-attachment: fixed !important;
+      height: 500px; } }
+  @media only screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), only screen and (min-width: 768px) and (min--moz-device-pixel-ratio: 2), only screen and (min-width: 768px) and (min-device-pixel-ratio: 2), only screen and (min-width: 768px) and (min-resolution: 192dpi), only screen and (min-width: 768px) and (min-resolution: 2dppx) {
+    #rsvp {
+      background-image: url("../img/bg/banner-1800.jpg");
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-size: cover;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      width: 100%;
+      height: 300px; } }
+  @media only screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px), only screen and (min-width: 768px) and (min--moz-device-pixel-ratio: 2) and (min-width: 768px), only screen and (min-width: 768px) and (min-device-pixel-ratio: 2) and (min-width: 768px), only screen and (min-width: 768px) and (min-resolution: 192dpi) and (min-width: 768px), only screen and (min-width: 768px) and (min-resolution: 2dppx) and (min-width: 768px) {
+    #rsvp {
+      height: 400px; } }
+  @media only screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2) and (min-width: 992px), only screen and (min-width: 768px) and (min--moz-device-pixel-ratio: 2) and (min-width: 992px), only screen and (min-width: 768px) and (min-device-pixel-ratio: 2) and (min-width: 992px), only screen and (min-width: 768px) and (min-resolution: 192dpi) and (min-width: 992px), only screen and (min-width: 768px) and (min-resolution: 2dppx) and (min-width: 992px) {
+    #rsvp {
+      height: 450px; } }
+  @media only screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1200px), only screen and (min-width: 768px) and (min--moz-device-pixel-ratio: 2) and (min-width: 1200px), only screen and (min-width: 768px) and (min-device-pixel-ratio: 2) and (min-width: 1200px), only screen and (min-width: 768px) and (min-resolution: 192dpi) and (min-width: 1200px), only screen and (min-width: 768px) and (min-resolution: 2dppx) and (min-width: 1200px) {
     #rsvp {
       background-attachment: fixed !important;
       height: 500px; } }
   @media (min-width: 992px) {
     #rsvp {
-      background-color: #7FAFE7;
-      background-image: url("../img/bg/md-bg.jpg");
+      background-image: url("../img/bg/banner-1200.jpg");
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -186,8 +237,7 @@ h1, h2, h3, h4, h5, h6 {
       -moz-background-size: cover;
       -o-background-size: cover;
       width: 100%;
-      height: 300px;
-      background-position: bottom center; } }
+      height: 300px; } }
   @media (min-width: 992px) and (min-width: 768px) {
     #rsvp {
       height: 400px; } }
@@ -198,10 +248,9 @@ h1, h2, h3, h4, h5, h6 {
     #rsvp {
       background-attachment: fixed !important;
       height: 500px; } }
-  @media (min-width: 1200px) {
+  @media only screen and (min-width: 992px) and (-webkit-min-device-pixel-ratio: 2), only screen and (min-width: 992px) and (min--moz-device-pixel-ratio: 2), only screen and (min-width: 992px) and (min-device-pixel-ratio: 2), only screen and (min-width: 992px) and (min-resolution: 192dpi), only screen and (min-width: 992px) and (min-resolution: 2dppx) {
     #rsvp {
-      background-color: #7FAFE7;
-      background-image: url("../img/bg/lg-bg.jpg");
+      background-image: url("../img/bg/banner-2400.jpg");
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -210,8 +259,29 @@ h1, h2, h3, h4, h5, h6 {
       -moz-background-size: cover;
       -o-background-size: cover;
       width: 100%;
-      height: 300px;
-      background-position: bottom center; } }
+      height: 300px; } }
+  @media only screen and (min-width: 992px) and (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px), only screen and (min-width: 992px) and (min--moz-device-pixel-ratio: 2) and (min-width: 768px), only screen and (min-width: 992px) and (min-device-pixel-ratio: 2) and (min-width: 768px), only screen and (min-width: 992px) and (min-resolution: 192dpi) and (min-width: 768px), only screen and (min-width: 992px) and (min-resolution: 2dppx) and (min-width: 768px) {
+    #rsvp {
+      height: 400px; } }
+  @media only screen and (min-width: 992px) and (-webkit-min-device-pixel-ratio: 2) and (min-width: 992px), only screen and (min-width: 992px) and (min--moz-device-pixel-ratio: 2) and (min-width: 992px), only screen and (min-width: 992px) and (min-device-pixel-ratio: 2) and (min-width: 992px), only screen and (min-width: 992px) and (min-resolution: 192dpi) and (min-width: 992px), only screen and (min-width: 992px) and (min-resolution: 2dppx) and (min-width: 992px) {
+    #rsvp {
+      height: 450px; } }
+  @media only screen and (min-width: 992px) and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1200px), only screen and (min-width: 992px) and (min--moz-device-pixel-ratio: 2) and (min-width: 1200px), only screen and (min-width: 992px) and (min-device-pixel-ratio: 2) and (min-width: 1200px), only screen and (min-width: 992px) and (min-resolution: 192dpi) and (min-width: 1200px), only screen and (min-width: 992px) and (min-resolution: 2dppx) and (min-width: 1200px) {
+    #rsvp {
+      background-attachment: fixed !important;
+      height: 500px; } }
+  @media (min-width: 1200px) {
+    #rsvp {
+      background-image: url("../img/bg/banner-1800.jpg");
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-size: cover;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      width: 100%;
+      height: 300px; } }
   @media (min-width: 1200px) and (min-width: 768px) {
     #rsvp {
       height: 400px; } }
@@ -222,10 +292,9 @@ h1, h2, h3, h4, h5, h6 {
     #rsvp {
       background-attachment: fixed !important;
       height: 500px; } }
-  @media (min-width: 1450px) {
+  @media only screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), only screen and (min-width: 1200px) and (min--moz-device-pixel-ratio: 2), only screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), only screen and (min-width: 1200px) and (min-resolution: 192dpi), only screen and (min-width: 1200px) and (min-resolution: 2dppx) {
     #rsvp {
-      background-color: #7FAFE7;
-      background-image: url("../img/bg/xl-bg.jpg");
+      background-image: url("../img/bg/banner-3600.jpg");
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -234,15 +303,58 @@ h1, h2, h3, h4, h5, h6 {
       -moz-background-size: cover;
       -o-background-size: cover;
       width: 100%;
-      height: 300px;
-      background-position: bottom center; } }
-  @media (min-width: 1450px) and (min-width: 768px) {
+      height: 300px; } }
+  @media only screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px), only screen and (min-width: 1200px) and (min--moz-device-pixel-ratio: 2) and (min-width: 768px), only screen and (min-width: 1200px) and (min-device-pixel-ratio: 2) and (min-width: 768px), only screen and (min-width: 1200px) and (min-resolution: 192dpi) and (min-width: 768px), only screen and (min-width: 1200px) and (min-resolution: 2dppx) and (min-width: 768px) {
     #rsvp {
       height: 400px; } }
-  @media (min-width: 1450px) and (min-width: 992px) {
+  @media only screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2) and (min-width: 992px), only screen and (min-width: 1200px) and (min--moz-device-pixel-ratio: 2) and (min-width: 992px), only screen and (min-width: 1200px) and (min-device-pixel-ratio: 2) and (min-width: 992px), only screen and (min-width: 1200px) and (min-resolution: 192dpi) and (min-width: 992px), only screen and (min-width: 1200px) and (min-resolution: 2dppx) and (min-width: 992px) {
     #rsvp {
       height: 450px; } }
-  @media (min-width: 1450px) and (min-width: 1200px) {
+  @media only screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1200px), only screen and (min-width: 1200px) and (min--moz-device-pixel-ratio: 2) and (min-width: 1200px), only screen and (min-width: 1200px) and (min-device-pixel-ratio: 2) and (min-width: 1200px), only screen and (min-width: 1200px) and (min-resolution: 192dpi) and (min-width: 1200px), only screen and (min-width: 1200px) and (min-resolution: 2dppx) and (min-width: 1200px) {
+    #rsvp {
+      background-attachment: fixed !important;
+      height: 500px; } }
+  @media (min-width: 1800px) {
+    #rsvp {
+      background-image: url("../img/bg/banner-2400.jpg");
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-size: cover;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      width: 100%;
+      height: 300px; } }
+  @media (min-width: 1800px) and (min-width: 768px) {
+    #rsvp {
+      height: 400px; } }
+  @media (min-width: 1800px) and (min-width: 992px) {
+    #rsvp {
+      height: 450px; } }
+  @media (min-width: 1800px) and (min-width: 1200px) {
+    #rsvp {
+      background-attachment: fixed !important;
+      height: 500px; } }
+  @media only screen and (min-width: 1800px) and (-webkit-min-device-pixel-ratio: 2), only screen and (min-width: 1800px) and (min--moz-device-pixel-ratio: 2), only screen and (min-width: 1800px) and (min-device-pixel-ratio: 2), only screen and (min-width: 1800px) and (min-resolution: 192dpi), only screen and (min-width: 1800px) and (min-resolution: 2dppx) {
+    #rsvp {
+      background-image: url("../img/bg/banner-3600.jpg");
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-size: cover;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      width: 100%;
+      height: 300px; } }
+  @media only screen and (min-width: 1800px) and (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px), only screen and (min-width: 1800px) and (min--moz-device-pixel-ratio: 2) and (min-width: 768px), only screen and (min-width: 1800px) and (min-device-pixel-ratio: 2) and (min-width: 768px), only screen and (min-width: 1800px) and (min-resolution: 192dpi) and (min-width: 768px), only screen and (min-width: 1800px) and (min-resolution: 2dppx) and (min-width: 768px) {
+    #rsvp {
+      height: 400px; } }
+  @media only screen and (min-width: 1800px) and (-webkit-min-device-pixel-ratio: 2) and (min-width: 992px), only screen and (min-width: 1800px) and (min--moz-device-pixel-ratio: 2) and (min-width: 992px), only screen and (min-width: 1800px) and (min-device-pixel-ratio: 2) and (min-width: 992px), only screen and (min-width: 1800px) and (min-resolution: 192dpi) and (min-width: 992px), only screen and (min-width: 1800px) and (min-resolution: 2dppx) and (min-width: 992px) {
+    #rsvp {
+      height: 450px; } }
+  @media only screen and (min-width: 1800px) and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1200px), only screen and (min-width: 1800px) and (min--moz-device-pixel-ratio: 2) and (min-width: 1200px), only screen and (min-width: 1800px) and (min-device-pixel-ratio: 2) and (min-width: 1200px), only screen and (min-width: 1800px) and (min-resolution: 192dpi) and (min-width: 1200px), only screen and (min-width: 1800px) and (min-resolution: 2dppx) and (min-width: 1200px) {
     #rsvp {
       background-attachment: fixed !important;
       height: 500px; } }
@@ -297,17 +409,8 @@ h1, h2, h3, h4, h5, h6 {
 #bigday .featurette-image, #contact .featurette-image {
   box-shadow: 3px 3px 5px #888888; }
 
-#contact .pad {
-  padding: 20%; }
-  @media (min-width: 768px) {
-    #contact .pad {
-      padding: 20%; } }
-  @media (min-width: 992px) {
-    #contact .pad {
-      padding: 12%; } }
-  @media (min-width: 1200px) {
-    #contact .pad {
-      padding: 12%; } }
+#contact img {
+  max-width: 80%; }
 
 /* --------------------------------------------------
                     BUTTONS
@@ -322,6 +425,15 @@ button {
 
 #rsvp button {
   margin-top: .5rem; }
+
+#google_map {
+  height: 500px; }
+  @media (max-width: 1199px) {
+    #google_map {
+      display: none; } }
+
+#venue {
+  margin-bottom: 0; }
 
 /* --------------------------------------------------
                       FORM
@@ -679,7 +791,7 @@ header .navbar-default .navbar-toggle .icon-bar {
   @media (min-width: 1200px) {
     #story .item img {
       height: 400px; } }
-  @media (min-width: 1450px) {
+  @media (min-width: 1800px) {
     #story .item img {
       height: 475px; } }
   @media (min-width: 500px) and (max-width: 749px) {
@@ -714,63 +826,109 @@ header .navbar-default .navbar-toggle .icon-bar {
 
 /* Links */
 body#alt {
+  background-position: bottom center;
   background-color: #7FAFE7;
-  background-image: url("../img/bg/sm-bg.jpg");
+  background-image: url("../img/bg/banner-767.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-position: bottom center;
   text-align: center;
   /*
      * Affix and center
      */ }
-  @media (min-width: 320px) and (max-width: 480px) {
+  @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
     body#alt {
       background-color: #7FAFE7;
-      background-image: url("../img/bg/xs-bg.jpg");
+      background-image: url("../img/bg/banner-1500.jpg");
       background-repeat: no-repeat;
       background-size: cover;
       background-size: cover;
       -webkit-background-size: cover;
       -moz-background-size: cover;
-      -o-background-size: cover;
-      background-position: bottom center; } }
+      -o-background-size: cover; } }
+  @media (min-width: 768px) {
+    body#alt {
+      background-color: #7FAFE7;
+      background-image: url("../img/bg/banner-992.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-size: cover;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover; } }
+  @media only screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), only screen and (min-width: 768px) and (min--moz-device-pixel-ratio: 2), only screen and (min-width: 768px) and (min-device-pixel-ratio: 2), only screen and (min-width: 768px) and (min-resolution: 192dpi), only screen and (min-width: 768px) and (min-resolution: 2dppx) {
+    body#alt {
+      background-color: #7FAFE7;
+      background-image: url("../img/bg/banner-1800.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-size: cover;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover; } }
   @media (min-width: 992px) {
     body#alt {
       background-color: #7FAFE7;
-      background-image: url("../img/bg/md-bg.jpg");
+      background-image: url("../img/bg/banner-1200.jpg");
       background-repeat: no-repeat;
       background-size: cover;
       background-size: cover;
       -webkit-background-size: cover;
       -moz-background-size: cover;
-      -o-background-size: cover;
-      background-position: bottom center; } }
+      -o-background-size: cover; } }
+  @media only screen and (min-width: 992px) and (-webkit-min-device-pixel-ratio: 2), only screen and (min-width: 992px) and (min--moz-device-pixel-ratio: 2), only screen and (min-width: 992px) and (min-device-pixel-ratio: 2), only screen and (min-width: 992px) and (min-resolution: 192dpi), only screen and (min-width: 992px) and (min-resolution: 2dppx) {
+    body#alt {
+      background-color: #7FAFE7;
+      background-image: url("../img/bg/banner-2400.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-size: cover;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover; } }
   @media (min-width: 1200px) {
     body#alt {
       background-color: #7FAFE7;
-      background-image: url("../img/bg/lg-bg.jpg");
+      background-image: url("../img/bg/banner-1800.jpg");
       background-repeat: no-repeat;
       background-size: cover;
       background-size: cover;
       -webkit-background-size: cover;
       -moz-background-size: cover;
-      -o-background-size: cover;
-      background-position: bottom center; } }
-  @media (min-width: 1450px) {
+      -o-background-size: cover; } }
+  @media only screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), only screen and (min-width: 1200px) and (min--moz-device-pixel-ratio: 2), only screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), only screen and (min-width: 1200px) and (min-resolution: 192dpi), only screen and (min-width: 1200px) and (min-resolution: 2dppx) {
     body#alt {
       background-color: #7FAFE7;
-      background-image: url("../img/bg/xl-bg.jpg");
+      background-image: url("../img/bg/banner-3600.jpg");
       background-repeat: no-repeat;
       background-size: cover;
       background-size: cover;
       -webkit-background-size: cover;
       -moz-background-size: cover;
-      -o-background-size: cover;
-      background-position: bottom center; } }
+      -o-background-size: cover; } }
+  @media (min-width: 1800px) {
+    body#alt {
+      background-color: #7FAFE7;
+      background-image: url("../img/bg/banner-2400.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-size: cover;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover; } }
+  @media only screen and (min-width: 1800px) and (-webkit-min-device-pixel-ratio: 2), only screen and (min-width: 1800px) and (min--moz-device-pixel-ratio: 2), only screen and (min-width: 1800px) and (min-device-pixel-ratio: 2), only screen and (min-width: 1800px) and (min-resolution: 192dpi), only screen and (min-width: 1800px) and (min-resolution: 2dppx) {
+    body#alt {
+      background-color: #7FAFE7;
+      background-image: url("../img/bg/banner-3600.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-size: cover;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover; } }
   body#alt a {
     color: #fff; }
   body#alt .site-wrapper {
