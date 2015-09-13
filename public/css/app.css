@@ -428,6 +428,9 @@ button {
 
 #google_map {
   height: 500px; }
+  @media (max-width: 1199px) {
+    #google_map {
+      display: none; } }
 
 #venue {
   margin-bottom: 0; }
