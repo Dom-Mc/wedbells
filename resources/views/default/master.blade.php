@@ -33,15 +33,16 @@
   </script>
   <script src="js/vendor/picturefill.min.js" async></script>
 
-    <script type="text/javascript">
+    {{-- <script type="text/javascript">
 
-    window.onload=function(){
-      skrollr.init({
-      forceHeight: false
-      //further options..
-        });
-      };
-   </script>
+    //window.onload=function(){
+    //var s =  skrollr.init({
+    //forceHeight: false
+    //further options..
+
+    //});
+    //};
+   </script>--}}
       
 
   </head>
