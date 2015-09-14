@@ -128,6 +128,13 @@ $path--font : "../fonts";
 
 
 
+// 600/1200/1800
+// 800/1600/2400
+// 1200/2400/3600
+// 1800/3600
+
+
+
 
 // 768   1536(1600)  2304(2400)
 // 992   1984(2400)  2976(3600)
@@ -142,6 +149,22 @@ $path--font : "../fonts";
 // 1440 
 // 2400
 // 3600
+
+
+
+//Include Media - Library
+$breakpoints: (
+  'phone'   :   320px,
+  'tablet'  :   768px,
+  'desktop' :   1024px,
+
+  'sm'      :   768px,
+  'md'      :   992px,
+  'lg'      :   1200px,
+  'xl'      :   1800px
+);
+
+
 
 // Breakpoints (being used in _base.scss)
 $brk-sm : '(min-width: 768px)';

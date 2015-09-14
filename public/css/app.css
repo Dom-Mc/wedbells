@@ -140,7 +140,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #rsvp {
   background-position: bottom center;
-  background-image: url("../img/bg/banner-767.jpg");
+  background-image: url("../img/bg/banner-600.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -160,9 +160,9 @@ h1, h2, h3, h4, h5, h6 {
     #rsvp {
       background-attachment: fixed !important;
       height: 500px; } }
-  @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     #rsvp {
-      background-image: url("../img/bg/banner-1500.jpg");
+      background-image: url("../img/bg/hi2.jpg");
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -172,19 +172,19 @@ h1, h2, h3, h4, h5, h6 {
       -o-background-size: cover;
       width: 100%;
       height: 300px; } }
-  @media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px), only screen and (min--moz-device-pixel-ratio: 2) and (min-width: 768px), only screen and (min-device-pixel-ratio: 2) and (min-width: 768px), only screen and (min-resolution: 192dpi) and (min-width: 768px), only screen and (min-resolution: 2dppx) and (min-width: 768px) {
+  @media (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px), (min-resolution: 192dpi) and (min-width: 768px) {
     #rsvp {
       height: 400px; } }
-  @media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 992px), only screen and (min--moz-device-pixel-ratio: 2) and (min-width: 992px), only screen and (min-device-pixel-ratio: 2) and (min-width: 992px), only screen and (min-resolution: 192dpi) and (min-width: 992px), only screen and (min-resolution: 2dppx) and (min-width: 992px) {
+  @media (-webkit-min-device-pixel-ratio: 2) and (min-width: 992px), (min-resolution: 192dpi) and (min-width: 992px) {
     #rsvp {
       height: 450px; } }
-  @media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1200px), only screen and (min--moz-device-pixel-ratio: 2) and (min-width: 1200px), only screen and (min-device-pixel-ratio: 2) and (min-width: 1200px), only screen and (min-resolution: 192dpi) and (min-width: 1200px), only screen and (min-resolution: 2dppx) and (min-width: 1200px) {
+  @media (-webkit-min-device-pixel-ratio: 2) and (min-width: 1200px), (min-resolution: 192dpi) and (min-width: 1200px) {
     #rsvp {
       background-attachment: fixed !important;
       height: 500px; } }
-  @media (min-width: 768px) {
+  @media (min-width: 601px) {
     #rsvp {
-      background-image: url("../img/bg/banner-992.jpg");
+      background-image: url("../img/bg/banner-900.jpg");
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -194,19 +194,19 @@ h1, h2, h3, h4, h5, h6 {
       -o-background-size: cover;
       width: 100%;
       height: 300px; } }
-  @media (min-width: 768px) and (min-width: 768px) {
+  @media (min-width: 601px) and (min-width: 768px) {
     #rsvp {
       height: 400px; } }
-  @media (min-width: 768px) and (min-width: 992px) {
+  @media (min-width: 601px) and (min-width: 992px) {
     #rsvp {
       height: 450px; } }
-  @media (min-width: 768px) and (min-width: 1200px) {
+  @media (min-width: 601px) and (min-width: 1200px) {
     #rsvp {
       background-attachment: fixed !important;
       height: 500px; } }
-  @media only screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), only screen and (min-width: 768px) and (min--moz-device-pixel-ratio: 2), only screen and (min-width: 768px) and (min-device-pixel-ratio: 2), only screen and (min-width: 768px) and (min-resolution: 192dpi), only screen and (min-width: 768px) and (min-resolution: 2dppx) {
+  @media (min-width: 601px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 601px) and (min-resolution: 192dpi) {
     #rsvp {
-      background-image: url("../img/bg/banner-1800.jpg");
+      background-image: url("../img/bg/hi2.jpg");
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -216,17 +216,17 @@ h1, h2, h3, h4, h5, h6 {
       -o-background-size: cover;
       width: 100%;
       height: 300px; } }
-  @media only screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px), only screen and (min-width: 768px) and (min--moz-device-pixel-ratio: 2) and (min-width: 768px), only screen and (min-width: 768px) and (min-device-pixel-ratio: 2) and (min-width: 768px), only screen and (min-width: 768px) and (min-resolution: 192dpi) and (min-width: 768px), only screen and (min-width: 768px) and (min-resolution: 2dppx) and (min-width: 768px) {
+  @media (min-width: 601px) and (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px), (min-width: 601px) and (min-resolution: 192dpi) and (min-width: 768px) {
     #rsvp {
       height: 400px; } }
-  @media only screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2) and (min-width: 992px), only screen and (min-width: 768px) and (min--moz-device-pixel-ratio: 2) and (min-width: 992px), only screen and (min-width: 768px) and (min-device-pixel-ratio: 2) and (min-width: 992px), only screen and (min-width: 768px) and (min-resolution: 192dpi) and (min-width: 992px), only screen and (min-width: 768px) and (min-resolution: 2dppx) and (min-width: 992px) {
+  @media (min-width: 601px) and (-webkit-min-device-pixel-ratio: 2) and (min-width: 992px), (min-width: 601px) and (min-resolution: 192dpi) and (min-width: 992px) {
     #rsvp {
       height: 450px; } }
-  @media only screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1200px), only screen and (min-width: 768px) and (min--moz-device-pixel-ratio: 2) and (min-width: 1200px), only screen and (min-width: 768px) and (min-device-pixel-ratio: 2) and (min-width: 1200px), only screen and (min-width: 768px) and (min-resolution: 192dpi) and (min-width: 1200px), only screen and (min-width: 768px) and (min-resolution: 2dppx) and (min-width: 1200px) {
+  @media (min-width: 601px) and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1200px), (min-width: 601px) and (min-resolution: 192dpi) and (min-width: 1200px) {
     #rsvp {
       background-attachment: fixed !important;
       height: 500px; } }
-  @media (min-width: 992px) {
+  @media (min-width: 901px) {
     #rsvp {
       background-image: url("../img/bg/banner-1200.jpg");
       background-position: center center;
@@ -238,39 +238,17 @@ h1, h2, h3, h4, h5, h6 {
       -o-background-size: cover;
       width: 100%;
       height: 300px; } }
-  @media (min-width: 992px) and (min-width: 768px) {
+  @media (min-width: 901px) and (min-width: 768px) {
     #rsvp {
       height: 400px; } }
-  @media (min-width: 992px) and (min-width: 992px) {
+  @media (min-width: 901px) and (min-width: 992px) {
     #rsvp {
       height: 450px; } }
-  @media (min-width: 992px) and (min-width: 1200px) {
+  @media (min-width: 901px) and (min-width: 1200px) {
     #rsvp {
       background-attachment: fixed !important;
       height: 500px; } }
-  @media only screen and (min-width: 992px) and (-webkit-min-device-pixel-ratio: 2), only screen and (min-width: 992px) and (min--moz-device-pixel-ratio: 2), only screen and (min-width: 992px) and (min-device-pixel-ratio: 2), only screen and (min-width: 992px) and (min-resolution: 192dpi), only screen and (min-width: 992px) and (min-resolution: 2dppx) {
-    #rsvp {
-      background-image: url("../img/bg/banner-2400.jpg");
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-size: cover;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      width: 100%;
-      height: 300px; } }
-  @media only screen and (min-width: 992px) and (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px), only screen and (min-width: 992px) and (min--moz-device-pixel-ratio: 2) and (min-width: 768px), only screen and (min-width: 992px) and (min-device-pixel-ratio: 2) and (min-width: 768px), only screen and (min-width: 992px) and (min-resolution: 192dpi) and (min-width: 768px), only screen and (min-width: 992px) and (min-resolution: 2dppx) and (min-width: 768px) {
-    #rsvp {
-      height: 400px; } }
-  @media only screen and (min-width: 992px) and (-webkit-min-device-pixel-ratio: 2) and (min-width: 992px), only screen and (min-width: 992px) and (min--moz-device-pixel-ratio: 2) and (min-width: 992px), only screen and (min-width: 992px) and (min-device-pixel-ratio: 2) and (min-width: 992px), only screen and (min-width: 992px) and (min-resolution: 192dpi) and (min-width: 992px), only screen and (min-width: 992px) and (min-resolution: 2dppx) and (min-width: 992px) {
-    #rsvp {
-      height: 450px; } }
-  @media only screen and (min-width: 992px) and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1200px), only screen and (min-width: 992px) and (min--moz-device-pixel-ratio: 2) and (min-width: 1200px), only screen and (min-width: 992px) and (min-device-pixel-ratio: 2) and (min-width: 1200px), only screen and (min-width: 992px) and (min-resolution: 192dpi) and (min-width: 1200px), only screen and (min-width: 992px) and (min-resolution: 2dppx) and (min-width: 1200px) {
-    #rsvp {
-      background-attachment: fixed !important;
-      height: 500px; } }
-  @media (min-width: 1200px) {
+  @media (min-width: 1201px) {
     #rsvp {
       background-image: url("../img/bg/banner-1800.jpg");
       background-position: center center;
@@ -282,19 +260,19 @@ h1, h2, h3, h4, h5, h6 {
       -o-background-size: cover;
       width: 100%;
       height: 300px; } }
-  @media (min-width: 1200px) and (min-width: 768px) {
+  @media (min-width: 1201px) and (min-width: 768px) {
     #rsvp {
       height: 400px; } }
-  @media (min-width: 1200px) and (min-width: 992px) {
+  @media (min-width: 1201px) and (min-width: 992px) {
     #rsvp {
       height: 450px; } }
-  @media (min-width: 1200px) and (min-width: 1200px) {
+  @media (min-width: 1201px) and (min-width: 1200px) {
     #rsvp {
       background-attachment: fixed !important;
       height: 500px; } }
-  @media only screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), only screen and (min-width: 1200px) and (min--moz-device-pixel-ratio: 2), only screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), only screen and (min-width: 1200px) and (min-resolution: 192dpi), only screen and (min-width: 1200px) and (min-resolution: 2dppx) {
+  @media (min-width: 1201px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 1201px) and (min-resolution: 192dpi) {
     #rsvp {
-      background-image: url("../img/bg/banner-3600.jpg");
+      background-image: url("../img/bg/hi2.jpg");
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -304,17 +282,17 @@ h1, h2, h3, h4, h5, h6 {
       -o-background-size: cover;
       width: 100%;
       height: 300px; } }
-  @media only screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px), only screen and (min-width: 1200px) and (min--moz-device-pixel-ratio: 2) and (min-width: 768px), only screen and (min-width: 1200px) and (min-device-pixel-ratio: 2) and (min-width: 768px), only screen and (min-width: 1200px) and (min-resolution: 192dpi) and (min-width: 768px), only screen and (min-width: 1200px) and (min-resolution: 2dppx) and (min-width: 768px) {
+  @media (min-width: 1201px) and (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px), (min-width: 1201px) and (min-resolution: 192dpi) and (min-width: 768px) {
     #rsvp {
       height: 400px; } }
-  @media only screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2) and (min-width: 992px), only screen and (min-width: 1200px) and (min--moz-device-pixel-ratio: 2) and (min-width: 992px), only screen and (min-width: 1200px) and (min-device-pixel-ratio: 2) and (min-width: 992px), only screen and (min-width: 1200px) and (min-resolution: 192dpi) and (min-width: 992px), only screen and (min-width: 1200px) and (min-resolution: 2dppx) and (min-width: 992px) {
+  @media (min-width: 1201px) and (-webkit-min-device-pixel-ratio: 2) and (min-width: 992px), (min-width: 1201px) and (min-resolution: 192dpi) and (min-width: 992px) {
     #rsvp {
       height: 450px; } }
-  @media only screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1200px), only screen and (min-width: 1200px) and (min--moz-device-pixel-ratio: 2) and (min-width: 1200px), only screen and (min-width: 1200px) and (min-device-pixel-ratio: 2) and (min-width: 1200px), only screen and (min-width: 1200px) and (min-resolution: 192dpi) and (min-width: 1200px), only screen and (min-width: 1200px) and (min-resolution: 2dppx) and (min-width: 1200px) {
+  @media (min-width: 1201px) and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1200px), (min-width: 1201px) and (min-resolution: 192dpi) and (min-width: 1200px) {
     #rsvp {
       background-attachment: fixed !important;
       height: 500px; } }
-  @media (min-width: 1800px) {
+  @media (min-width: 1801px) {
     #rsvp {
       background-image: url("../img/bg/banner-2400.jpg");
       background-position: center center;
@@ -325,20 +303,21 @@ h1, h2, h3, h4, h5, h6 {
       -moz-background-size: cover;
       -o-background-size: cover;
       width: 100%;
-      height: 300px; } }
-  @media (min-width: 1800px) and (min-width: 768px) {
+      height: 300px;
+      background-position: bottom center; } }
+  @media (min-width: 1801px) and (min-width: 768px) {
     #rsvp {
       height: 400px; } }
-  @media (min-width: 1800px) and (min-width: 992px) {
+  @media (min-width: 1801px) and (min-width: 992px) {
     #rsvp {
       height: 450px; } }
-  @media (min-width: 1800px) and (min-width: 1200px) {
+  @media (min-width: 1801px) and (min-width: 1200px) {
     #rsvp {
       background-attachment: fixed !important;
       height: 500px; } }
-  @media only screen and (min-width: 1800px) and (-webkit-min-device-pixel-ratio: 2), only screen and (min-width: 1800px) and (min--moz-device-pixel-ratio: 2), only screen and (min-width: 1800px) and (min-device-pixel-ratio: 2), only screen and (min-width: 1800px) and (min-resolution: 192dpi), only screen and (min-width: 1800px) and (min-resolution: 2dppx) {
+  @media (min-width: 1801px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 1801px) and (min-resolution: 192dpi) {
     #rsvp {
-      background-image: url("../img/bg/banner-3600.jpg");
+      background-image: url("../img/bg/hi2.jpg");
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -348,13 +327,13 @@ h1, h2, h3, h4, h5, h6 {
       -o-background-size: cover;
       width: 100%;
       height: 300px; } }
-  @media only screen and (min-width: 1800px) and (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px), only screen and (min-width: 1800px) and (min--moz-device-pixel-ratio: 2) and (min-width: 768px), only screen and (min-width: 1800px) and (min-device-pixel-ratio: 2) and (min-width: 768px), only screen and (min-width: 1800px) and (min-resolution: 192dpi) and (min-width: 768px), only screen and (min-width: 1800px) and (min-resolution: 2dppx) and (min-width: 768px) {
+  @media (min-width: 1801px) and (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px), (min-width: 1801px) and (min-resolution: 192dpi) and (min-width: 768px) {
     #rsvp {
       height: 400px; } }
-  @media only screen and (min-width: 1800px) and (-webkit-min-device-pixel-ratio: 2) and (min-width: 992px), only screen and (min-width: 1800px) and (min--moz-device-pixel-ratio: 2) and (min-width: 992px), only screen and (min-width: 1800px) and (min-device-pixel-ratio: 2) and (min-width: 992px), only screen and (min-width: 1800px) and (min-resolution: 192dpi) and (min-width: 992px), only screen and (min-width: 1800px) and (min-resolution: 2dppx) and (min-width: 992px) {
+  @media (min-width: 1801px) and (-webkit-min-device-pixel-ratio: 2) and (min-width: 992px), (min-width: 1801px) and (min-resolution: 192dpi) and (min-width: 992px) {
     #rsvp {
       height: 450px; } }
-  @media only screen and (min-width: 1800px) and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1200px), only screen and (min-width: 1800px) and (min--moz-device-pixel-ratio: 2) and (min-width: 1200px), only screen and (min-width: 1800px) and (min-device-pixel-ratio: 2) and (min-width: 1200px), only screen and (min-width: 1800px) and (min-resolution: 192dpi) and (min-width: 1200px), only screen and (min-width: 1800px) and (min-resolution: 2dppx) and (min-width: 1200px) {
+  @media (min-width: 1801px) and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1200px), (min-width: 1801px) and (min-resolution: 192dpi) and (min-width: 1200px) {
     #rsvp {
       background-attachment: fixed !important;
       height: 500px; } }
@@ -428,9 +407,6 @@ button {
 
 #google_map {
   height: 500px; }
-  @media (max-width: 1199px) {
-    #google_map {
-      display: none; } }
 
 #venue {
   margin-bottom: 0; }

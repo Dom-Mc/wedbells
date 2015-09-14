@@ -1,47 +1,47 @@
 
 #rsvp {
 	background-position: bottom center;
+// 		
+// 	600/1200/1800	
+// 	900/1800/2700(3600)	
+// 	1200/2400/3600		
+// 	1800/3600				
 
-	@include bg_img("bg/banner-767.jpg");
-	@include mq(retina) {
-		@include bg_img("bg/banner-hi2.jpg");//banner-1500
+// Defaults
+	@include bg_img("bg/banner-600.jpg");
+	@include media('retina2x'){
+		@include bg_img("bg/hi2.jpg");	
 	}
-	// @include mq(portrait) {
-	// 	@include bg_img("bg/banner-767.jpg");
-	// 	@include mq(retina) {
-	// 		@include bg_img("bg/banner-1500.jpg");
-	// 	}
-	// }	
-	
-	@include mq(sm) { // 768px-991px
-		@include bg_img("bg/banner-992.jpg");
-		@include mq(retina) {
-			@include bg_img("bg/banner-hi2.jpg");//banner-1800
+
+	@include media('>600px') {
+		@include bg_img("bg/banner-900.jpg");
+		@include media('retina2x'){
+			@include bg_img("bg/hi2.jpg");	
 		}
 	}
-// 992/1200/1800/2400/3600
-	@include mq(md) { // 992px-1199px
+	@include media('>900px') {
 		@include bg_img("bg/banner-1200.jpg");
-		@include mq(retina) {
-			@include bg_img("bg/banner-2400.jpg");
-		}
 	}
 
-
-	@include mq(lg) { // 1200px-1799px
+	@include media('>1200px') {
 		@include bg_img("bg/banner-1800.jpg");
-		@include mq(retina) {
-			@include bg_img("bg/banner-3600.jpg");
+		@include media('retina2x'){
+			@include bg_img("bg/hi2.jpg");	
 		}
 	}
 
-	@include mq(xl) { // 1800px - up
+	@include media('>1800px') {
 		@include bg_img("bg/banner-2400.jpg");
-		@include mq(retina) {
-			@include bg_img("bg/banner-3600.jpg");
+		background-position: bottom center;
+		@include media('retina2x'){
+			@include bg_img("bg/hi2.jpg");	
 		}
 	}
+
+	//background-position: bottom center;
 }
+
+
 
 #venue {
 	@include bg_img("bg/hi2.jpg");
