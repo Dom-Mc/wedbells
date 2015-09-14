@@ -7,34 +7,51 @@
 // 	1200/2400/3600		
 // 	1800/3600				
 
-// Defaults
+	// Defaults
 	@include bg_img("bg/banner-600.jpg");
 	@include media('retina2x'){
-		@include bg_img("bg/hi2.jpg");	
+		@include bg_img("bg/banner-1200.jpg");
+	}
+	@include media('retina3x'){
+		@include bg_img("bg/banner-1800.jpg");
 	}
 
+	//601px and above
 	@include media('>600px') {
 		@include bg_img("bg/banner-900.jpg");
 		@include media('retina2x'){
-			@include bg_img("bg/hi2.jpg");	
+			@include bg_img("bg/banner-1800.jpg");
+		}
+		@include media('retina3x'){
+			@include bg_img("bg/banner-3600.jpg");
 		}
 	}
+
+	//901px and above
 	@include media('>900px') {
 		@include bg_img("bg/banner-1200.jpg");
+		@include media('retina2x'){
+			@include bg_img("bg/banner-2400.jpg");
+		}
+		@include media('retina3x'){
+			@include bg_img("bg/banner-3600.jpg");
+		}
 	}
 
+	//1201px and above
 	@include media('>1200px') {
 		@include bg_img("bg/banner-1800.jpg");
 		@include media('retina2x'){
-			@include bg_img("bg/hi2.jpg");	
+			@include bg_img("bg/banner-3600.jpg");
 		}
 	}
 
+	//1801px and above
 	@include media('>1800px') {
 		@include bg_img("bg/banner-2400.jpg");
 		background-position: bottom center;
 		@include media('retina2x'){
-			@include bg_img("bg/hi2.jpg");	
+			@include bg_img("bg/banner-3600.jpg");
 		}
 	}
 
