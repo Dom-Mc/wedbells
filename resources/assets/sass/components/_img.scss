@@ -4,7 +4,7 @@
 
 	@include bg_img("bg/banner-767.jpg");
 	@include mq(retina) {
-		@include bg_img("bg/banner-1500.jpg");
+		@include bg_img("bg/banner-hi2.jpg");//banner-1500
 	}
 	// @include mq(portrait) {
 	// 	@include bg_img("bg/banner-767.jpg");
@@ -16,7 +16,7 @@
 	@include mq(sm) { // 768px-991px
 		@include bg_img("bg/banner-992.jpg");
 		@include mq(retina) {
-			@include bg_img("bg/banner-1800.jpg");
+			@include bg_img("bg/banner-hi2.jpg");//banner-1800
 		}
 	}
 // 992/1200/1800/2400/3600

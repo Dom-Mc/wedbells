@@ -1,14 +1,11 @@
 $(document).ready(function (){
 
 
-
-
 // create a LatLng object containing the coordinate for the center of the map
 var latlng = new google.maps.LatLng(19.5700954, -155.9453347,226);
 
 //var latlng = new google.maps.LatLng(-33.86455, 151.209);
-
-
+var isDraggable = $(document).width() > 480 ? true : false; // If document (your website) is wider than 480px, isDraggable = true, else isDraggable = false
 
 
 // prepare the map properties
@@ -19,9 +16,11 @@ mapTypeId: google.maps.MapTypeId.ROADMAP,
 navigationControl: true,
 mapTypeControl: false,
 scrollwheel: false,
-disableDoubleClickZoom: true
-};
+disableDoubleClickZoom: true,
 
+draggable: isDraggable, //// Prevent users to start zooming the map when scrolling down the page
+scrollwheel: false
+};
 
 
 
@@ -44,8 +43,8 @@ var marker1 = new google.maps.Marker({
 
  
   
-        marker1.setAnimation(google.maps.Animation.BOUNCE);
-        stopAnimation(marker1);
+ marker1.setAnimation(google.maps.Animation.BOUNCE);
+ stopAnimation(marker1);
 
 
 
