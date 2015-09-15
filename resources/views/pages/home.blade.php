@@ -204,7 +204,12 @@ data-center-bottom="opacity:1">
     </div>
     <div class="col-md-5 col-md-offset-1 col-lg-5 col-lg-offset-1">
 
-        <img class="featurette-image img-responsive center-block img-circle" src="img/smiles.jpg">
+        <img class="featurette-image img-responsive center-block img-circle" src="img/smiles.jpg"
+        srcset="img/smiles-350.jpg 1x,
+                img/hotel.jpg 2x,
+                img/smiles-1050.jpg 3x"
+        >
+
         {{-- visible-md-block visible-lg-block --}}
 
     </div>

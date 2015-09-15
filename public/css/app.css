@@ -477,7 +477,16 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: 3px 3px 5px #888888; }
 
 #contact img {
-  max-width: 80%; }
+  max-width: 50%; }
+  @media (min-width: 768px) {
+    #contact img {
+      max-width: 30%; } }
+  @media (min-width: 992px) {
+    #contact img {
+      max-width: 75%; } }
+  @media (min-width: 1200px) {
+    #contact img {
+      max-width: 95%; } }
 
 /* --------------------------------------------------
                     BUTTONS
