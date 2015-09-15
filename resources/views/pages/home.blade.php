@@ -206,7 +206,7 @@ data-center-bottom="opacity:1">
 
         <img class="featurette-image img-responsive center-block img-circle" src="img/smiles.jpg"
         srcset="img/smiles-350.jpg 1x,
-                img/hotel.jpg 2x,
+                img/smiles-700.jpg 2x,
                 img/smiles-1050.jpg 3x"
         >
 
