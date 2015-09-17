@@ -18,23 +18,26 @@
   -moz-border-radius: 3px;
   border-radius: 3px;
 
-  @include mq(sm) {
+
+  @include media('>=portrait') {
     height: 375px;
   }
-  @include mq(md) {
+  @include media('>=sm') {
+    height: 375px;
+  }
+  @include media('>=md') {
     height: 415px;
   }
-    @include mq(lg) {
-    height: 400px;
-  }
-    @include mq(xl) {
+  @include media('>=lg') {
     height: 475px;
-  }
+  } 
   @media (min-width: 500px) and (max-width: 749px){
-    height: 300px;
+    max-height: 325px;
+    //max-width: 90%;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
+    padding: 0 40px
   }
 
 }
