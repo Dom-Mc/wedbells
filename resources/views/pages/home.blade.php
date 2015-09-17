@@ -102,9 +102,9 @@ data-top="opacity:1;">
       <div class="l-pad">
         <h2 class="featurette-heading">Get a Room</h2>
         <p>From vacation rentals to hotels, the Big Island offers a wide variety of lodging accommodations. Just 20 mins from <a href="http://hawaii.gov/koa" target="_blank" title="Kona International Airport">KOA airport</a> and a quick 10 minute drive from our venue in Kailua-Kona, you’ll find numerous hotel options.</p>
-        <p>We’ve worked with the Sheraton to secure a special group rate for our guests of $149 / night. You can book this rate <a href="http://nakissandom.com/getaroom" title="nakissandom.com/getaroom">online</a> or call <a href="tel:1-844-235-6796">1-844-235-6796</a> and mention the “Gradert-McKellar Wedding.”</p>
+        <p>We’ve worked with the Sheraton to secure a special group rate for our guests of $149 / night. You can book this rate <a href="http://nakissandom.com/getaroom" title="nakissandom.com/getaroom">online</a> or call <a href="tel:1-808-930-4900">808-930-4900</a> and ask to speak with Kori Gacayan who's handling our Room Block. To take advantage of our discount, reservations must be made by September 24th.</p>
         <p>The hotel address is 78-128 Ehukai Street, Kailua-Kona, HI 96740.</p>
-        <p><a class="btn btn-primary btn-lg" href="http://nakissandom.com/getaroom" target="_blank">Book Now</a></p>
+        <p><a class="btn btn-primary btn-lg b-pad" href="http://nakissandom.com/getaroom" target="_blank">Book Now</a></p>
       </div>
     </div>
   </div>{{-- /.row.featurette --}}
@@ -114,7 +114,6 @@ data-top="opacity:1;">
 
 <!-- Fun Section -->
 @include('partials._fun')
-
 
 <!-- Guest Book Section -->
 <section id="guestbook" class="container page"
@@ -127,7 +126,7 @@ data-center-bottom="opacity:1">
         <p>If you have any thoughts, memories, or y-e-s even advice, we’d love to hear from you. Just remember this is a public forum, so please keep it PG-13 <i class="fa fa-smile-o fa-lg"></i></p>
 
  <!-- Trigger the modal with a button -->
-  <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#gbModal">Guestbook</button>
+  <button type="button" class="btn btn-primary btn-lg b-pad" data-toggle="modal" data-target="#gbModal">Guestbook</button>
 
       </div>
     </div>
@@ -160,7 +159,7 @@ data-center-bottom="opacity:1">
       <div class="l-pad">
         <h2 class="featurette-heading">Honeyfund</h2>
         <p>Your presence at our wedding is our present :) We feel very fortunate that you will be making the trip to help us celebrate our special day! If you would like to give a gift, please visit our honeyfund page for more information.</p>
-        <p><a class="btn btn-primary btn-lg" href="http://www.honeyfund.com/wedding/nakissandom" target="_blank">Learn More</a></p>
+        <p><a class="btn btn-primary btn-lg b-pad" href="http://www.honeyfund.com/wedding/nakissandom" target="_blank">Learn More</a></p>
       </div>
     </div>
   </div>{{-- /.row.featurette --}}
@@ -184,7 +183,7 @@ data-center-bottom="opacity:1">
         <h2 class="featurette-heading">Contact Us</h2>
         <p>Do you have questions about accommodations, scheduling, or the event? Please don’t hesitate to contact us!</p>
          <!-- Trigger the modal with a button -->
-        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#contactModal">Contact</button>
+        <button type="button" class="btn btn-primary btn-lg b-pad" data-toggle="modal" data-target="#contactModal">Contact</button>
     </div>
     <div class="col-md-5 col-md-offset-1 col-sm-12">
         <img class="featurette-image img-responsive center-block img-circle" src="img/smiles-350.jpg"
