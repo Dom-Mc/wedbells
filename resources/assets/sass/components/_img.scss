@@ -118,7 +118,15 @@
 	// 	@media #{$brk-lg}{
 	// 		padding: 12%;
 	// 	}
-	max-width: 50%;
+	
+	@include media('<md'){
+		margin-top: 25px;
+		margin-bottom: 20px;
+	}
+	max-width: 40%;
+	@include media('>portrait') {
+		max-width: 30%;
+	}
 	@include media('>=sm') {
 		max-width: 30%;
 	}

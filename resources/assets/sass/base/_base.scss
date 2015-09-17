@@ -105,15 +105,15 @@ p {
   // font-size: 1rem;
   font-size: 1rem;
   @include media('>=sm') {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
   }
   //Medium devices (992px and up)
   @include media('>=md') {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
   }
   //Medium devices (992px and up)
   @include media('>=lg') {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
   }
 }
 
@@ -127,25 +127,31 @@ p {
   @include media('>=sm') {
     font-size: 3rem;
   }
-  //Medium devices (992px and up)
   @include media('>=md') {
     font-size: 3.2rem;
   }
-  //Medium devices (992px and up)
   @include media('>=lg') {
     font-size: 3.2rem;
   }
 }
   
-
-
 #venue .featurette-heading {
-  //Small devices (768px and up) 
+  font-size: 1.75rem;
   @include media('>=sm') {
-    font-size: 2.25rem; // 40.5/18=2.25rem
+    font-size: 2.5rem;
   }
+  @include media('>=md') {
+    font-size: 2.5rem;
+  }
+  @include media('>=lg') {
+    font-size: 2.5rem;
+  }
+  //Small devices (768px and up) 
+  //@include media('>=sm') {
+    //font-size: 2.25rem; // 40.5/18=2.25rem
+  //}
   //Extra Small devices (767px and below)
-  font-size: 1.25rem; // 22.5/18=2.25rem
+  //font-size: 1.25rem; // 22.5/18=2.25rem
 }
 
 // EDIT LATER!!!!

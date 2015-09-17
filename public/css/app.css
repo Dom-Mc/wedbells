@@ -85,13 +85,13 @@ p {
   font-size: 1rem; }
   @media (min-width: 768px) {
     p {
-      font-size: 1.1rem; } }
+      font-size: 1.2rem; } }
   @media (min-width: 992px) {
     p {
-      font-size: 1.1rem; } }
+      font-size: 1.2rem; } }
   @media (min-width: 1200px) {
     p {
-      font-size: 1.1rem; } }
+      font-size: 1.2rem; } }
 
 /* Thin out the marketing headings */
 .featurette-heading {
@@ -112,10 +112,16 @@ p {
       font-size: 3.2rem; } }
 
 #venue .featurette-heading {
-  font-size: 1.25rem; }
+  font-size: 1.75rem; }
   @media (min-width: 768px) {
     #venue .featurette-heading {
-      font-size: 2.25rem; } }
+      font-size: 2.5rem; } }
+  @media (min-width: 992px) {
+    #venue .featurette-heading {
+      font-size: 2.5rem; } }
+  @media (min-width: 1200px) {
+    #venue .featurette-heading {
+      font-size: 2.5rem; } }
 
 /* --------------------------------------------------
                     LAYOUT
@@ -125,18 +131,18 @@ p {
   margin-bottom: 10%; }
   @media (max-width: 425px) {
     #bigday, #venue, #room, #guestbook, #honeyfund {
-      padding-right: 7%;
-      padding-left: 7%; } }
+      padding-right: 8%;
+      padding-left: 8%; } }
 
 @media (min-width: 426px) and (max-width: 768px) {
   #bigday, #venue, #room, #guestbook, #honeyfund {
-    padding-right: 7%;
-    padding-left: 7%; } }
+    padding-right: 8%;
+    padding-left: 8%; } }
 
 @media (min-width: 769px) and (max-width: 992px) {
   #bigday, #venue, #room, #guestbook, #honeyfund {
-    padding-right: 15%;
-    padding-left: 15%; } }
+    padding-right: 12%;
+    padding-left: 12%; } }
 
 #contact {
   margin-top: 10%;
@@ -144,18 +150,18 @@ p {
   margin-bottom: 50px; }
   @media (max-width: 425px) {
     #contact {
-      padding-right: 7%;
-      padding-left: 7%; } }
+      padding-right: 8%;
+      padding-left: 8%; } }
 
 @media (min-width: 426px) and (max-width: 768px) {
   #contact {
-    padding-right: 7%;
-    padding-left: 7%; } }
+    padding-right: 8%;
+    padding-left: 8%; } }
 
 @media (min-width: 769px) and (max-width: 992px) {
   #contact {
-    padding-right: 15%;
-    padding-left: 15%; } }
+    padding-right: 12%;
+    padding-left: 12%; } }
 
 .v-center {
   position: relative;
@@ -746,7 +752,14 @@ p {
   box-shadow: 3px 3px 5px #888888; }
 
 #contact img {
-  max-width: 50%; }
+  max-width: 40%; }
+  @media (max-width: 991px) {
+    #contact img {
+      margin-top: 25px;
+      margin-bottom: 20px; } }
+  @media (min-width: 426px) {
+    #contact img {
+      max-width: 30%; } }
   @media (min-width: 768px) {
     #contact img {
       max-width: 30%; } }
@@ -774,8 +787,23 @@ button {
 .b-pad {
   margin-top: 15px; }
 
+.btn {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
 #google_map {
-  height: 500px; }
+  height: 450px; }
+  @media (min-width: 425px) {
+    #google_map {
+      height: 300px; } }
+  @media (min-width: 768px) {
+    #google_map {
+      height: 300px; } }
+  @media (min-width: 992px) {
+    #google_map {
+      height: 500px; } }
+  @media (min-width: 1200px) {
+    #google_map {
+      height: 500px; } }
 
 #venue {
   margin-bottom: 0; }
@@ -1071,14 +1099,14 @@ header .navbar-default .navbar-toggle .icon-bar {
   text-align: center;
   margin-bottom: 0;
   color: #FFFFFF;
-  font-family: Raleway;
+  font-family: Damion;
   text-align: center;
   /*from treehouse*/
   margin-bottom: 0;
   /*my edits*/
   height: 300px; }
   #rsvp h2 {
-    font-weight: 100;
+    font-weight: 400;
     text-shadow: 1px 1px 1px grey;
     font-size: 2rem;
     color: #FFFFFF; }
@@ -1089,16 +1117,16 @@ header .navbar-default .navbar-toggle .icon-bar {
       #rsvp h2 {
         font-size: 3rem; } }
   #rsvp h1 {
-    font-weight: 100;
+    font-weight: 400;
     text-shadow: 1px 1px 1px grey;
     font-size: 3rem;
-    color: #FFFFFF; }
+    color: #1E90FF; }
     @media (min-width: 700px) and (max-width: 900px) {
       #rsvp h1 {
-        font-size: 4.5rem; } }
+        font-size: 4.75rem; } }
     @media (min-width: 901px) {
       #rsvp h1 {
-        font-size: 5.5rem; } }
+        font-size: 7rem; } }
   #rsvp p {
     color: #FFFFFF; }
 

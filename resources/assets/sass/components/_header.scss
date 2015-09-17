@@ -7,7 +7,7 @@
   text-align: center; //from treehouse
   margin-bottom: 0; 
   color: $white; //text color
-  font-family: $font-family--raleway;
+  font-family: $font-family--damion;
 
 
   text-align: center; /*from treehouse*/
@@ -18,7 +18,7 @@
     //     height: 700px;
     // }
     h2 {
-      font-weight: 100;
+      font-weight: 400;//100
       text-shadow: 1px 1px 1px grey;
       font-size: 2rem;
       color: $white; //text color
@@ -30,15 +30,15 @@
         }
     }
     h1 {
-      font-weight: 100;
+      font-weight: 400;//100
       text-shadow: 1px 1px 1px grey;
       font-size: 3rem;
-      color: $white; //text color
+      color: $color-one; //text color
         @media (min-width: 700px) and (max-width: 900px){ 
-          font-size: 4.5rem;
+          font-size: 4.75rem;
         }
         @media (min-width: 901px){
-          font-size: 5.5rem;
+          font-size: 7rem;
         }
         // .title {
         //   // font-weight: 100;

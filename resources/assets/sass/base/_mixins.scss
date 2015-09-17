@@ -65,18 +65,18 @@
   
   @include media('<=portrait') {
   //@media (max-width:768px) {
-    padding-right: 7%;
-    padding-left: 7%;
+    padding-right: 8%;
+    padding-left: 8%;
   }
   @include media( '>portrait', '<=sm') {
 	//@media (max-width:768px) {
-		padding-right: 7%;
-		padding-left: 7%;
+		padding-right: 8%;
+		padding-left: 8%;
 	}
   @include media('>sm', '<=md') {
   //@media (max-width:991px) {
-    padding-right: 15%;
-    padding-left: 15%;
+    padding-right: 12%;
+    padding-left: 12%;
   }
   // @include media('<=lg') {
   // //@media (max-width:991px) {
