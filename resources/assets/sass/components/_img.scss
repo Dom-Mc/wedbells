@@ -61,10 +61,43 @@
 
 
 #venue {
-	@include bg_img("bg/hi2.jpg");
+	@include bg_img("bg/backdrop2-500.jpg");
+	@include media('retina2x'){
+		@include bg_img("bg/backdrop2-1000.jpg");
+	}
+	@include media('retina3x'){
+		@include bg_img("bg/backdrop2-1500.jpg");
+	}
+
+	@include media('>500px') {
+		@include bg_img("bg/backdrop2-1000.jpg");
+		@include media('retina2x'){
+			@include bg_img("bg/backdrop2-1500.jpg");
+		}
+	}
+	@include media('>1000px') {
+		@include bg_img("bg/backdrop2-1500.jpg");
+	}
 }
+
 #view {
-	@include bg_img("bg/temp.jpg");
+	@include bg_img("bg/backdrop1-500.jpg");
+	@include media('retina2x'){
+		@include bg_img("bg/backdrop1-1000.jpg");
+	}
+	@include media('retina3x'){
+		@include bg_img("bg/backdrop1-1500.jpg");
+	}
+
+	@include media('>500px') {
+		@include bg_img("bg/backdrop1-1000.jpg");
+		@include media('retina2x'){
+			@include bg_img("bg/backdrop1-1500.jpg");
+		}
+	}
+	@include media('>1000px') {
+		@include bg_img("bg/backdrop1-1500.jpg");
+	}
 }
 
     .featurette-image {
@@ -93,6 +126,6 @@
 		max-width: 75%;
 	}
 	@include media('>=lg') {
-		max-width: 95%;
+		max-width: 90%;
 	} 
 }

@@ -4,17 +4,16 @@
 
 
 
-#bigday, #venue, #room, #guestbook, #registry  {
+#bigday, #venue, #room, #guestbook, #honeyfund  {
   @include section;
 }
 
 #contact {
 	@include section;
-	margin-bottom: 0;
+	margin-bottom: 50px;
 }
 
 .v-center {
-
   position: relative;
   top: 50%;
   transform: translateY(-50%);
@@ -26,10 +25,14 @@
 
 
 .l-pad {
-  //padding-left: ; //8.33333%  1.5em
+  @include media('>=md') {
+    padding-left: 8.33333%;//  1.5em
+  }
 }
 .r-pad {
-  //padding-right: 8.33333%;
+  @include media('>=md') {
+    padding-right: 8.33333%;
+  }
 }
 .pad {
 	padding: 12%; //used for circle images

@@ -51,8 +51,8 @@
         </div>
       </div>
       <div class="col-md-6 col-lg-5 col-lg-offset-1">
-        <div class="pad hidden-sm hidden-xs">    {{-- REMOVE LATER --}}
-          <img class="featurette-image img-responsive center-block img-circle visible-md-block visible-lg-block" src="img/kiss.jpg">{{-- Hidden on at > 991px --}}
+        <div class="hidden-sm hidden-xs">    {{-- REMOVE LATER --}}
+          <img class="featurette-image img-responsive center-block img-circle visible-md-block visible-lg-block" src="img/kiss-350.jpg">{{-- Hidden on at > 991px --}}
         {{-- .img-thumbnail - BEVEL --}}
         </div>
       </div>
@@ -63,7 +63,7 @@
 
 {{-- Venue Section --}}
 <div>
-  <section id="venue" class="container-fluid">  {{-- REMOVED .PAGE --}}
+  <section id="venue">  {{-- REMOVED .PAGE and .container-fluid --}}
     <div class="row featurette">
       <div class="col-sm-6 col-centered text-center"
       data-center="opacity:0" 
@@ -122,20 +122,17 @@ data-bottom="opacity:0"
 data-center-bottom="opacity:1">
   <div class="row featurette">
     <div class="col-md-6 col-lg-6">
-      <div class="l-pad">
+      <div class="r-pad">
         <h2 class="featurette-heading">Sign our Guestbook</h2>
         <p>If you have any thoughts, memories, or y-e-s even advice, we’d love to hear from you. Just remember this is a public forum, so please keep it PG-13 <i class="fa fa-smile-o fa-lg"></i></p>
-
 
  <!-- Trigger the modal with a button -->
   <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#gbModal">Guestbook</button>
 
-
-
       </div>
     </div>
-    <div class="col-md-6 col-lg-5 col-lg-offset-1">
-      <div class="r-pad">
+    <div class="col-md-6 col-lg-6 col-lg-offset-1">
+      <div class="l-pad">
         <img class="featurette-image img-responsive center-block visible-md-block visible-lg-block" src="img/gb.jpg">{{-- Hidden on at > 991px --}}
         {{-- .img-thumbnail - BEVEL --}}
       </div>
@@ -145,49 +142,37 @@ data-center-bottom="opacity:1">
 <!-- /Guest Book Section -->
 
 
-
-
-
 <!-- Story Section -->
 @include('partials._story')
 
-
-
-
-
-
-    <!-- Registry Section -->
-    <section id="registry" class="container page">
-
-
-      <div class="row featurette"
-      data-bottom="left:-200%;"
-      data-center-top="left:0;">
-
-        <div class="col-md-6 col-lg-5">
-          <div class="r-pad"> 
-            <img class="featurette-image img-responsive center-block visible-md-block visible-lg-block" src="img/gift.jpg">{{-- Hidden on at > 991px --}}
-            {{-- .img-thumbnail - BEVEL --}}
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-6 col-lg-offset-1">
-          <div class="l-pad">
-            <h2 class="featurette-heading">Registry</h2>
-            <p>Your presence at our wedding is our present :) We feel very fortunate that you will be making the trip to help us celebrate our special day! If you would like to give a gift, please visit our honeyfund page for more information.</p>
-            <p><a class="btn btn-primary btn-lg" href="http://www.honeyfund.com/wedding/nakissandom" target="_blank">Learn More</a></p>
-          </div>
-        </div>
-      </div>{{-- /.row.featurette --}}
-    </section>
-    <!-- /Registry Section -->
+<!-- Honeyfund Section -->
+<section id="honeyfund" class="container page">
+  <div class="row featurette"
+  data-bottom="left:-200%;"
+  data-center-top="left:0;">
+    <div class="col-md-6 col-lg-5">
+      <div class="r-pad"> 
+        <img class="featurette-image img-responsive center-block visible-md-block visible-lg-block" src="img/gift.jpg">{{-- Hidden on at > 991px --}}
+        {{-- .img-thumbnail - BEVEL --}}
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-6 col-lg-offset-1">
+      <div class="l-pad">
+        <h2 class="featurette-heading">Honeyfund</h2>
+        <p>Your presence at our wedding is our present :) We feel very fortunate that you will be making the trip to help us celebrate our special day! If you would like to give a gift, please visit our honeyfund page for more information.</p>
+        <p><a class="btn btn-primary btn-lg" href="http://www.honeyfund.com/wedding/nakissandom" target="_blank">Learn More</a></p>
+      </div>
+    </div>
+  </div>{{-- /.row.featurette --}}
+</section>
+<!-- /Honeyfund Section -->
 
 
 
 {{-- View Background img --}}
 <div id="view">
-<div class="container"> {{-- REMOVED .PAGE --}}
-
-</div>
+  <div class="container"> {{-- REMOVED .PAGE --}}
+  </div>
 </div>
 {{-- /Looking Down pic --}}
 
@@ -195,23 +180,19 @@ data-center-bottom="opacity:1">
 <!-- Contact Section -->
 <section id="contact" class="container page"> 
   <div class="row featurette">
-    <div class="col-md-6 col-lg-6">
-
+    <div class="col-md-6 col-sm-12">
         <h2 class="featurette-heading">Contact Us</h2>
         <p>Do you have questions about accommodations, scheduling, or the event? Please don’t hesitate to contact us!</p>
          <!-- Trigger the modal with a button -->
         <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#contactModal">Contact</button>
     </div>
-    <div class="col-md-5 col-md-offset-1 col-lg-5 col-lg-offset-1">
-
-        <img class="featurette-image img-responsive center-block img-circle" src="img/smiles.jpg"
+    <div class="col-md-5 col-md-offset-1 col-sm-12">
+        <img class="featurette-image img-responsive center-block img-circle" src="img/smiles-350.jpg"
         srcset="img/smiles-350.jpg 1x,
                 img/smiles-700.jpg 2x,
                 img/smiles-1050.jpg 3x"
         >
-
         {{-- visible-md-block visible-lg-block --}}
-
     </div>
   </div>{{-- /.row.featurette --}}
 </section>

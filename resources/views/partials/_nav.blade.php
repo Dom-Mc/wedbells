@@ -19,7 +19,7 @@
         <li><a href="#fun">Island Fun</a></li>
         <li><a href="#guestbook">Guestbook</a></li>
         <li><a href="#story">Our Story</a></li>
-        <li><a href="#registry">Registry</a></li>
+        <li><a href="#honeyfund">Honeyfund</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </div>{{-- /#collapse .collapse.navbar-collapse --}}

@@ -62,10 +62,16 @@
 @mixin section {
 	margin-top: 10%;
 	margin-bottom: 10%;
-	@media (max-width:991px) {
+  @include media('<=sm') {
+	//@media (max-width:991px) {
 		padding-right: 7%;
 		padding-left: 7%;
 	}
+  @include media('<=md') {
+  //@media (max-width:991px) {
+    padding-right: 15%;
+    padding-left: 15%;
+  }
 		// @media #{$brk-sm} { 
 		// 	height: 400px;
 		// }
@@ -86,19 +92,19 @@
 
 // Background Image
 @mixin bg_img ($img) {
-	@include mq(sm) {
+  @include media('>=sm') {
 		height: 400px;
 	}
-	@include mq(md) {
+	@include media('>=md') {
 		height: 450px;
 	}
-	@include mq(lg) {
+	@include media('>=lg') {
 		background-attachment: fixed !important;
 		height: 500px;
 	}
-	@include mq(xl) {
-		//height: 1000px;
-	}
+	// @include media('>=xl') {
+	// 	height: 1000px;
+	// }
 	background-image:  url('#{$path--img}/#{$img}');
 	background-position: center center;
 	background-repeat: no-repeat;

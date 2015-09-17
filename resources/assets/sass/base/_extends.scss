@@ -4,7 +4,7 @@
 
 // Horizontal Center & Vertical Center
 %h-center {
- text-align: center;  // place in any rule - .foo { @extend %centered; }
+  text-align: center;  // place in any rule - .foo { @extend %centered; }
 }
 %v-center {
   position: relative;
@@ -12,6 +12,16 @@
   transform: translateY(-50%);
   // margin-left: auto;
   // margin-right: auto;
+}
+
+%v-align {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  align-items: center;
 }
 
 %center-block {
