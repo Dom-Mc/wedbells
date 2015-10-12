@@ -73,7 +73,7 @@
         <p>78-7102 Walua Road<br>
           Kailua Kona, HI 96740<br></p>
 
-          <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#directionsModal">Directions</button>
+ {{--          <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#directionsModal">Directions</button> --}}
         </div>
       </div>{{-- /.row.featurette --}}
     </section>
