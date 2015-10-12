@@ -72,6 +72,8 @@
         <h2 class="featurette-heading">Wedding Venue</h2>
         <p>78-7102 Walua Road<br>
           Kailua Kona, HI 96740<br></p>
+
+          <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#directionsModal">Directions</button>
         </div>
       </div>{{-- /.row.featurette --}}
     </section>
@@ -203,6 +205,7 @@ data-center-bottom="opacity:1">
 
 <!-- Modal -->
 @include('partials._rsvp-form')
+@include('partials._directions')
 @include('partials._guestbook-form')
 @include('partials._contact-form')
 

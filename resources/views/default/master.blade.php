@@ -60,8 +60,5 @@
     <script src="js/vendor/owl.carousel.js"></script>
     <script src="js/wed.js"></script>
 
-<script type="text/javascript" src="js/skrollr.min.js"></script>
-
-
   </body>
 </html>
