@@ -12,12 +12,14 @@
 
       <div class="modal-body">
 <h3>Directions from Kona International Airport</h3>
-<p>Drive south on Highway 19 which eventually becomes Highway 11</p>
-<p>Continue past Kamehameha III Rd (the street you'd turn on to get to the Sheraton</p>
-<p>Take a right on Ihilani Place</p>
-<p>Take a left on Walua Road (you'll see a sign and balloons)</p>
-<p>Continue through the front gate and down the hill until you've reached the venue.</p>
-<p><small>*Please do not block the driveway</small></p>
+<ul>
+<li>Drive south on Highway 19 which eventually becomes Highway 11</li>
+<li>Continue past Kamehameha III Rd (the street you'd turn on to get to the Sheraton</li>
+<li>Take a right on Ihilani Place</li>
+<li>Take a left on Walua Road (you'll see a sign and balloons)</li>
+<li>Continue through the front gate and down the hill until you've reached the venue.</li>
+<li><small>*Please do not block the driveway</small></li>
+</ul>
       </div>{{-- /.modal-body --}}
 
    </div>{{-- /.modal-content --}}
