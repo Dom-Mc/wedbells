@@ -19,7 +19,7 @@
     {{-- <p>Join us October 17th in Kailua-Kona, Hawaii</p> --}}
     
  <!-- Trigger the modal with a button -->
-  <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">RSVP Today</button>
+  {{--<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">RSVP Today</button>--}}
 <div id="drop">
 <a href="#bigday"><img class="arrow" src="img/arrow.svg" alt="Down arrow"></a>
 </div>
