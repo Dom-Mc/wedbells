@@ -92,7 +92,7 @@ data-top="opacity:1;">
 
 
 <!-- Get a Room Section -->
-<section id="room" class="container page">
+<section id="transportation" class="container page">
   <div class="row featurette"
   data-bottom-center="opacity:0" 
   data-center-top="opacity:1">
@@ -105,7 +105,7 @@ data-top="opacity:1;">
     </div>
     <div class="col-md-6 col-lg-6 col-lg-offset-1">
       <div class="l-pad">
-        <h2 class="featurette-heading">Get a Room</h2>
+        <h2 class="featurette-heading">Transportation</h2>
         <p>From vacation rentals to hotels, the Big Island offers a wide variety of lodging accommodations. Just 20 mins from <a href="http://hawaii.gov/koa" target="_blank" title="Kona International Airport">KOA airport</a> and a quick 10 minute drive from our venue in Kailua-Kona, you’ll find numerous hotel options.</p>
         <p>We’ve worked with the Sheraton to secure a special group rate for our guests of $149 / night. You can book this rate <a href="http://nakissandom.com/getaroom" title="nakissandom.com/getaroom">online</a> or call <a href="tel:1-808-930-4900">808-930-4900</a> and ask to speak with Kori Gacayan who's handling our Room Block. To take advantage of our discount, reservations must be made by September 24th.</p>
         <p>The Sheraton Kona Resort is located at 78-128 Ehukai Street, Kailua-Kona, HI 96740.</p>
