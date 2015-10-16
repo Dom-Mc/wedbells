@@ -92,7 +92,7 @@ data-top="opacity:1;">
 
 
 <!-- Get a Room Section -->
-<section id="transportation" class="container page">
+<section id="room" class="container page">
   <div class="row featurette"
   data-bottom-center="opacity:0" 
   data-center-top="opacity:1">
