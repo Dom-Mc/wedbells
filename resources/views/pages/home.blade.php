@@ -49,7 +49,7 @@
           <ul>
             <li>The ceremony will begin at 4:00pm, directly followed by a cocktail hour and the reception.</li>
             <li>Attire for the evening is semiformal / cocktail.</li>
-            <li></li>
+            <li>For the night owls that want to stick around after we have to turn down the music, bring your swim suit and we'll lounge in the jacuzzi and pool for the after party (just don't get too sleepy - we know we have some friends who tend to find a comfy couch at the end of the night, but we will not be hosting overnight guests - no offense!)</li>
           </ul>
         </div>
       </div>
