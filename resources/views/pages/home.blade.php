@@ -46,8 +46,10 @@
         <div class="">
           <h2 class="featurette-heading">The Big Day</h2>
           <p>On October 17th, 2015, we're getting married in beautiful Kailua-Kona, located on the Big Island of Hawaii. We are so excited to celebrate this special occasion with the family and friends we love and who have meant so much to us throughout the years.</p>
-          <p>The ceremony will begin at 4:00pm, directly followed by cocktail hour and reception.</p>
-          <p>Attire for the evening is semiformal / cocktail.</p> 
+          <ul>
+            <li>The ceremony will begin at 4:00pm, directly followed by a cocktail hour and the reception.</li>
+            <li>Attire for the evening is semiformal / cocktail.</li>
+          </ul>
         </div>
       </div>
       <div class="col-md-6 col-lg-5 col-lg-offset-1">
