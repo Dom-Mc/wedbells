@@ -49,6 +49,7 @@
           <ul>
             <li>The ceremony will begin at 4:00pm, directly followed by a cocktail hour and the reception.</li>
             <li>Attire for the evening is semiformal / cocktail.</li>
+            <li></li>
           </ul>
         </div>
       </div>
