@@ -15,7 +15,7 @@
         <li class="active" id="hideMe"><a href="#rsvp">RSVP</a></li>
         <li><a href="#bigday">Big Day</a></li>
         <li><a href="#venue">Venue</a></li>
-        <li><a href="#room">Get a Room</a></li>
+        <li><a href="#transportation">Transportation</a></li>
         <li><a href="#fun">Island Fun</a></li>
         <li><a href="#guestbook">Guestbook</a></li>
         <li><a href="#story">Our Story</a></li>
