@@ -12,7 +12,7 @@
 
     <div id="collapse" class="collapse navbar-collapse" >
       <ul class="nav navbar-nav navbar-right">
-        <li class="active"><a href="#rsvp">RSVP</a></li>
+        <li class="active" id="hideMe"><a href="#rsvp">RSVP</a></li>
         <li><a href="#bigday">Big Day</a></li>
         <li><a href="#venue">Venue</a></li>
         <li><a href="#room">Get a Room</a></li>
