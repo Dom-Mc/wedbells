@@ -101,7 +101,6 @@ data-top="opacity:1;">
  <h2 class="featurette-heading">Transportation</h2><br>
 <h3>From the Sheraton</h3>
 <p>For guests staying at the Sheraton, we will be providing transportation from the hotel to our venue via a shuttle.  Our shuttle will be making two trips and will be departing the hotel at <strong>3:15pm</strong> and <strong>3:35pm</strong>.</p>
-<br>
 <p>Pick up location will be out in front of the Sheraton (main entrance).  Please plan on being outside the lobby in time for the first shuttle because if the second one fills up, you will need to find your own transportation to the venue.</p>
 <br>
 <h3>From the Venue (end of the night)</h3>
