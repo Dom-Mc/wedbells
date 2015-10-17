@@ -98,27 +98,27 @@ data-top="opacity:1;">
     <div class=".col-md-6 .col-md-offset-3">
 
 
- <h2 class="featurette-heading">Transportation</h2>
+ <h2 class="featurette-heading">Transportation</h2><br>
 <h3>From the Sheraton</h3>
 <p>For guests staying at the Sheraton, we will be providing transportation from the hotel to our venue via a shuttle.  Our shuttle will be making two trips and will be departing the hotel at <strong>3:15pm</strong> and <strong>3:35pm</strong>.</p>
-
+<br>
 <p>Pick up location will be out in front of the Sheraton (main entrance).  Please plan on being outside the lobby in time for the first shuttle because if the second one fills up, you will need to find your own transportation to the venue.</p>
-
+<br>
 <h3>From the Venue (end of the night)</h3>
 <p>Unfortunately coordinating transportation after the festivities ended up being too challenging as we realized partygoers will be leaving at various points throughout the evening.  However it’s extremely important to us that everyone gets home safely and we want to do everything we can to help.  Below is a list of a few taxi companies who we’ve reached out to and offer late pickup service in Kona.</p>
-
+<br>
 <h4>Kona Taxicab</h4>
 <p>(808) 324-4444<br>
 Open 24/7</p>
-
+<br>
 <h4>Taxi Joe</h4>
 <p>(808) 329-9090<br>
 Open 24/7</p>
-
+<br>
 <h4>R Jay Taxi</h4>
 <p>(844) 868-2809<br>
 Open 4am-12am (will extend his hours)</p>
-
+<br>
 <h4>*Gold Coast Town Car Services</h4>
 <p>(808) 756-7375<br>
 Will be on-call and can provide shuttle service on the island (call ahead if you plan on using them)</p>
