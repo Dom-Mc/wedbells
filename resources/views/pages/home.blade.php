@@ -93,19 +93,12 @@ data-top="opacity:1;">
 
 <!-- Get a Room Section -->
 <section id="room" class="container page">
-  <div class="row featurette"
-  data-bottom-center="opacity:0" 
-  data-center-top="opacity:1">
+  <div class="row featurette">
 
-    <div class="col-md-6 col-lg-5">
-      <div class="r-pad">
-        <img class="featurette-image img-responsive center-block visible-md-block visible-lg-block" src="img/hotel.jpg">{{-- Hidden on at > 991px --}}
-        {{-- .img-thumbnail - BEVEL --}}
-      </div>
-    </div>
-    <div class="col-md-6 col-lg-6 col-lg-offset-1">
-      <div class="l-pad">
-        <h2 class="featurette-heading">Transportation</h2>
+    <div class=".col-md-6 .col-md-offset-3">
+
+
+ <h2 class="featurette-heading">Transportation</h2>
 <h3>From the Sheraton</h3>
 <p>For guests staying at the Sheraton, we will be providing transportation from the hotel to our venue via a shuttle.  Our shuttle will be making two trips and will be departing the hotel at <strong>3:15pm</strong> and <strong>3:35pm</strong>.</p>
 
@@ -130,7 +123,7 @@ Open 4am-12am (will extend his hours)</p>
 <p>(808) 756-7375<br>
 Will be on-call and can provide shuttle service on the island (call ahead if you plan on using them)</p>
 
-      </div>
+
     </div>
   </div>{{-- /.row.featurette --}}
 </section>
