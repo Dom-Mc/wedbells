@@ -19,7 +19,9 @@
     {{-- <p>Join us October 17th in Kailua-Kona, Hawaii</p> --}}
     
  <!-- Trigger the modal with a button -->
+
   <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#dropModal">Upload Pics</button>
+
 <div id="drop">
 <a href="#bigday"><img class="arrow" src="img/arrow.svg" alt="Down arrow"></a>
 </div>
@@ -69,7 +71,7 @@
         <p>78-7102 Walua Road<br>
           Kailua Kona, HI 96740<br></p>
 
- {{--          <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#directionsModal">Directions</button> --}}
+          <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#directionsModal">Directions</button>
         </div>
       </div>{{-- /.row.featurette --}}
     </section>
@@ -85,6 +87,7 @@ data-top="opacity:1;">
 
 
 <!-- Get a Room Section -->
+
 {{-- <section id="room" class="container page">
   <div class="row featurette"
   data-bottom-center="opacity:0" 
@@ -103,6 +106,7 @@ data-top="opacity:1;">
         <p>The Sheraton Kona Resort is located at 78-128 Ehukai Street, Kailua-Kona, HI 96740.</p>
         <p><a class="btn btn-primary btn-lg b-pad" href="http://nakissandom.com/getaroom" target="_blank">Book Now</a></p>
       </div>
+
     </div>
   </div>
 </section> --}}

@@ -5,6 +5,8 @@
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%); }
 
+#hideMe { display: none; }
+
 .arrow {
   display: block;
   margin-right: auto;
