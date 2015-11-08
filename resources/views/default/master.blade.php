@@ -11,13 +11,10 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	{{-- Bootstrap optional theme --}}
 	{{-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"> --}}
-
   <link rel="stylesheet" href="css/vendor/owl.carousel.css">
   <link rel="stylesheet" href="css/vendor/owl.theme.css">
   <link rel="stylesheet" type="text/css" href="css/app.css">
 
-
-  
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -25,25 +22,13 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
       <![endif]-->
 
-      {{-- Fonts --}}
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  {{-- Fonts --}}
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <script>
     // Picture element HTML5 shiv
     document.createElement( "picture" );
   </script>
   <script src="js/vendor/picturefill.min.js" async></script>
-
-    {{-- <script type="text/javascript">
-
-    //window.onload=function(){
-    //var s =  skrollr.init({
-    //forceHeight: false
-    //further options..
-
-    //});
-    //};
-   </script>--}}
-      
 
   </head>
 
@@ -53,17 +38,7 @@
   	<!-- Scripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    
-    <script src="//maps.google.com/maps/api/js?sensor=true"></script>
-    
-    <script src="js/map.js"></script>
     <script src="js/vendor/owl.carousel.js"></script>
     <script src="js/wed.js"></script>
-    <script type="text/javascript" src="https://www.dropbox.com/static/api/2/dropins.js" id="dropboxjs" data-app-key="npk8gz462i29iea"></script>
-    <script>
-      Dropbox.createSaveButton(url, filename, options);
-      Dropbox.save(url, filename, options);
-    </script>
-
   </body>
 </html>
