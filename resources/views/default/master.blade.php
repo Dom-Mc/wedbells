@@ -59,6 +59,11 @@
     <script src="js/map.js"></script>
     <script src="js/vendor/owl.carousel.js"></script>
     <script src="js/wed.js"></script>
+    <script type="text/javascript" src="https://www.dropbox.com/static/api/2/dropins.js" id="dropboxjs" data-app-key="npk8gz462i29iea"></script>
+    <script>
+      Dropbox.createSaveButton(url, filename, options);
+      Dropbox.save(url, filename, options);
+    </script>
 
   </body>
 </html>

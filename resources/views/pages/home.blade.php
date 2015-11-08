@@ -19,7 +19,7 @@
     {{-- <p>Join us October 17th in Kailua-Kona, Hawaii</p> --}}
     
  <!-- Trigger the modal with a button -->
-  <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">RSVP Today</button>
+  <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#dropModal">Upload Pics</button>
 <div id="drop">
 <a href="#bigday"><img class="arrow" src="img/arrow.svg" alt="Down arrow"></a>
 </div>
@@ -38,16 +38,11 @@
   {{-- The Big Day Section --}}
   <section id="bigday" class="container">
 
-    <div class="row featurette"
-    data-center="opacity:1"
-    data-bottom-center="opacity:0">
-
+    <div class="row featurette">
       <div class="col-md-6 col-lg-6">
         <div class="">
           <h2 class="featurette-heading">The Big Day</h2>
           <p>On October 17th, 2015, we're getting married in beautiful Kailua-Kona, located on the Big Island of Hawaii. We are so excited to celebrate this special occasion with the family and friends we love and who have meant so much to us throughout the years.</p>
-          <p>The ceremony will begin at 4:00pm, directly followed by cocktail hour and reception.</p>
-          <p>Attire for the evening is semiformal / cocktail.</p> 
         </div>
       </div>
       <div class="col-md-6 col-lg-5 col-lg-offset-1">
@@ -59,7 +54,8 @@
     </div>{{-- /.row.featurette --}}
   </section>
   {{-- /Big Day Section --}}
- 
+
+
 
 {{-- Venue Section --}}
 <div>
@@ -89,15 +85,14 @@ data-top="opacity:1;">
 
 
 <!-- Get a Room Section -->
-<section id="room" class="container page">
+{{-- <section id="room" class="container page">
   <div class="row featurette"
   data-bottom-center="opacity:0" 
   data-center-top="opacity:1">
 
     <div class="col-md-6 col-lg-5">
       <div class="r-pad">
-        <img class="featurette-image img-responsive center-block visible-md-block visible-lg-block" src="img/hotel.jpg">{{-- Hidden on at > 991px --}}
-        {{-- .img-thumbnail - BEVEL --}}
+        <img class="featurette-image img-responsive center-block visible-md-block visible-lg-block" src="img/hotel.jpg">
       </div>
     </div>
     <div class="col-md-6 col-lg-6 col-lg-offset-1">
@@ -109,13 +104,14 @@ data-top="opacity:1;">
         <p><a class="btn btn-primary btn-lg b-pad" href="http://nakissandom.com/getaroom" target="_blank">Book Now</a></p>
       </div>
     </div>
-  </div>{{-- /.row.featurette --}}
-</section>
+  </div>
+</section> --}}
 <!-- /Get a Room Section -->
 
 
 <!-- Fun Section -->
-@include('partials._fun')
+{{-- @include('partials._fun') --}}
+
 
 <!-- Guest Book Section -->
 <section id="guestbook" class="container page"
@@ -208,7 +204,7 @@ data-center-bottom="opacity:1">
 @include('partials._directions')
 @include('partials._guestbook-form')
 @include('partials._contact-form')
-
+@include('partials._dropittome')
 
 
 @stop
