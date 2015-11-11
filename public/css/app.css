@@ -1059,7 +1059,7 @@ header .navbar-fixed-bottom .navbar-collapse, header .navbar-fixed-top .navbar-c
       padding-left: 50px; } }
   @media (min-width: 760px) and (max-width: 1100px) {
     .navbar-brand {
-      display: none; } }
+      /*display: none;*/ } }
 
 .navbar-brand h1 {
   color: #1E90FF;

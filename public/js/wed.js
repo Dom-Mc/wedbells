@@ -1,7 +1,7 @@
 $(function() {
 
   "use strict";
-  var topoffset = 60; //50 variable for menu height
+  var topoffset = 80; //50 variable for menu height
   var wheight = $(window).height(); //get the height of the window
   var story = $('#story');
 
@@ -51,11 +51,6 @@ $(function() {
   });
 
 
-
-
-
-
-
   //Use smooth scrolling when clicking on navigation
   $('.navbar a[href*=#]:not([href=#])').click(function() {
     if (location.pathname.replace(/^\//,'') === 
@@ -87,7 +82,6 @@ $(function() {
       } //target.length
     } //click function
   }); //smooth scrolling
-
 
 
   $('.carousel').carousel({
@@ -147,14 +141,8 @@ $(function() {
       mouseDrag : true,
       touchDrag : true,
       
-
-
       //rewindSpeed : 1000,
       
-
-
-
-
       // navigation : true,
       //pagination : true, //set back to true
       //transitionStyle : "fade",

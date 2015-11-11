@@ -30,6 +30,92 @@
   </script>
   <script src="js/vendor/picturefill.min.js" async></script>
 
+<style>
+
+/*p#shareButton {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}*/
+.dropboxModalpad {
+  padding-right: 1rem;
+  padding-left: 1rem;
+
+}
+
+#paypal > a,
+#paypal > a:link,
+#paypal > a:visited  {
+  color: #1E90FF;
+  font-weight: 300;
+}
+a:hover, a:active {
+  color: #1E90FF;
+  font-weight: 700;
+}
+
+
+#paypal img { 
+  margin-top: 1rem;
+  -webkit-border-radius: 28;
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  -webkit-box-shadow: 0px 1px 3px #666666;
+  -moz-box-shadow: 0px 1px 3px #666666;
+  box-shadow: 0px 1px 3px #666666;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #ffffff;
+  padding: 10px 20px 10px 20px;
+  /* border: solid #1f628d 1px; */
+  text-decoration: none;
+}
+
+/*Remove whitespace / prevent line-break*/
+.nobr{
+  white-space: nowrap;
+}
+
+
+/*Modal Close button*/
+.close {
+    font-size: 3rem;
+    /*float: right;*/
+}
+
+.modal-title {
+  font-size: 2.7rem;
+  padding-left: 28.813px;
+}
+.pswd {
+  font-size: 1.5rem;
+  font-style: italic;
+  font-weight: 800;
+}
+/*Screen size < 1250px*/
+#dropboxButton {
+  display: block;
+}
+#dropittomeButton{
+  display: none;
+}
+/*Screen size > 1250px*/
+@media screen and (min-width: 1250px) {
+  #dropboxButton {
+    display: none;
+  }
+  #dropittomeButton{
+    display: block;
+  }
+}
+
+#dropittomeModal .modal-title {
+  margin-bottom: .75rem;
+}
+
+</style>
   </head>
 
   <body>

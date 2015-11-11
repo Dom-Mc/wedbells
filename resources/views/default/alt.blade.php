@@ -29,6 +29,11 @@
 	
 	{{-- <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDKcpBAyAKbtL2CDtQ0O0qNSIH_xo5X_Kk&sensor=false"></script> --}}
 
+  <style>
+    .navbar-brand {
+      display: block; /* display: none; */
+    }
+  </style>
   </head>
 
 	

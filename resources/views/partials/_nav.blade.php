@@ -13,7 +13,7 @@
     <div id="collapse" class="collapse navbar-collapse" >
       <ul class="nav navbar-nav navbar-right">
         <li class="active" id="hideMe"><a href="#rsvp">RSVP</a></li>
-        <li><a href="#bigday">Upload your pics</a></li>
+        <li><a href="#bigday">Share Your Memories</a></li>
         <li><a href="#honeyfund">Cards &amp; Gifts</a></li>
         {{-- <li><a href="#venue">Venue</a></li> --}}
         {{-- <li><a href="#room">Transportation</a></li> --}}
