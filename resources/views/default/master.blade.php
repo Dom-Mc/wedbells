@@ -35,22 +35,26 @@
 
 /* Thin out the marketing headings */
 .featurette-heading {
-      font-size: 1.8rem;
-    margin-bottom: 20px;
-  font-weight: 300;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  /*font-weight: normal;*/
+  font-weight: 400;
   line-height: 1;
   letter-spacing: -1px;
   /*margin-top: 0;*/
   /* MY EDIT */ }
   @media (min-width: 768px) {
     .featurette-heading {
-      font-size: 3rem; } }
+      font-size: 3rem;
+      font-weight: normal; } }
   @media (min-width: 992px) {
     .featurette-heading {
-      font-size: 3.2rem; } }
+      font-size: 3.2rem;
+      font-weight: normal; } }
   @media (min-width: 1200px) {
     .featurette-heading {
-      font-size: 3.2rem; } }
+      font-size: 3.2rem;
+      font-weight: normal; } }
 
 #venue .featurette-heading {
   font-size: 1.75rem; }
@@ -63,15 +67,21 @@
   @media (min-width: 1200px) {
     #venue .featurette-heading {
       font-size: 2.5rem; } }
-/*p#shareButton {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-}*/
-.dropboxModalpad {
-  padding-right: 1rem;
-  padding-left: 1rem;
 
+#shareButton, #dropittomeButton, #dropboxButton {
+  padding: 10px 35px;
+}
+.dropboxModalpad {
+  padding-right: 2rem;
+  padding-left: 2rem;
+
+}
+
+/*.dropboxModalpad p::first-letter{
+  margin-left: -.2rem;
+}*/
+.firstLetter{
+  margin-left: -1.23rem;
 }
 
 #paypal > a,
@@ -117,8 +127,13 @@ a:hover, a:active {
 }
 
 .modal-title {
-  font-size: 2.7rem;
+  font-size: 2rem;
   padding-left: 28.813px;
+}
+@media (min-width: 992px) {
+  .modal-title {
+    font-size: 2.5rem;
+}
 }
 .highlightText {
   font-size: 1.18rem;

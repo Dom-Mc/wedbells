@@ -35,7 +35,7 @@
         display: block;
         margin-left: auto;
         margin-right: auto;
-        margin-top: -10rem;
+        margin-top: -6rem;
 
        ">
         <a href="#top"><img class="arrow" src="img/arrow.svg" alt="Down arrow" style="
@@ -68,11 +68,13 @@ style="margin-top: 10rem;"
 
 
           <h2 class="featurette-heading" id="top">Share Your Memories</h2>
-          <p>Thank you for making the trip to Kona and being part a magical experience. Now that we are back in the mainland, we are hoping to gather photos and videos from our wedding week so that we can relive the moments again and again. If you have any pictures or videos from the ceremony, dinner, dance party, afterparty, Friday pool party, Sunday brunch - or anything else you’d like to share from your experience - please click <span class="highlightText">Share</span> below to add your memories to our Wedding Album which we will be posting here in a few weeks - Mahalo!</p>
+          <p>Thank you for making the trip to Kona and being part of a magical experience. Now that we are back in the mainland, we are hoping to gather photos and videos from our wedding week so that we can relive the moments again and again.</p>
 
-          <button type="button" id="dropittomeButton" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#dropittomeModal">Share</button>
+          <p>If you have any pictures or videos from the ceremony, dinner, dance party, afterparty, Friday pool party, Sunday brunch - or anything else you’d like to share from your experience - please click <span class="highlightText">Share</span> below. We’ll add your memories to our Wedding Album which will be posted here in a few weeks. Mahalo!</p>
 
-          <button type="button" id="dropboxButton" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#dropboxModal">Share</button>
+          <button type="button" id="dropittomeButton" class="btn btn-primary btn-lg b-pad" data-toggle="modal" data-target="#dropittomeModal">Share</button>
+
+          <button type="button" id="dropboxButton" class="btn btn-primary btn-lg b-pad" data-toggle="modal" data-target="#dropboxModal">Share</button>
 
       </div>
       <div class="col-md-6 col-lg-5 col-lg-offset-1">
