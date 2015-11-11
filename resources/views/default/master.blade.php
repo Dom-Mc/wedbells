@@ -32,11 +32,37 @@
 
 <style>
 
-.featurette-heading {
-    font-size: 1.8rem;
-    margin-bottom: 20px;
-}
 
+/* Thin out the marketing headings */
+.featurette-heading {
+      font-size: 1.8rem;
+    margin-bottom: 20px;
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+  /*margin-top: 0;*/
+  /* MY EDIT */ }
+  @media (min-width: 768px) {
+    .featurette-heading {
+      font-size: 3rem; } }
+  @media (min-width: 992px) {
+    .featurette-heading {
+      font-size: 3.2rem; } }
+  @media (min-width: 1200px) {
+    .featurette-heading {
+      font-size: 3.2rem; } }
+
+#venue .featurette-heading {
+  font-size: 1.75rem; }
+  @media (min-width: 768px) {
+    #venue .featurette-heading {
+      font-size: 2.5rem; } }
+  @media (min-width: 992px) {
+    #venue .featurette-heading {
+      font-size: 2.5rem; } }
+  @media (min-width: 1200px) {
+    #venue .featurette-heading {
+      font-size: 2.5rem; } }
 /*p#shareButton {
   display: block;
   margin-right: auto;
