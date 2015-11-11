@@ -61,9 +61,14 @@ style="margin-top: 10rem;"
  {{--          <h2 class="featurette-heading" id="top">Share Your Memories</h2>
           <p>Mahalo (thank you) for making the trip out to Kona to help us celebrate our special day. <i class="fa fa-smile-o"></i> We know traveling out to the middle the Pacific is no easy feat and we feel so lucky that all of you came out to be there with us. We hope you had a wonderful time in paradise. For us, we will always look back on the days we shared with all of you in Kona with such happiness and love. Thank you so much for being part of the best day (and party) of our lives!</p> --}}
 
-           <h2 class="featurette-heading" id="top">Share Your Memories</h2>
+          {{--  <h2 class="featurette-heading" id="top">Share Your Memories</h2>
           <p>Thank you for making the trip to Kona and being part a magical experience. Being surrounded by so much happiness and love that week will be something we will hold onto and cherish forever.  It truly wouldn’t have been paradise without you.</p>
-          <p>Now that we are back in the mainland, we are hoping to gather up as many photos and videos from our wedding week so that we can relive the moments again and again. If you have any pictures or videos from the ceremony, dinner, dance party, afterparty, Friday pool party, Sunday brunch - or anything else you’d like to share from your experience - please click the “Share” button below to send these memories with us - we can't wait to see them! Mahalo (thank you).</p>
+          <p>Now that we are back in the mainland, we are hoping to gather up as many photos and videos from our wedding week so that we can relive the moments again and again. If you have any pictures or videos from the ceremony, dinner, dance party, afterparty, Friday pool party, Sunday brunch - or anything else you’d like to share from your experience - please click the “Share” button below to send these memories with us - we can't wait to see them! Mahalo (thank you).</p> --}}
+
+
+
+          <h2 class="featurette-heading" id="top">Share Your Memories</h2>
+          <p>Thank you for making the trip to Kona and being part a magical experience. Now that we are back in the mainland, we are hoping to gather photos and videos from our wedding week so that we can relive the moments again and again. If you have any pictures or videos from the ceremony, dinner, dance party, afterparty, Friday pool party, Sunday brunch - or anything else you’d like to share from your experience - please click <span class="highlightText">Share</span> below to add your memories to our Wedding Album which we will be posting here in a few weeks - Mahalo!</p>
 
           <button type="button" id="dropittomeButton" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#dropittomeModal">Share</button>
 
@@ -111,7 +116,7 @@ style="margin-top: 10rem;"
       <div class="col-md-6 col-lg-6 col-lg-offset-1">
         <div class="l-pad">
           <h2 class="featurette-heading">Cards &amp; Gifts </h2>
-          <p>We feel so fortunate that you all could make the trip and help us celebrate our special day! For those who would like to give a send or gift, please see our information below.</p>
+          <p>We feel so fortunate that you all could make the trip and help us celebrate our special day! For those who would like to give or send a gift, please see our information below.</p>
           <p><b>Mailing address -</b> Nakissa &amp; Dom, 140 South Van Ness Ave, #309, San Francisco, CA 94103</p>
 
 

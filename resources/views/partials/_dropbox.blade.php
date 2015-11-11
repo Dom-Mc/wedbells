@@ -20,11 +20,11 @@
           <p><i class="fa fa-check-square-o"></i>Select either “Choose from computer” to upload photos or videos from your computer/tablet/phone or select “Choose from Dropbox” to upload directly from your dropbox account.</p>
           <p><i class="fa fa-check-square-o"></i>Once your files have been added/uploaded, simply provide your First name, Last name, Email address, and click “Upload”.</p>
           <p><i class="fa fa-check-square-o"></i>...and you're done!</p>
-          <p><a class="btn btn-primary btn-lg active" id="shareButton" href="https://www.dropbox.com/request/VuEJGJ8qB270cZvku8JU" role="button">Share</a></p>
+
       </div>{{-- /.modal-body --}}
       </div>
       <div class='modal-footer'>
-
+          <div class="centered"><a class="btn btn-primary btn-lg active" id="shareButton" href="https://www.dropbox.com/request/VuEJGJ8qB270cZvku8JU" role="button">Share</a></div>
       </div>{{-- /.modal-footer --}}
 
    </div>{{-- /.modal-content --}}

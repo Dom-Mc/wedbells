@@ -8,7 +8,7 @@
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button><br>
         <h2 class="modal-title text-center">Upload photos &amp; videos</h2>
         
-        <p class="text-center"><i class="fa fa-key"></i> Enter <span class="pswd">kona2015</span> as the "upload password"</p>
+        <p class="text-center"><i class="fa fa-key"></i> Enter <span class="highlightText">kona2015</span> as the "upload password"</p>
       </div>{{-- /.modal-header --}}
       <div class="modal-body">
 

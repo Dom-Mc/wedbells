@@ -32,6 +32,11 @@
 
 <style>
 
+.featurette-heading {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
 /*p#shareButton {
   display: block;
   margin-right: auto;
@@ -89,8 +94,8 @@ a:hover, a:active {
   font-size: 2.7rem;
   padding-left: 28.813px;
 }
-.pswd {
-  font-size: 1.5rem;
+.highlightText {
+  font-size: 1.18rem;
   font-style: italic;
   font-weight: 800;
 }
