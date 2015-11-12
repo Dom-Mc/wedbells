@@ -81,7 +81,7 @@
 }
 @media (min-width: 750px) {
   .jumbotron {
-    margin-top: 30px;
+    /*margin-top: 30px;*/
   }
 }
 
