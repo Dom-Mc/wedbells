@@ -32,10 +32,17 @@
 
 <style>
 
+@media (min-width: 992px) {
 
-/* Thin out the marketing headings */
+}
+/*Remove whitespace / prevent line-break*/
+.nobr{
+  white-space: nowrap;
+}
+
+/* featurette-headings */
 .featurette-heading {
-  font-size: 1.8rem;
+  font-size: 1.7rem;
   margin-bottom: 20px;
   /*font-weight: normal;*/
   font-weight: 400;
@@ -43,6 +50,10 @@
   letter-spacing: -1px;
   /*margin-top: 0;*/
   /* MY EDIT */ }
+   @media (min-width: 500px) {
+    .featurette-heading {
+      font-size: 2.5rem;
+      font-weight: normal; } }
   @media (min-width: 768px) {
     .featurette-heading {
       font-size: 3rem;
@@ -56,26 +67,55 @@
       font-size: 3.2rem;
       font-weight: normal; } }
 
-#venue .featurette-heading {
-  font-size: 1.75rem; }
-  @media (min-width: 768px) {
-    #venue .featurette-heading {
-      font-size: 2.5rem; } }
-  @media (min-width: 992px) {
-    #venue .featurette-heading {
-      font-size: 2.5rem; } }
-  @media (min-width: 1200px) {
-    #venue .featurette-heading {
-      font-size: 2.5rem; } }
 
-#shareButton, #dropittomeButton, #dropboxButton {
+/*.marketing sections*/
+.marketing h2 {
+  font-weight: 500;
+}
+@media (min-width: 500px) {
+  .marketing h2 { 
+    font-weight: normal; } }
+
+.jumbotron {
+  padding-top: 20px;
+}
+@media (min-width: 750px) {
+  .jumbotron {
+    margin-top: 30px;
+  }
+}
+
+#bigday {
+  margin-top: 23%;
+}
+@media (min-width: 500px) {
+  #bigday {
+    margin-top: 15%;
+  }
+}
+@media (min-width: 768px) {
+  #bigday {
+    margin-top: 10%;
+  }
+}
+
+#rsvp h1 {
+  margin-bottom: 0;
+}
+@media (min-width: 768px) {
+  #rsvp h1 {
+    margin-bottom: 10px;
+  } 
+}
+#shareButton,
+#dropittomeButton,
+#dropboxButton {
   padding: 10px 35px;
 }
 .dropboxModalpad {
   padding-right: 2rem;
   padding-left: 2rem;
-
-}
+  }
 
 /*.dropboxModalpad p::first-letter{
   margin-left: -.2rem;
@@ -83,6 +123,8 @@
 .firstLetter{
   margin-left: -1.23rem;
 }
+
+
 
 #paypal > a,
 #paypal > a:link,
@@ -94,7 +136,6 @@ a:hover, a:active {
   color: #1E90FF;
   font-weight: 700;
 }
-
 
 #paypal img { 
   margin-top: 1rem;
@@ -114,15 +155,15 @@ a:hover, a:active {
   text-decoration: none;
 }
 
-/*Remove whitespace / prevent line-break*/
-.nobr{
-  white-space: nowrap;
-}
 
+
+.marginBottom{
+  margin-bottom: 1.5rem; 
+}
 
 /*Modal Close button*/
 .close {
-    font-size: 3rem;
+    font-size: 2.75rem;
     /*float: right;*/
 }
 
@@ -137,12 +178,13 @@ a:hover, a:active {
 }
 .highlightText {
   font-size: 1.18rem;
-  font-style: italic;
+  /*font-style: italic;*/
   font-weight: 800;
 }
 /*Screen size < 1250px*/
 #dropboxButton {
   display: block;
+  margin-top: 1.5rem;
 }
 #dropittomeButton{
   display: none;
