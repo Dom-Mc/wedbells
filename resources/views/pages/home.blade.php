@@ -31,20 +31,8 @@
   {{-- /Jumbotron --}}
 
 </header>
-       <div id="drop" style=" 
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: -6rem;
-
-       ">
-        <a href="#top"><img class="arrow" src="img/arrow.svg" alt="Down arrow" style="
-          width: 60px;
-          height: 60px;
-          padding: 12px;
-
-          margin-top: 0;
-          "></a>
+       <div id="drop">
+          <a href="#top"><img class="arrow" src="img/arrow.svg" alt="Down arrow"></a>
       </div> 
 
 
@@ -56,15 +44,7 @@
   <section id="bigday" class="container">
     <div class="row featurette">
       <div class="col-md-6 col-lg-6">
- {{--          <h2 class="featurette-heading" id="top">Share Your Memories</h2>
-          <p>Mahalo (thank you) for making the trip out to Kona to help us celebrate our special day. <i class="fa fa-smile-o"></i> We know traveling out to the middle the Pacific is no easy feat and we feel so lucky that all of you came out to be there with us. We hope you had a wonderful time in paradise. For us, we will always look back on the days we shared with all of you in Kona with such happiness and love. Thank you so much for being part of the best day (and party) of our lives!</p> --}}
-
-          {{--  <h2 class="featurette-heading" id="top">Share Your Memories</h2>
-          <p>Thank you for making the trip to Kona and being part a magical experience. Being surrounded by so much happiness and love that week will be something we will hold onto and cherish forever.  It truly wouldn’t have been paradise without you.</p>
-          <p>Now that we are back in the mainland, we are hoping to gather up as many photos and videos from our wedding week so that we can relive the moments again and again. If you have any pictures or videos from the ceremony, dinner, dance party, afterparty, Friday pool party, Sunday brunch - or anything else you’d like to share from your experience - please click the “Share” button below to send these memories with us - we can't wait to see them! Mahalo (thank you).</p> --}}
-
-
-
+ 
           <h2 class="featurette-heading" id="top">Share Your Memories</h2>
           <p>Thank you for making the trip to Kona and being part of a magical experience. Now that we are back in the mainland, we are hoping to gather photos and videos from our wedding week so that we can relive the moments again and again.</p>
 
