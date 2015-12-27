@@ -2,8 +2,7 @@
     {{-- 2015 --}}
     {{-- <div class="item"><img class="lazyOwl" data-src="img/story/2015.jpg" alt=""></div> --}}
     {{-- 2014 --}}
-    <div class="item"><img class="lazyOwl" data-src="https://farm1.staticflickr.com/685/22541296867_8fe509fc51.jpg" alt=""></div>
-    <div class=item"
+    <div class="item"><img class="lazyOwl" data-src="img/story/2014h.jpg" alt=""></div>
     <div class="item"><img class="lazyOwl" data-src="img/story/2014i.jpg" alt=""></div>
     <div class="item"><img class="lazyOwl" data-src="img/story/2014.jpg" alt=""></div>
     <div class="item"><img class="lazyOwl" data-src="img/story/2015a.jpg" alt=""></div>

@@ -110,7 +110,7 @@ $(function() {
       itemsCustom : [
         [0, 1],
         [750, 2],
-        [1800, 3]
+        [1250, 3],
       ],
 
       //itemsDesktop : [1199,4],
@@ -140,8 +140,8 @@ $(function() {
       responsiveBaseWidth: window,
 
       //Lazy load
-      lazyLoad : false,
-      lazyFollow : false,
+      lazyLoad : true,
+      lazyFollow : true,
       lazyEffect : "fade",
 
 
