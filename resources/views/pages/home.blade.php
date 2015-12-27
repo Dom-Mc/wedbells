@@ -8,35 +8,18 @@
 
   {{-- Jumbotron --}}
   <div id="rsvp" class="jumbotron fullheight"> {{-- .fullheight - adjusts element to takeup entire viewpoint via js --}}
-    
+
       <h1 class="title">Nakissa <span class="rwd-line">&amp;</span> Dom</h1>
       <h2>got married!</h2>
 
-
-
-
-{{--        <div id="drop">
-        <a href="#bigday" class="text-center"><img class="arrow" src="img/arrow.svg" alt="Down arrow" style="
-          width: 60px;
-          height: 60px;
-          padding: 12px;
-          position: absolute;
-          bottom: 5rem;
-          display: inline-block;
-          margin
-          "></a>
-
-      </div>  --}}
   </div>{{-- /#rsvp --}}
   {{-- /Jumbotron --}}
 
 </header>
        <div id="drop">
           <a href="#top"><img class="arrow" src="img/arrow.svg" alt="Down arrow"></a>
-      </div> 
+      </div>
 
-
-{{-- <div id="top"></div> --}}
 
 <div class="marketing">
 
@@ -44,11 +27,11 @@
   <section id="bigday" class="container">
     <div class="row featurette">
       <div class="col-md-6 col-lg-6">
- 
-          <h2 class="featurette-heading" id="top">Share Your Memories</h2>
-          <p>Thank you for making the trip to Kona and being part of a magical experience. Now that we are back in the mainland, we are hoping to gather photos and videos from our wedding week so that we can relive the moments again and again.</p>
 
-          <p class="marginBottom">If you have any pictures or videos from the ceremony, dinner, dance party, afterparty, Friday pool party, Sunday brunch - or anything else you’d like to share from your experience - please click <span class="highlightText">Share</span> below. We’ll add your memories to our Wedding Album which will be posted here in a few weeks. Mahalo!</p>
+          <h2 class="featurette-heading" id="top">Our Wedding Album</h2>
+
+          <p class="marginBottom">Pictures from our big day are finally here! Take a look at our Flickr page by clicking <span class="highlightText">View</span> below. If you have pictures that you'd like to share with us, please click <span class="highlightText">Share</span> below. We’ll add your memories to our Wedding Album soon. Mahalo!</p>
+          <a type="button" id="view-button" class="btn btn-primary btn-lg" href="https://www.flickr.com/photos/136815676@N04/albums/72157660366946979" target="_blank">View Album</a>
 
           <button type="button" id="dropittomeButton" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#dropittomeModal">Share</button>
 
@@ -64,7 +47,6 @@
     </div>{{-- /.row.featurette --}}
   </section>
   <!-- /Big Day Section -->
-
 
 
   <!-- Venue Section -->
@@ -88,7 +70,7 @@
     data-bottom="left:-200%;"
     data-center-top="left:0;">
       <div class="col-md-6 col-lg-5">
-        <div class="r-pad"> 
+        <div class="r-pad">
           <img class="featurette-image img-responsive center-block visible-md-block visible-lg-block" src="img/gift.jpg">{{-- Hidden on at > 991px --}}
           {{-- .img-thumbnail - BEVEL --}}
         </div>
@@ -113,13 +95,9 @@
   </section>
   <!-- /Honeyfund Section -->
 
-
-
   <!-- Story Section -->
   @include('partials._story')
   <!-- /Story Section -->
-
-
 
   <!-- Guest Book Section -->
   <section id="guestbook" class="container page">
@@ -143,14 +121,12 @@
   <!-- /Guest Book Section -->
 
 
-
   {{-- Background img #view --}}
   <div id="view"></div>
 
 
-
   <!-- Contact Section -->
-  <section id="contact" class="container page"> 
+  <section id="contact" class="container page">
     <div class="row featurette">
       <div class="col-md-6 col-sm-12">
           <h2 class="featurette-heading">Contact Us</h2>

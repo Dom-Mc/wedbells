@@ -1,12 +1,12 @@
-$(function() {
+// $(function() {
 
 
- $('.story').slick({
-  //infinite: true,
-  slidesToShow: 3,
-  slidesToScroll: 3,
-  dots: true,
-  arrows : false
-});
+//  $('.story').slick({
+//   //infinite: true,
+//   slidesToShow: 3,
+//   slidesToScroll: 3,
+//   dots: true,
+//   arrows : false
+// });
 
-}); //JQuery end
+// }); //JQuery end

@@ -1,20 +1,21 @@
 $(function() {
 
   "use strict";
+
+
+
   var topoffset = 80; //50 variable for menu height
   var wheight = $(window).height(); //get the height of the window
   var story = $('#story');
 
 
-  $('.fullheight').css('height', wheight); //set to window tallness 
-
-
+  $('.fullheight').css('height', wheight); //set to window tallness
 
 
   //adjust height of .fullheight elements on window resize
   $(window).resize(function() {
     wheight = $(window).height(); //get the height of the window
-    $('.fullheight').css('height', wheight); //set to window tallness  
+    $('.fullheight').css('height', wheight); //set to window tallness
   });
 
 
@@ -26,7 +27,7 @@ $(function() {
 
   // add inbody class
   var hash = $(this).find('li.active a').attr('href');
-  if(hash !== '#rsvp') {    
+  if(hash !== '#rsvp') {
   //used to be #featured
     $('header nav').addClass('inbody');
     $('.navbar').show(); //added
@@ -40,7 +41,7 @@ $(function() {
   // Add an inbody class to nav when scrollspy event fires
   $('.navbar-fixed-top').on('activate.bs.scrollspy', function() {
     var hash = $(this).find('li.active a').attr('href');
-    if(hash !== '#rsvp') {    
+    if(hash !== '#rsvp') {
     //used to be #featured
       $('header nav').addClass('inbody');
       $('.navbar').show(1000); //added
@@ -53,8 +54,8 @@ $(function() {
 
   //Use smooth scrolling when clicking on navigation
   $('.navbar a[href*=#]:not([href=#])').click(function() {
-    if (location.pathname.replace(/^\//,'') === 
-      this.pathname.replace(/^\//,'') && 
+    if (location.pathname.replace(/^\//,'') ===
+      this.pathname.replace(/^\//,'') &&
       location.hostname === this.hostname) {
       var target = $(this.hash);
       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
@@ -69,8 +70,8 @@ $(function() {
 
 
   $('#drop a[href*=#]:not([href=#])').click(function() {
-    if (location.pathname.replace(/^\//,'') === 
-      this.pathname.replace(/^\//,'') && 
+    if (location.pathname.replace(/^\//,'') ===
+      this.pathname.replace(/^\//,'') &&
       location.hostname === this.hostname) {
       var target = $(this.hash);
       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
@@ -98,41 +99,49 @@ $(function() {
   });
 
 
+
+
+//Owl Carousel
   story.owlCarousel({
+
+      // jsonPath : flickerAPI,
+      // jsonSuccess : displayPic,
+
       itemsCustom : [
         [0, 1],
         [750, 2],
-        [1250, 3],
+        [1800, 3]
       ],
 
+      //itemsDesktop : [1199,4],
       //Basic Speeds
       slideSpeed : 500,
       paginationSpeed : 800,
       rewindSpeed : 1000,
-      
+
       //Autoplay
       autoPlay : 10000, //Change to any integrer for example autoPlay : 5000 to play every 5 seconds. If you set autoPlay: true default speed will be 5 seconds.
       stopOnHover : false,
-      
+
           // Navigation
       navigation : false,
       //navigationText : ["prev","next"],
       rewindNav : true,
       scrollPerPage : false,
-      
+
           //Pagination
       pagination : true,
       paginationNumbers: false,
 
-      
-          // Responsive 
+
+          // Responsive
       responsive: true,
       responsiveRefreshRate : 200,
       responsiveBaseWidth: window,
 
       //Lazy load
-      lazyLoad : true,
-      lazyFollow : true,
+      lazyLoad : false,
+      lazyFollow : false,
       lazyEffect : "fade",
 
 
@@ -140,15 +149,16 @@ $(function() {
       dragBeforeAnimFinish : true,
       mouseDrag : true,
       touchDrag : true,
-      
+
       //rewindSpeed : 1000,
-      
+
       // navigation : true,
       //pagination : true, //set back to true
       //transitionStyle : "fade",
 
       //rewindSpeed: 5000
     });
+
 
 
 
