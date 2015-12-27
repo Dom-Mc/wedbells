@@ -3,7 +3,6 @@ $(function() {
   "use strict";
 
 
-
   var topoffset = 80; //50 variable for menu height
   var wheight = $(window).height(); //get the height of the window
   var story = $('#story');

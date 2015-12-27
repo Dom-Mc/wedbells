@@ -146,10 +146,18 @@ a:hover, a:active {
   /*font-style: italic;*/
   font-weight: 800;
 }
+
+#viewButton {
+  margin-top: 1.5rem;
+}
+@media screen and (min-width: 450px) {
+  #viewButton {
+    margin-right: 2rem;
+  }
+}
 #dropboxModal .highlightText {
   font-size: 1.05rem;
 }
-
 /*Screen size < 1250px*/
 #dropboxButton {
   display: inline-block;
@@ -160,6 +168,9 @@ a:hover, a:active {
 }
 /*Screen size > 1250px*/
 @media screen and (min-width: 1250px) {
+  #viewButton {
+    margin-top: 0;
+  }
   #dropboxButton {
     display: none;
   }
@@ -167,6 +178,8 @@ a:hover, a:active {
     display: inline-block;
   }
 }
+
+
 
 #dropittomeModal .modal-title {
   margin-bottom: .75rem;
@@ -274,13 +287,4 @@ ul#flickr li a.large span {
     width: 290px;
     text-transform: uppercase;
     opacity: 0.8;
-}
-
-
-
-
-
-
-#view-button {
-  margin-right: 2rem;
 }

@@ -31,7 +31,7 @@
           <h2 class="featurette-heading" id="top">Our Wedding Album</h2>
 
           <p class="marginBottom">Pictures from our big day are finally here! Take a look at our Flickr page by clicking <span class="highlightText">View</span> below. If you have pictures that you'd like to share with us, please click <span class="highlightText">Share</span> below. We’ll add your memories to our Wedding Album soon. Mahalo!</p>
-          <a type="button" id="view-button" class="btn btn-primary btn-lg" href="https://www.flickr.com/photos/136815676@N04/albums/72157660366946979" target="_blank">View Album</a>
+          <a type="button" id="viewButton" class="btn btn-primary btn-lg" href="https://flic.kr/s/aHsko3k15B" target="_blank">View Album</a>
 
           <button type="button" id="dropittomeButton" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#dropittomeModal">Share</button>
 
