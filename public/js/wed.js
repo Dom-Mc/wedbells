@@ -178,7 +178,7 @@ $('#flickr-photos').html(htmlOutput);
       photosSizes(800,534);//830px - 1053px
     } else if ( $(this).width() >= 670 ) {
       photosSizes(640,427);//670px - 829px
-    } else if ( $(this).width() >= 530 ) {
+    } else if ( $(this).width() >= 570 ) {
       photosSizes(500,333);//530px - 669px
     } else if ( $(this).width() >= 350 ) {
       photosSizes(320,213);//350px - 529px
@@ -189,6 +189,7 @@ $('#flickr-photos').html(htmlOutput);
   $(window).on("resize", size);
   $(document).on("ready", size);
 })();
+
 
 
 }); //JQuery end

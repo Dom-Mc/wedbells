@@ -31,7 +31,7 @@
           <h2 class="featurette-heading" id="top">Our Wedding Album</h2>
 
           <p class="marginBottom">Pictures from our big day are finally here! Scroll down and click on the <span class="highlightText">Wedding Album</span> button below to take a look.</p>
-          <p>If you have pictures from the big day that you'd like to send us, please click <span class="highlightText">Share</span> below. We’ll add your memories to our Wedding Album soon. Mahalo!</p>
+          <p>If you have pictures that you'd like to send us, please click <span class="highlightText">Share</span> below. We’ll add your memories to our Wedding Album soon. Mahalo!</p>
           {{-- <a type="button" id="viewButton" class="btn btn-primary btn-lg" href="https://flic.kr/s/aHsko3k15B" target="_blank">View Album</a> --}}
 
           <button type="button" id="dropittomeButton" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#dropittomeModal">Share</button>
