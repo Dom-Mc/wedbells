@@ -278,6 +278,7 @@ a:hover, a:active {
   /*Modal Close button*/
   .close {
     font-size: 2.5rem;
+    z-index: 100;
   }
 #flickr .close {
       margin-right: 20px;
@@ -285,6 +286,7 @@ a:hover, a:active {
       color: white;
       text-shadow: none;
       opacity: .9;
+      position: relative;
 }
   #flickr .close:focus, #flickr .close:hover {
       color: white;
@@ -298,4 +300,6 @@ a:hover, a:active {
       margin-left: 15px;
       font-size: 1.2rem;
       color: #1E90FF;
+      z-index: 100;
+      position: relative;
     }

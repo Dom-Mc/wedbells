@@ -7,7 +7,9 @@
       <button type="button" class="close" data-dismiss="modal">&times;</button>
 
       <div class="modal-body" id="slide-show">
+        <div id="flickr-photos">
           {{-- flickr slideshow  --}}
+        </div>
       </div>
     </div>
   </div>
