@@ -2,8 +2,7 @@ $(function() {
 
   "use strict";
 
-
-  var topoffset = 80; //50 variable for menu height
+  var topoffset = 60; //50 variable for menu height
   var wheight = $(window).height(); //get the height of the window
   var story = $('#story');
 
@@ -160,6 +159,36 @@ $(function() {
 
 
 
+function photosSizes(width, height){
+
+var htmlOutput = '<a data-flickr-embed="true" href="https://www.flickr.com/photos/136815676@N04/albums/72157660366946979" title="Nakissa &amp; Dom - Wedding Album">';
+htmlOutput += '<img src="https://farm1.staticflickr.com/781/22979080151_f7ef0b20d2_n.jpg"';
+htmlOutput += ' width="' + width + '"';
+htmlOutput += ' height="' + height + '"';
+htmlOutput += ' alt="Nakissa &amp; Dom - Wedding Album"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>';
+$('#flickr-photos').html(htmlOutput);
+//console.log(html);
+}
+
+(function(){
+  function size() {
+    if ( $(this).width() >= 1054 ) {
+      photosSizes(1024,683);//1054px and up
+    } else if ( $(this).width() >= 830 ) {
+      photosSizes(800,534);//830px - 1053px
+    } else if ( $(this).width() >= 670 ) {
+      photosSizes(640,427);//670px - 829px
+    } else if ( $(this).width() >= 530 ) {
+      photosSizes(500,333);//530px - 669px
+    } else if ( $(this).width() >= 350 ) {
+      photosSizes(320,213);//350px - 529px
+    } else {
+      photosSizes(240,160);//349px and lower
+    }
+  }
+  $(window).on("resize", size);
+  $(document).on("ready", size);
+})();
 
 
 }); //JQuery end

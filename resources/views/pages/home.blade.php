@@ -30,8 +30,9 @@
 
           <h2 class="featurette-heading" id="top">Our Wedding Album</h2>
 
-          <p class="marginBottom">Pictures from our big day are finally here! Take a look at our Flickr page by clicking <span class="highlightText">View</span> below. If you have pictures that you'd like to share with us, please click <span class="highlightText">Share</span> below. We’ll add your memories to our Wedding Album soon. Mahalo!</p>
-          <a type="button" id="viewButton" class="btn btn-primary btn-lg" href="https://flic.kr/s/aHsko3k15B" target="_blank">View Album</a>
+          <p class="marginBottom">Pictures from our big day are finally here! Scroll down and click on the <span class="highlightText">Wedding Album</span> button below to take a look.</p>
+          <p>If you have pictures from the big day that you'd like to send us, please click <span class="highlightText">Share</span> below. We’ll add your memories to our Wedding Album soon. Mahalo!</p>
+          {{-- <a type="button" id="viewButton" class="btn btn-primary btn-lg" href="https://flic.kr/s/aHsko3k15B" target="_blank">View Album</a> --}}
 
           <button type="button" id="dropittomeButton" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#dropittomeModal">Share</button>
 
@@ -49,13 +50,18 @@
   <!-- /Big Day Section -->
 
 
-  <!-- Venue Section -->
+  <!-- Wedding Album Section -->
   <div>
     <section id="venue">  {{-- REMOVED .PAGE and .container-fluid --}}
+      <div class="text-center vertical-center" id="flickr-section" >
+        <!-- Trigger the modal with a button -->
+        <button  type="button"  id="fl" class="btn btn-info btn-lg" data-toggle="modal" data-target="#flickr">Wedding Album</button>
+      </div>
     </section>
   </div>
-  <!-- /Venue Section -->
+  <!-- /Wedding Album Section -->
 
+  @include('partials._flickr')
 
 
   <!-- Fun Section -->
@@ -148,7 +154,7 @@
 </div>{{-- /.container.marketing --}}
 
 <!-- Modal -->
-
+@include('partials._flickr')
 @include('partials._guestbook-form')
 @include('partials._contact-form')
 @include('partials._dropittome')

@@ -12,7 +12,6 @@
 	{{-- Bootstrap optional theme --}}
 	{{-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"> --}}
   <link rel="stylesheet" href="css/vendor/owl.carousel.css">
-  <link rel="stylesheet" href="css/vendor/owl.theme.css">
   <link rel="stylesheet" type="text/css" href="css/app.css">
   <link rel="stylesheet" type="text/css" href="css/update.css">
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->

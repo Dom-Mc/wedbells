@@ -1,6 +1,45 @@
+a:hover, a:active {
+  color: #1E90FF;
+  font-weight: 700;
+}
+
+.firstLetter{
+  margin-left: -1.23rem;
+}
+
 /*Remove whitespace / prevent line-break*/
 .nobr{
   white-space: nowrap;
+}
+
+.marginBottom{
+  margin-bottom: 1.5rem;
+}
+
+.highlightText {
+  font-size: 1.18rem;
+  /*font-style: italic;*/
+  font-weight: 800;
+}
+
+}
+.arrow {
+  width: 60px;
+  height: 60px;
+  padding: 12px;
+  margin-top: 0;
+}
+
+.vertical-center {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#vecenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
 }
 
 /* featurette-headings */
@@ -12,7 +51,8 @@
   line-height: 1;
   letter-spacing: -1px;
   /*margin-top: 0;*/
-  /* MY EDIT */ }
+  /* MY EDIT */
+}
    @media (min-width: 500px) {
     .featurette-heading {
       font-size: 2.5rem;
@@ -70,23 +110,6 @@
     margin-bottom: 10px;
   }
 }
-#shareButton,
-#dropittomeButton,
-#dropboxButton {
-  padding: 10px 35px;
-}
-.dropboxModalpad {
-  padding-right: 2rem;
-  padding-left: 2rem;
-  }
-
-/*.dropboxModalpad p::first-letter{
-  margin-left: -.2rem;
-}*/
-.firstLetter{
-  margin-left: -1.23rem;
-}
-
 
 
 #paypal > a,
@@ -94,10 +117,6 @@
 #paypal > a:visited  {
   color: #1E90FF;
   font-weight: 300;
-}
-a:hover, a:active {
-  color: #1E90FF;
-  font-weight: 700;
 }
 
 #paypal img {
@@ -119,17 +138,20 @@ a:hover, a:active {
 }
 
 
-
-.marginBottom{
-  margin-bottom: 1.5rem;
-}
-
 /*Modal Close button*/
 .close {
-    font-size: 2.5rem;
-    /*float: right;*/
+  color: white;
+  text-shadow: none;
+  margin-right: 20px;
+  margin-top: 10px;
+  opacity: .9;
+  font-size: 2.5rem;
 }
 
+.close:focus, .close:hover {
+    color: white;
+    opacity: .4;
+}
 .modal-title {
   font-size: 2rem;
   padding-left: 28.813px;
@@ -141,12 +163,6 @@ a:hover, a:active {
 }
 
 
-.highlightText {
-  font-size: 1.18rem;
-  /*font-style: italic;*/
-  font-weight: 800;
-}
-
 #viewButton {
   margin-top: 1.5rem;
 }
@@ -155,6 +171,17 @@ a:hover, a:active {
     margin-right: 2rem;
   }
 }
+
+#shareButton,
+#dropittomeButton,
+#dropboxButton {
+  padding: 10px 35px;
+}
+.dropboxModalpad {
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
 #dropboxModal .highlightText {
   font-size: 1.05rem;
 }
@@ -179,8 +206,6 @@ a:hover, a:active {
   }
 }
 
-
-
 #dropittomeModal .modal-title {
   margin-bottom: .75rem;
 }
@@ -190,101 +215,71 @@ a:hover, a:active {
   margin-left: auto;
   margin-right: auto;
   margin-top: -6rem;
-
 }
-.arrow {
-  width: 60px;
+
+
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.modal-dialog {
+  position: fixed;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}
+
+.modal-content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border: 2px solid #3c7dcf;
+  border-radius: 0;
+  box-shadow: none;
+  background: rgba(0,0,0,.9);
+}
+
+.modal-header {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 50px;
+  padding: 10px;
+  background: #6598d9;
+  border: 0;
+}
+
+.modal-title {
+  font-weight: 300;
+  font-size: 2em;
+  color: #fff;
+  line-height: 30px;
+}
+
+.modal-body {
+  position: absolute;
+  top: 50px;
+  bottom: 60px;
+  width: 100%;
+  font-weight: 300;
+  overflow: none; /*auto;*/
+}
+
+.modal-footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
   height: 60px;
-  padding: 12px;
-  margin-top: 0;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-ul#flickr {
-    padding: 0;
-    margin: 0 auto;
-}
-
-ul#flickr li {
-    list-style: none;
-    display: block;
-    float: left;
-    margin: 0;
-    padding: 5px;
-}
-
-ul#flickr li a {
-    display: block;
-    height: 150px;
-    padding: 0;
-    width: 150px;
-    position: relative;
-    margin: 0;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-ul#flickr li a span {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    padding: 5px;
-    width: 140px;
-    color: #fff;
-    font-family: arial, sans-serif;
-    text-align: right;
-    height: 140px;
-    font-size: 15px;
-    background: #000;
-}
-
-ul#flickr li a.normal span {
-    display: none;
-}
-
-ul#flickr li a.normal:hover span {
-    display: block;
-}
-
-ul#flickr li a.small {
-    width: 75px;
-    height: 75px;
-    -moz-transform: scale(0.7);
-    -webkit-transform: scale(0.7);
-    margin: -12px;
-}
-
-ul#flickr li a.small:hover {
-    -moz-transform: scale(1);
-    -webkit-transform: scale(1);
-    z-index: 2;
-}
-
-ul#flickr li a.small span {
-    display: none;
-}
-
-ul#flickr li a.large {
-    width: 300px;
-    height: 300px;
-}
-
-ul#flickr li a.large span {
-    height: auto;
-    width: 290px;
-    text-transform: uppercase;
-    opacity: 0.8;
+  padding: 10px;
+  background: #f1f3f5;
 }
