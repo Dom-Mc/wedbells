@@ -15,11 +15,11 @@
         <li class="active" id="hideMe"><a href="#rsvp">RSVP</a></li>
         <li><a href="#bigday">Share</a></li>
         <li><a href="#venue">Wedding Album</a></li>
-        <li><a href="#honeyfund">Cards &amp; Gifts</a></li>
+        <li><a href="#guestbook">Guestbook</a></li>
         {{-- <li><a href="#room">Transportation</a></li> --}}
         {{-- <li><a href="#fun">Island Fun</a></li> --}}
         <li><a href="#story">Our Story</a></li>
-        <li><a href="#guestbook">Guestbook</a></li>
+        <li><a href="#honeyfund">Cards &amp; Gifts</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </div>{{-- /#collapse .collapse.navbar-collapse --}}

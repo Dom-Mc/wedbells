@@ -166,7 +166,8 @@ htmlOutput += '<img src="https://farm1.staticflickr.com/781/22979080151_f7ef0b20
 htmlOutput += ' width="' + width + '"';
 htmlOutput += ' height="' + height + '"';
 htmlOutput += ' alt="Nakissa &amp; Dom - Wedding Album"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>';
-$('#flickr-photos').html(htmlOutput);
+//$('#flickr-photos').html(htmlOutput);
+$('#flickr .modal-body').append(htmlOutput);
 //console.log(html);
 }
 

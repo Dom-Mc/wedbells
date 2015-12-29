@@ -50,6 +50,7 @@
   <!-- /Big Day Section -->
 
 
+
   <!-- Wedding Album Section -->
   <div>
     <section id="venue">  {{-- REMOVED .PAGE and .container-fluid --}}
@@ -59,51 +60,10 @@
       </div>
     </section>
   </div>
+  @include('partials._flickr')
   <!-- /Wedding Album Section -->
 
-  @include('partials._flickr')
 
-
-  <!-- Fun Section -->
-  {{-- REMOVED SECTION --}}
-  {{-- @include('partials._fun') --}}
-
-
-
-  <!-- Honeyfund Section -->
-  <section id="honeyfund" class="container page">
-    <div class="row featurette"
-    data-bottom="left:-200%;"
-    data-center-top="left:0;">
-      <div class="col-md-6 col-lg-5">
-        <div class="r-pad">
-          <img class="featurette-image img-responsive center-block visible-md-block visible-lg-block" src="img/gift.jpg">{{-- Hidden on at > 991px --}}
-          {{-- .img-thumbnail - BEVEL --}}
-        </div>
-      </div>
-      <div class="col-md-6 col-lg-6 col-lg-offset-1">
-        <div class="l-pad">
-          <h2 class="featurette-heading">Cards &amp; Gifts </h2>
-          <p>We feel so fortunate that you all could make the trip and help us celebrate our special day! For those who would like to give or send a gift, please see our information below.</p>
-          <p><b>Mailing address -</b> Nakissa &amp; Dom, 140 South Van Ness Ave, #309, San Francisco, CA 94103</p>
-
-
-
-          {{--      MOVE STYLE TO CSS      --}}
-          <div id="paypal">
-            <p style="margin-bottom: 5px;"><b>Going paperless?</b> You can send a gift to our PayPal account by clicking the link below. You'll be redirected to our personal PayPal page.</p>
-            <p><a href="https://www.paypal.me/nakissandom" target="_blank"><small>Paypal ID: nakissandom@gmail.com</small></a></p>
-            <p><a href="https://www.paypal.me/nakissandom" target="_blank"><img src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/PP_logo_h_100x26.png" alt="PayPal"/></a></p>
-          </div>
-        </div>
-      </div>
-    </div>{{-- /.row.featurette --}}
-  </section>
-  <!-- /Honeyfund Section -->
-
-  <!-- Story Section -->
-  @include('partials._story')
-  <!-- /Story Section -->
 
   <!-- Guest Book Section -->
   <section id="guestbook" class="container page">
@@ -125,6 +85,41 @@
     </div>{{-- /.row.featurette --}}
   </section>
   <!-- /Guest Book Section -->
+
+
+  <!-- Story Section -->
+  @include('partials._story')
+  <!-- /Story Section -->
+
+
+  <!-- Honeyfund Section -->
+  <section id="honeyfund" class="container page">
+    <div class="row featurette"
+    data-bottom="left:-200%;"
+    data-center-top="left:0;">
+      <div class="col-md-6 col-lg-5">
+        <div class="r-pad">
+          <img class="featurette-image img-responsive center-block visible-md-block visible-lg-block" src="img/gift.jpg">{{-- Hidden on at > 991px --}}
+          {{-- .img-thumbnail - BEVEL --}}
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-6 col-lg-offset-1">
+        <div class="l-pad">
+          <h2 class="featurette-heading">Cards &amp; Gifts </h2>
+          <p>We feel so fortunate that you all could make the trip and help us celebrate our special day! For those who would like to give or send a gift, please see our information below.</p>
+          <p><b>Mailing address -</b> Nakissa &amp; Dom, 140 South Van Ness Ave, #309, San Francisco, CA 94103</p>
+
+          {{--      MOVE STYLE TO CSS      --}}
+          <div id="paypal">
+            <p style="margin-bottom: 5px;"><b>Going paperless?</b> You can send a gift to our PayPal account by clicking the link below. You'll be redirected to our personal PayPal page.</p>
+            <p><a href="https://www.paypal.me/nakissandom" target="_blank"><small>Paypal ID: nakissandom@gmail.com</small></a></p>
+            <p><a href="https://www.paypal.me/nakissandom" target="_blank"><img src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/PP_logo_h_100x26.png" alt="PayPal"/></a></p>
+          </div>
+        </div>
+      </div>
+    </div>{{-- /.row.featurette --}}
+  </section>
+  <!-- /Honeyfund Section -->
 
 
   {{-- Background img #view --}}

@@ -42,127 +42,6 @@ a:hover, a:active {
     float: none;
 }
 
-/* featurette-headings */
-.featurette-heading {
-  font-size: 1.7rem;
-  margin-bottom: 20px;
-  /*font-weight: normal;*/
-  font-weight: 400;
-  line-height: 1;
-  letter-spacing: -1px;
-  /*margin-top: 0;*/
-  /* MY EDIT */
-}
-   @media (min-width: 500px) {
-    .featurette-heading {
-      font-size: 2.5rem;
-      font-weight: normal; } }
-  @media (min-width: 768px) {
-    .featurette-heading {
-      font-size: 3rem;
-      font-weight: normal; } }
-  @media (min-width: 992px) {
-    .featurette-heading {
-      font-size: 3.2rem;
-      font-weight: normal; } }
-  @media (min-width: 1200px) {
-    .featurette-heading {
-      font-size: 3.2rem;
-      font-weight: normal; } }
-
-
-/*.marketing sections*/
-.marketing h2 {
-  font-weight: 500;
-}
-@media (min-width: 500px) {
-  .marketing h2 {
-    font-weight: normal; } }
-
-.jumbotron {
-  padding-top: 20px;
-}
-@media (min-width: 750px) {
-  .jumbotron {
-    /*margin-top: 30px;*/
-  }
-}
-
-#bigday {
-  margin-top: 23%;
-}
-@media (min-width: 500px) {
-  #bigday {
-    margin-top: 15%;
-  }
-}
-@media (min-width: 768px) {
-  #bigday {
-    margin-top: 10%;
-  }
-}
-
-#rsvp h1 {
-  margin-bottom: 0;
-}
-@media (min-width: 768px) {
-  #rsvp h1 {
-    margin-bottom: 10px;
-  }
-}
-
-
-#paypal > a,
-#paypal > a:link,
-#paypal > a:visited  {
-  color: #1E90FF;
-  font-weight: 300;
-}
-
-#paypal img {
-  margin-top: 1rem;
-  -webkit-border-radius: 28;
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
-  border-radius: 28px;
-  -webkit-box-shadow: 0px 1px 3px #666666;
-  -moz-box-shadow: 0px 1px 3px #666666;
-  box-shadow: 0px 1px 3px #666666;
-  font-family: Arial;
-  color: #ffffff;
-  font-size: 20px;
-  background: #ffffff;
-  padding: 10px 20px 10px 20px;
-  /* border: solid #1f628d 1px; */
-  text-decoration: none;
-}
-
-
-/*Modal Close button*/
-.close {
-  color: white;
-  text-shadow: none;
-  margin-right: 20px;
-  margin-top: 10px;
-  opacity: .9;
-  font-size: 2.5rem;
-}
-
-.close:focus, .close:hover {
-    color: white;
-    opacity: .4;
-}
-.modal-title {
-  font-size: 2rem;
-  padding-left: 28.813px;
-}
-@media (min-width: 992px) {
-  .modal-title {
-    font-size: 2.5rem;
-  }
-}
-
-
 #viewButton {
   margin-top: 1.5rem;
 }
@@ -206,9 +85,6 @@ a:hover, a:active {
   }
 }
 
-#dropittomeModal .modal-title {
-  margin-bottom: .75rem;
-}
 
 #drop {
   display: block;
@@ -217,8 +93,112 @@ a:hover, a:active {
   margin-top: -6rem;
 }
 
+/* featurette-headings */
+.featurette-heading {
+  font-size: 1.7rem;
+  margin-bottom: 20px;
+  /*font-weight: normal;*/
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: -1px;
+  /*margin-top: 0;*/
+  /* MY EDIT */
+}
+   @media (min-width: 500px) {
+    .featurette-heading {
+      font-size: 2.5rem;
+      font-weight: normal; } }
+  @media (min-width: 768px) {
+    .featurette-heading {
+      font-size: 3rem;
+      font-weight: normal; } }
+  @media (min-width: 992px) {
+    .featurette-heading {
+      font-size: 3.2rem;
+      font-weight: normal; } }
+  @media (min-width: 1200px) {
+    .featurette-heading {
+      font-size: 3.2rem;
+      font-weight: normal; } }
 
-.modal {
+
+/*. Marketing Sections */
+.marketing h2 {
+  font-weight: 500;
+}
+@media (min-width: 500px) {
+  .marketing h2 {
+    font-weight: normal; } }
+
+
+/* Jumbotron Section*/
+.jumbotron {
+  padding-top: 20px;
+}
+@media (min-width: 750px) {
+  .jumbotron {
+    /*margin-top: 30px;*/
+  }
+}
+
+
+/* Big Day Section */
+#bigday {
+  margin-top: 23%;
+}
+@media (min-width: 500px) {
+  #bigday {
+    margin-top: 15%;
+  }
+}
+@media (min-width: 768px) {
+  #bigday {
+    margin-top: 10%;
+  }
+}
+
+/* RSVP Section */
+#rsvp h1 {
+  margin-bottom: 0;
+}
+@media (min-width: 768px) {
+  #rsvp h1 {
+    margin-bottom: 10px;
+  }
+}
+
+
+/* Paypal Section */
+#paypal > a,
+#paypal > a:link,
+#paypal > a:visited  {
+  color: #1E90FF;
+  font-weight: 300;
+}
+#paypal img {
+  margin-top: 1rem;
+  -webkit-border-radius: 28;
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  -webkit-box-shadow: 0px 1px 3px #666666;
+  -moz-box-shadow: 0px 1px 3px #666666;
+  box-shadow: 0px 1px 3px #666666;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #ffffff;
+  padding: 10px 20px 10px 20px;
+  /* border: solid #1f628d 1px; */
+  text-decoration: none;
+}
+
+
+
+
+/* Modal */
+
+#flickr .modal {
   position: fixed;
   top: 0;
   right: 0;
@@ -227,74 +207,95 @@ a:hover, a:active {
   overflow: hidden;
 }
 
-.modal-dialog {
-  position: fixed;
-  margin: 0;
-  width: 100%;
-  height: 100%;
-  padding: 0;
-}
-
-.modal-content {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  border: 2px solid #3c7dcf;
-  border-radius: 0;
-  box-shadow: none;
-  background: black;
-}
-
-.modal-header {
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  height: 50px;
-  padding: 10px;
-  background: #6598d9;
-  border: 0;
-}
-
-.modal-title {
-  font-weight: 300;
-  font-size: 2em;
-  color: #fff;
-  line-height: 30px;
-}
-
-.modal-body {
-  position: absolute;
-  /*top: 50px;*/
-  /*bottom: 60px;     look into creating an id on the other modals for this rule*/
-  width: 100%;
-  font-weight: 300;
-  overflow: none; /*auto;*/
-}
-#slide-show.modal-body {
-  position: absolute;
-  top: 50%;
-  bottom:;
-  /*z-index: ;*/
-  /*bottom: 0;*/
-  transform: translateY(-50%);
-}
-.modal-footer {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  height: 60px;
-  padding: 10px;
-  background: #f1f3f5;
-}
-
-#view-album {
-    float: left;
-    margin-top: 21px;
-    margin-left: 15px;
-    font-size: 1.2rem;
-    color: #1E90FF;
+  /* Modal Body */
+  #flickr .modal-body {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    bottom:;
+    /*z-index: ;*/
+    /*font-weight: 300;*/
+    overflow: none; /*auto;*/
+    transform: translateY(-50%);
   }
+
+  /*Modal Dialog*/
+  #flickr .modal-dialog {
+    position: fixed;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+  }
+
+/* Modal Content */
+  #flickr .modal-content {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border: 2px solid #3c7dcf;
+    border-radius: 0;
+    box-shadow: none;
+    background: black;
+  }
+
+  .modal-header {
+    /*delete???
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 50px;
+    padding: 10px;
+    background: #6598d9;
+    border: 0;*/
+  }
+
+/* Modal Title */
+  .modal-title {
+    font-size: 2rem;
+    padding-left: 28.813px;
+  }
+  @media (min-width: 992px) {
+    .modal-title {
+      font-size: 2.5rem;
+    }
+  }
+  modal-title {
+    /*delete?*/
+    /*font-weight: 300;
+    font-size: 2em;
+    color: #fff;
+    line-height: 30px;*/
+  }
+  #dropittomeModal .modal-title {
+    margin-bottom: .75rem;
+  }
+
+
+  /*Modal Close button*/
+  .close {
+    font-size: 2.5rem;
+  }
+#flickr .close {
+      margin-right: 20px;
+      margin-top: 10px;
+      color: white;
+      text-shadow: none;
+      opacity: .9;
+}
+  #flickr .close:focus, #flickr .close:hover {
+      color: white;
+      opacity: .4;
+  }
+
+
+  #view-album {
+      float: left;
+      margin-top: 21px;
+      margin-left: 15px;
+      font-size: 1.2rem;
+      color: #1E90FF;
+    }
