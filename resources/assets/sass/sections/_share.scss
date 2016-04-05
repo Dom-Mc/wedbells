@@ -1,0 +1,17 @@
+// --------------------------------------------------
+//               Share - SECTION
+//---------------------------------------------------
+
+#share {
+  margin-top: 23%;
+}
+@media (min-width: 500px) {
+  #share {
+    margin-top: 15%;
+  }
+}
+@media (min-width: 768px) {
+  #share {
+    margin-top: 10%;
+  }
+}

@@ -9,15 +9,21 @@ use App\Http\Controllers\Controller;
 
 class GuestbookController extends Controller {
 
-	public function index()
+	public function home()
 	{
-		return redirect('/');
+		return view('pages.home');
 	}
+
 
 	public function store(CreateGuestbookRequest $request)
 	{
-		//method won't fire until validation is complete
 		Guestbook::create($request->all() );
 		return redirect('thankyou');  //return named route from controller
 	}
+
+	public function thankyou()
+	{
+		return view('pages.thankyou');
+	}
+
 }

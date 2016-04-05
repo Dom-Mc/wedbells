@@ -1,8 +1,6 @@
 // ==========================================================================
-// Global Imports
+// Vendor Imports
 // ==========================================================================
-@import 'vendor/index'; //Third-party
-@import 'base/index';
-@import 'layout/index';
-@import 'components/index';
-@import 'sections/index';
+
+@import 'vendor/bootstrap.min'; //Third-party
+@import 'vendor/include-media'; //Third-party

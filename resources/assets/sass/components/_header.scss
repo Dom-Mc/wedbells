@@ -1,11 +1,9 @@
 /* --------------------------------------------------
-              HERO/JUMBOTRON RSVP - SECTION
+          HERO/JUMBOTRON/HEADER - SECTION
 -------------------------------------------------- */
-
-
-#rsvp {
+#wedding {
   text-align: center; //from treehouse
-  margin-bottom: 0; 
+  margin-bottom: 0;
   color: $white; //text color
   font-family: $font-family--damion;
 
@@ -22,7 +20,7 @@
       text-shadow: 1px 1px 1px grey;
       font-size: 2rem;
       color: $white; //text color
-        @media (min-width: 700px) and (max-width: 900px){ 
+        @media (min-width: 700px) and (max-width: 900px){
           font-size: 2.5rem;
         }
         @media (min-width: 901px){
@@ -34,50 +32,71 @@
       text-shadow: 1px 1px 1px grey;
       font-size: 4.25rem;
       color: $color-one; //text color
-        @media (min-width: 700px) and (max-width: 900px){ 
+        @media (min-width: 700px) and (max-width: 900px){
           font-size: 4.75rem;
         }
         @media (min-width: 901px){
           font-size: 7rem;
         }
-        // .title {
-        //   // font-weight: 100;
-        //   font-size: 3rem;
-        //   @media (min-width: 700px) and (max-width: 900px){ 
-        //   font-size: 4rem;
-        //   }
-        //   @media (min-width: 901px){
-        //   font-size: 5rem;
-        //   }
-          // margin-top: .9em;
-          // margin-bottom: 0;
-        
-
-        // span {
-          
-        //   @media (max-width: 500px){
-        //     padding-left: 8rem;
-        //     padding-right: 8rem;
-        //     font-size: 3rem;
-        //   }
-        // }
 
     }
     p {
       color: $white;
     }
-
-
 }
-
 
 .jumbotron .container {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
-  // @media (max-width: 750px){
-  //   position: relative;
-  //   top: 10%;
-  // transform: translateY(-10%);
-  // }
+
+}
+
+
+/* featurette-headings */
+.featurette-heading {
+  font-size: 1.7rem;
+  margin-bottom: 20px;
+  /*font-weight: normal;*/
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: -1px;
+  /*margin-top: 0;*/
+  /* MY EDIT */
+}
+   @media (min-width: 500px) {
+    .featurette-heading {
+      font-size: 2.5rem;
+      font-weight: normal; } }
+  @media (min-width: 768px) {
+    .featurette-heading {
+      font-size: 3rem;
+      font-weight: normal; } }
+  @media (min-width: 992px) {
+    .featurette-heading {
+      font-size: 3.2rem;
+      font-weight: normal; } }
+  @media (min-width: 1200px) {
+    .featurette-heading {
+      font-size: 3.2rem;
+      font-weight: normal; } }
+
+
+/*. Marketing Sections */
+.marketing h2 {
+  font-weight: 500;
+}
+@media (min-width: 500px) {
+  .marketing h2 {
+    font-weight: normal; } }
+
+
+/* Jumbotron Section*/
+.jumbotron {
+  padding-top: 20px;
+}
+@media (min-width: 750px) {
+  .jumbotron {
+    /*margin-top: 30px;*/
+  }
 }

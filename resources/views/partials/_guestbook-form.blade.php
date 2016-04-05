@@ -10,7 +10,7 @@
 
 
         {{-- ERRORS --}}
-       {{--  @include ('errors._guestbook-error') --}}
+        @include ('errors._guestbook-error')
 
 
       </div>{{-- /.modal-header --}}
@@ -19,7 +19,7 @@
 
         <!-- Form Start -->
         {!! Form::open(['route' => 'store_guestbook']) !!}
-        
+
         <section class="form-horizontal">
           <div class="form-group">
             {!! Form::label("name", "Name:", ["class" => "col-sm-4 control-label"]) !!}
@@ -27,7 +27,7 @@
               {!! Form::text("name", null, ["class" => "form-control input-x", "placeholder" => "Your Name"]) !!}
             </div>
           </div>
-          <div class="form-group"> 
+          <div class="form-group">
             {!! Form::label("message", "Message:", ["class" => "col-sm-4 control-label"]) !!}
             <div class="col-sm-6">
               {!! Form::textarea("message", null, ["class" => "form-control input-x", "placeholder" => "Leave a Message", "rows" => 3]) !!}

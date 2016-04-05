@@ -12,7 +12,7 @@ body, html {
   width: 100%;
 
 
-  
+
 }
 
 header .hides {
@@ -52,13 +52,11 @@ h1, h2, h3, h4, h5, h6 {
 -------------------------------------------------- */
 
 a {
-  &:link { //Unvisited Link
     //color: $color-link-default;
     @extend %link;
-  }
-  &:visited { //Unvisited Link
+  &:visited { //visited Link
     //color: $color-link-visited;
-    @extend %link; 
+    @extend %link;
   }
   &:hover { //Mouse-Over Link
     //color: $color-link-hover;
@@ -70,7 +68,10 @@ a {
   }
 }
 
-
+a:hover, a:active {
+  color: #1E90FF;
+  font-weight: 700;
+}
 
 // MARKETING CONTENT (from Bootstrap template)
 //--------------------------------------------
@@ -78,8 +79,6 @@ a {
 .marketing h2 { /*ONLY ONE NEEDED*/
   font-weight: normal;
 }
-
-
 
 
 /* Featurettes
@@ -134,8 +133,8 @@ p {
     font-size: 3.2rem;
   }
 }
-  
-#venue .featurette-heading {
+
+#flickr.featurette-heading {
   font-size: 1.75rem;
   @include media('>=sm') {
     font-size: 2.5rem;
@@ -146,24 +145,5 @@ p {
   @include media('>=lg') {
     font-size: 2.5rem;
   }
-  //Small devices (768px and up) 
-  //@include media('>=sm') {
-    //font-size: 2.25rem; // 40.5/18=2.25rem
-  //}
-  //Extra Small devices (767px and below)
-  //font-size: 1.25rem; // 22.5/18=2.25rem
-}
 
-// EDIT LATER!!!!
-// @media (max-width: 980px){
-// #guestbook.container.page {
-//   padding-bottom: 20px;
-//   padding-top: 20px;
-//   min-height: 300px;
-// }
-// #honeyfund.container.page {
-//   padding-bottom: 20px;
-//   padding-top: 20px;
-//   min-height: 300px;
-// }
-// }
+}

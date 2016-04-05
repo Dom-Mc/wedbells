@@ -1,13 +1,9 @@
-
-#rsvp {
+/* --------------------------------------------------
+                    Images
+-------------------------------------------------- */
+#wedding {
 	background-position: bottom center;
-// 		
-// 	600/1200/1800	
-// 	900/1800/2700(3600)	
-// 	1200/2400/3600		
-// 	1800/3600				
 
-	// Defaults
 	@include bg_img("bg/banner-600.jpg");
 	@include media('retina2x'){
 		@include bg_img("bg/banner-1200.jpg");
@@ -54,13 +50,11 @@
 			@include bg_img("bg/banner-3600.jpg");
 		}
 	}
-
-	//background-position: bottom center;
 }
 
 
 
-#venue {
+#album {
 	@include bg_img("bg/backdrop2-500.jpg");
 	@include media('retina2x'){
 		@include bg_img("bg/backdrop2-1000.jpg");
@@ -103,22 +97,12 @@
     .featurette-image {
        box-shadow: 10px 10px 5px #888888;
     }
-#bigday .featurette-image, #contact .featurette-image {
+#share .featurette-image, #contact .featurette-image {
   box-shadow: 3px 3px 5px #888888;
 }
 
 #contact img {
-	// padding: 20%;
-	// 	@media #{$brk-sm} { 
-	// 		padding: 20%;
-	// 	}
-	// 	@media #{$brk-md}{
-	// 		padding: 12%;
-	// 	}
-	// 	@media #{$brk-lg}{
-	// 		padding: 12%;
-	// 	}
-	
+
 	@include media('<md'){
 		margin-top: 25px;
 		margin-bottom: 20px;
@@ -135,5 +119,5 @@
 	}
 	@include media('>=lg') {
 		max-width: 90%;
-	} 
+	}
 }

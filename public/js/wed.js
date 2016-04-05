@@ -25,7 +25,7 @@ $(function() {
 
   // add inbody class
   var hash = $(this).find('li.active a').attr('href');
-  if(hash !== '#rsvp') {
+  if(hash !== '#wedding') {
   //used to be #featured
     $('header nav').addClass('inbody');
     $('.navbar').show(); //added
@@ -39,7 +39,7 @@ $(function() {
   // Add an inbody class to nav when scrollspy event fires
   $('.navbar-fixed-top').on('activate.bs.scrollspy', function() {
     var hash = $(this).find('li.active a').attr('href');
-    if(hash !== '#rsvp') {
+    if(hash !== '#wedding') {
     //used to be #featured
       $('header nav').addClass('inbody');
       $('.navbar').show(1000); //added
@@ -167,7 +167,7 @@ htmlOutput += ' width="' + width + '"';
 htmlOutput += ' height="' + height + '"';
 htmlOutput += ' alt="Nakissa &amp; Dom - Wedding Album"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>';
 $('#flickr-photos').html(htmlOutput);
-//$('#flickr .modal-body').append(htmlOutput);
+//$('#flickr-album .modal-body').append(htmlOutput);
 }
 
 (function(){

@@ -1,10 +1,10 @@
 // ==========================================================================
-// Placeholders
+//          Placeholders/Helpers
 // ==========================================================================
 
 // Horizontal Center & Vertical Center
 %h-center {
-  text-align: center;  // place in any rule - .foo { @extend %centered; }
+  text-align: center;
 }
 %v-center {
   position: relative;
@@ -39,7 +39,6 @@
 }
 
 
-
 // Clearfix
 %clearfix {
   &:after {
@@ -50,10 +49,46 @@
 }
 
 
-
 // Links
 %link {
 	text-decoration: none;
     outline: 0;
 }
 
+
+
+
+.marginBottom{
+  margin-bottom: 1.5rem;
+}
+
+
+
+
+
+.vertical-center {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#vecenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.highlightText {
+  font-size: 1.18rem;
+  /*font-style: italic;*/
+  font-weight: 800;
+}
+
+.firstLetter{
+  margin-left: -1.23rem;
+}
+
+/*Remove whitespace / prevent line-break*/
+.nobr{
+  white-space: nowrap;
+}

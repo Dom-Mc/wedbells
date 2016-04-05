@@ -2,8 +2,7 @@
 // Global Variables
 // ==========================================================================
 
-//@import url(http://fonts.googleapis.com/css?family=Pacifico|Kaushan+Script|Courgette|Marck+Script|Damion|Yellowtail|Raleway:400,100|Roboto);
-// font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;   //from old site
+
 // Google Web Font URLs
 $font-url--google        : 'http://fonts.googleapis.com/css?family=Pacifico|Kaushan+Script|Courgette|Marck+Script|Damion|Yellowtail|Raleway:400,100|Roboto';
 
@@ -94,14 +93,6 @@ $color-border-light : $mercury;
 $color-border-dark  : $river-bed;
 
 
-// Link Color
-//$color-link-default : $yellow-orange;
-//$color-link-visited : $regent-st-blue;
-//$color-link-hover  :;
-//$color-link-active :;
-//$color-shadow       : rgba($black,.8);
-
-
 
 // Border radius
 $br--default : .4em;
@@ -121,37 +112,6 @@ $path--font : "../fonts";
 
 
 
-// 480   960   1440
-// 768   1536  2304
-// 992   1984  2976
-// 1200  2400  3600
-
-
-
-// 600/1200/1800
-// 800/1600/2400
-// 1200/2400/3600
-// 1800/3600
-
-
-
-
-// 768   1536(1600)  2304(2400)
-// 992   1984(2400)  2976(3600)
-// 1200  2400  3600
-// 1600  3600
-
-
-// 480
-// 768
-// 992
-// 1200 2400 3600
-// 1440 
-// 2400
-// 3600
-
-
-
 //Include Media - Library
 $breakpoints: (
   'phone'   :   320px,
@@ -167,20 +127,11 @@ $breakpoints: (
 );
 
 
-// Breakpoints (being used in _base.scss)
-$brk-sm : '(min-width: 768px)';
-$brk-md : '(min-width: 992px)';
-$brk-lg	: '(min-width: 1200px)';
 
-
-  $mq-portrait: "(min-width: 320px) and (max-width: 480px)"; // @include mq(portrait) { 320px and 480px }
-  $mq-xs: "(max-width: 767px)";  // @include mq(xs) { 767px and lower }
-  $mq-sm: "(min-width: 768px)";  // @include mq(sm) { 768px and up }
-  $mq-md: "(min-width: 992px)";  // @include mq(md) { 992px and up }
-  $mq-lg: "(min-width: 1200px)"; // @include mq(lg) { 1200px - 1799px }1440
-  $mq-xl: "(min-width: 1800px)"; // @include mq(xl) { 180px and up }
-
-  // $mq-xs: "(max-width: 767px)";
-  // $mq-sm: "(min-width: 768px) and (max-width: 991px)";
-  // $mq-md: "(min-width: 992px) and (max-width: 1199px)";
-  // $mq-lg: "(min-width: 1200px)";
+//REMOVE LATER
+$mq-portrait: "(min-width: 320px) and (max-width: 480px)"; // @include mq(portrait) { 320px and 480px }
+$mq-xs: "(max-width: 767px)";  // @include mq(xs) { 767px and lower }
+$mq-sm: "(min-width: 768px)";  // @include mq(sm) { 768px and up }
+$mq-md: "(min-width: 992px)";  // @include mq(md) { 992px and up }
+$mq-lg: "(min-width: 1200px)"; // @include mq(lg) { 1200px - 1799px }1440
+$mq-xl: "(min-width: 1800px)"; // @include mq(xl) { 180px and up }

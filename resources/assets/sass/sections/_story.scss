@@ -1,3 +1,7 @@
+// --------------------------------------------------
+//               Story - SECTION
+//---------------------------------------------------
+
 #story .item{
   margin: 3px;
     @media (min-width: 500px) and (max-width: 749px){
@@ -30,7 +34,7 @@
   }
   @include media('>=lg') {
     height: 475px;
-  } 
+  }
   @media (min-width: 500px) and (max-width: 749px){
     max-height: 325px;
     //max-width: 90%;
@@ -44,7 +48,7 @@
 .owl-theme .owl-controls .owl-buttons div {
   padding: 5px 9px;
 }
- 
+
 .owl-theme .owl-buttons i{
   margin-top: 2px;
 }

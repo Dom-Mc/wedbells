@@ -1,5 +1,5 @@
 /* --------------------------------------------------
-                      FORM
+                    FORMS
 -------------------------------------------------- */
 .msg {
   @include mq(sm) {
@@ -10,18 +10,18 @@
 
 #myModal {
   label {
-    font-weight: 400;  //decrease our label's font weight from bold to a medium weight
+    font-weight: 400;
   }
 }
 
 #radios {
   @include mq(sm) {
-    margin-left: 20px;  //shift radio buttons left
+    margin-left: 20px;
   }
   @include mq(md) {
-    margin-left: 60px;  //shift radio buttons left
+    margin-left: 60px;
   }
-  margin-left: 10px;  //shift radio buttons left
+  margin-left: 10px;
 
   label {
     @include mq(portrait) {
@@ -31,9 +31,6 @@
 }
 
 
-    
-
-//Custom class for form labels: .input-x
 @media (max-width: 992px) {
 @media screen and (-webkit-min-device-pixel-ratio:0){
   .input-group-x input[type=date],.input-group-x input[type=time],.input-group-x input[type=datetime-local],.input-group-x input[type=month],input[type=date].input-x,input[type=time].input-x,input[type=datetime-local].input-x,input[type=month].input-x{
