@@ -1,17 +1,8 @@
 @extends('default.master')
 @section('content')
 
-<header>
-  {{-- Fixed navbar --}}
-  @include('partials._nav')
-
-  {{-- Jumbotron --}}
-  <div id="wedding" class="jumbotron fullheight"> {{-- .fullheight - adjusts element to takeup entire viewpoint via js --}}
-    <h1 class="title">Nakissa <span class="rwd-line">&amp;</span> Dom</h1>
-    <h2>got married!</h2>
-  </div>{{-- #wedding --}}
-
-</header>
+{{-- Header --}}
+@include('partials._header')
 
  <div id="drop">
     <a href="#top"><img class="arrow" src="img/arrow.svg" alt="Down arrow"></a>
@@ -121,9 +112,9 @@
 </div>{{-- /.marketing (wrapper)--}}
 
 
-<footer class="container">
-	<p class="copyright text-center">Copyright &copy; 2016 nakissandom.com - All Rights Reserved.</p>
-</footer>
+{{-- Footer --}}
+@include('partials._footer')
+
 
 <!-- Modals -->
 @include('partials._flickr')

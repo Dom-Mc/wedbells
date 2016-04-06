@@ -7,10 +7,13 @@
   height: 60px;
   padding: 12px;
   margin-top: 0;
+  margin-left:auto;
+  margin-right:auto;
+  display:block;
 }
 #drop {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  // display: block;
+  // margin-left: auto;
+  // margin-right: auto;
   margin-top: -6rem;
 }
