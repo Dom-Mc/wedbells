@@ -2,26 +2,13 @@
 // Global Variables
 // ==========================================================================
 
-
 // Google Web Font URLs
-$font-url--google        : 'http://fonts.googleapis.com/css?family=Pacifico|Kaushan+Script|Courgette|Marck+Script|Damion|Yellowtail|Raleway:400,100|Roboto';
-
-
+$font-url--google : 'http://fonts.googleapis.com/css?family=Damion|Raleway:100';
 
 // Font Stacks
-$font-family--courgette		: Courgette;
-$font-family--damion 		: Damion;
-$font-family--kaushan		: 'Kaushan Script';
-$font-family--marck 		: 'Marck Script';
-$font-family--pacifico 		: Pacifico;
-$font-family--raleway		: Raleway;
-$font-family--roboto		: Roboto;
-$font-family--yellowtail	: Yellowtail;
-
+$font-family--damion 		 : Damion;
+$font-family--raleway		 : Raleway;
 $font-family--primary    : 'Helvetica Neue', Helvetica, Arial, sans-serif;
-//$font-family--secondary  : 'Raleway', Helvetica, Arial, sans-serif;
-
-
 
 // Font Weights
 $font-weight--thin       : 100;
@@ -30,87 +17,66 @@ $font-weight--medium     : 400;
 $font-weight--bold       : 700;
 $font-weight--ultra-bold : 900;
 
-
-
 // Text
 $base__font-size : 16px;
 $base__line      : 24px;
 $letter-space    : 1px;
 
 
-
 // Descriptive Base Colors
-$white         : #FFFFFF !default;
-$ghost         : #FAFAFA !default;
-$snow          : #F9F9F9 !default;
-$vapor         : #F6F6F6 !default;
-$white-smoke   : #F5F5F5 !default;
-$silver        : #EFEFEF !default;
-$smoke         : #EEEEEE !default;
-$mercury       : #E7E7E7 !default;
-$gainsboro     : #DDDDDD !default;
-$iron          : #CCCCCC !default;
-$base          : #AAAAAA !default;
-$aluminum      : #999999 !default;
-$jumbo         : #888888 !default;
-$monsoon       : #777777 !default;
-$steel         : #666666 !default;
-$charcoal      : #555555 !default;
-$tuatara       : #444444 !default;
-$oil           : #333333 !default;
-$jet           : #222222 !default;
-$black         : #000000 !default;
-
-$river-bed	   : #48525C !default;// Dark Gray
-$pomegranate   : #F04124 !default;// Red
-$dodger		   : #1E90FF !default;// Solid Blue
-$astral		   : #337AB7 !default;// Darker Blue
-$blue1		   : #00BFFF !default;// Cerulean (Lighter Blue)
-$blue2		   : #66afe9 !default;
-$blue3		   : #5bc0de !default;
-$blue4		   : #3B99FC !default;
-
-
+$semi-transparent  :rgba(255,255,255,.92);
+$white             : #FFFFFF !default;
+$ghost             : #FAFAFA !default;
+$snow              : #F9F9F9 !default;
+$vapor             : #F6F6F6 !default;
+$white-smoke       : #F5F5F5 !default;
+$silver            : #EFEFEF !default;
+$smoke             : #EEEEEE !default;
+$mercury           : #E7E7E7 !default;
+$gainsboro         : #DDDDDD !default;
+$iron              : #CCCCCC !default;
+$base              : #AAAAAA !default;
+$aluminum          : #999999 !default;
+$jumbo             : #888888 !default;
+$monsoon           : #777777 !default;
+$steel             : #666666 !default;
+$charcoal          : #555555 !default;
+$tuatara           : #444444 !default;
+$oil               : #333333 !default;
+$jet               : #222222 !default;
+$black             : #000000 !default;
+$river-bed	       : #48525C !default;
+$pomegranate       : #F04124 !default;
+$dodger		         : #1E90FF !default;
+$astral		         : #337AB7 !default;
+$cerulean		       : #00BFFF !default;
 
 // Functional Colors
-$color-one		: $dodger;
-$color-two		: $astral;
-//$color-three	:;
-$alert-color	: $pomegranate;
+$color-primary		 : $dodger;
+$color-secondary	 : $astral;
+$alert-color	     : $pomegranate;
 
 // Body Color
-$color-body     : $white-smoke;
-
+$color-body        : $white-smoke;
 
 // Text Color
-$color-text-light   : $white;
-$color-text-base    : $river-bed;// ($steel is old base)
-//$color-text-dark  : ;
-
+$color-text-light  : $white;
+$color-text-base   : $river-bed;
 
 // Border Color
 $color-border-light : $mercury;
 $color-border-dark  : $river-bed;
 
-
-
 // Border radius
 $br--default : .4em;
 $br--round   : 50%;
 
-
-
 // Transitions
 $trns-duration : .3s;
-
-
 
 // Path to Assets
 $path--img  : "../img";
 $path--font : "../fonts";
-
-
-
 
 //Include Media - Library
 $breakpoints: (
@@ -125,8 +91,6 @@ $breakpoints: (
   'lg'      :   1200px,
   'xl'      :   1800px
 );
-
-
 
 //REMOVE LATER
 $mq-portrait: "(min-width: 320px) and (max-width: 480px)"; // @include mq(portrait) { 320px and 480px }

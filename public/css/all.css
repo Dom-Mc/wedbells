@@ -20,7 +20,7 @@
 
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
-@import url("http://fonts.googleapis.com/css?family=Pacifico|Kaushan+Script|Courgette|Marck+Script|Damion|Yellowtail|Raleway:400,100|Roboto");
+@import url("http://fonts.googleapis.com/css?family=Damion|Raleway:100");
 html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
@@ -7133,7 +7133,7 @@ footer {
     transform: translateY(-50%)
 }
 
-.navbar.inbody {
+.scrolledPastHeader {
     border-bottom: 1px solid #E7E7E7
 }
 
@@ -8768,7 +8768,7 @@ header .navbar-fixed-top .navbar-collapse {
     margin: 0
 }
 
-.navbar.inbody {
+.scrolledPastHeader {
     background: rgba(255, 255, 255, 0.92);
     border-radius: 0;
     padding-top: 0;

@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Nakissa &amp; Dom</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-  <link rel="stylesheet" type="text/css" href="css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="css/all.css">
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -28,7 +28,7 @@
     {{-- <script src="js/bootstrap.min.js"></script>
     <script src="js/vendor/owl.carousel.js"></script>
     <script src="js/wed.js"></script> --}}
-    <script src="js/all.min.js"></script>
+    <script src="js/all.js"></script>
 
   </body>
 </html>

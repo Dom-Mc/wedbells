@@ -15,59 +15,46 @@ header {
     max-height: none;
   }
 }
+
+
 /* --------------------------------------------------
-                  Nav Links
+              Navigation Links (tabs)
 -------------------------------------------------- */
+.navbar-default .navbar-nav {
 
-/**  Navbar inactive state **/
-.navbar-default .navbar-nav > li > a {
-  color: $color-one;
-  @media (min-width: 700px) and (max-width: 900px){
-    font-size: 14px;
-    padding-left: 8px;
-    padding-right: 8px;
+  // Inactive State
+  > li > a {
+    color: $color-primary;
+    @media (min-width: 700px) and (max-width: 900px){
+      font-size: 14px;
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+    &:focus, &:hover {
+      background-color: $color-secondary;
+      color: $color-text-light;
+    }
   }
+
+  // Active State
+  > .active > a {
+    background-color: $color-primary;
+    color: $color-text-light;
+    font-weight: $font-weight--ultra-bold;
+    &:focus, &:hover {
+      background-color: $color-secondary;
+      color: $color-text-light;
+    }
+  }
+
 }
-
-
-.nav>li>a {  //controls tabs
-// padding: 10px 15px; original from bootstrap
-@media (min-width: 768px) { /* Small devices (tablets, 768px and up) */
-// font-size: 14px;
-// padding-left: 8px;
-// padding-right: 8px;
-}
-
-
-
-}
-
-.navbar-default .navbar-nav > li > a:focus,
-.navbar-default .navbar-nav > li > a:hover {
-  background-color: $color-two;  /*not sure about*/
-  color: $color-text-light;
-}
-
-/**  Navbar active state **/
-.navbar-default .navbar-nav > .active > a {
-  background-color: $color-one;
-  color: $color-text-light;
-  font-weight: 900;
-}
-.navbar-default .navbar-nav > .active > a:focus,
-.navbar-default .navbar-nav > .active > a:hover {
-  background-color: $color-two;
-  color: $color-text-light;
-}
-
 
 
 /* --------------------------------------------------
                   Navbar Brand
 -------------------------------------------------- */
 .navbar-brand {
-  // height: auto;
-  padding-top: 6px; //MY EDIT
+  padding-top: 6px;
   @include mq(sm) {
       padding-left: 50px;
     }
@@ -76,19 +63,18 @@ header {
   }
 }
 .navbar-brand h1 {
-  @include text($color-one, 1.8rem, $font-weight--medium);
+  @include text($color-primary, 1.8rem, $font-weight--medium);
   font-family: $font-family--damion;
   margin: 0;
-  //padding-left: 105px;
 }
 
 
 /* --------------------------------------------------
-              Navbar with .inbody class
+      Navbar with .scrolledPastHeader activated
 -------------------------------------------------- */
-.navbar.inbody {
-  @extend %b-border; //border style on navigation (#e7e7e7 old value)
-  background: rgba(255,255,255,.92); //background color on navigation
+.scrolledPastHeader {  //CHANGED FROM .navbar.inbody
+  @extend %b-border;
+  background: $semi-transparent; //background color on navigation
   border-radius: 0; //removes rounded edge of border on navigation
   padding-top: 0;
   padding-bottom: 0;
@@ -98,21 +84,21 @@ header {
 /* --------------------------------------------------
               Navbar Toggle
 -------------------------------------------------- */
-header .navbar-toggle {
-  background-color: $color-one; //Toggle color
+.navbar-toggle {
+  background-color: $color-primary; //Toggle color
 }
 
-header .navbar-default .navbar-toggle .icon-bar {
-  background-color: $white; //Horizonal lines of Toggle
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: $white; //Toggle horizonal lines
 }
 @media only screen
 and (max-width: 768px) {
-  header .navbar-collapse.in {
+  .navbar-collapse.in {
   	/*** Dropdown Toggle Menu (on small screens) ***/
-    background-color: rgba(255,255,255,.92);
+    background-color: $semi-transparent;
     // z-index: 100;
   }
 }
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-    background-color: $color-two;
+    background-color: $color-secondary;
 }
