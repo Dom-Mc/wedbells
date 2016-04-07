@@ -28,7 +28,7 @@ $(function() {
     //find navigation (link) that's .active & store its 'href' value
     var hash = $(this).find('li.active a').attr('href');
 
-    if (hash === 'contact'){
+    if (hash === '#contact'){
       topoffset = 20; //change topoffset var if in Contact section
       console.log(hash, topoffset);
     } else {
