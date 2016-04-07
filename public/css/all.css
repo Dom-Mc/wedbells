@@ -7124,7 +7124,8 @@ button.close {
 }
 
 footer {
-    text-align: center
+    text-align: center;
+    margin-bottom: 10px
 }
 
 #album .row {
@@ -7356,9 +7357,8 @@ p {
 }
 
 #contact {
-    margin-top: 10%;
-    margin-bottom: 10%;
-    margin-bottom: 50px
+    margin-top: 14%;
+    margin-bottom: 14%
 }
 
 @media (max-width: 425px) {
@@ -7380,12 +7380,6 @@ p {
         padding-right: 12%;
         padding-left: 12%
     }
-}
-
-.v-center {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%)
 }
 
 .btn-success {
@@ -7410,8 +7404,12 @@ button {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
 }
 
-footer {
-    font-size: 1rem
+footer p {
+    font-size: 1.2rem
+}
+
+footer a {
+    font-size: 1.4rem
 }
 
 @media (min-width: 768px) {
@@ -8705,7 +8703,6 @@ footer {
 }
 
 header .navbar-default {
-    border: none;
     text-shadow: none
 }
 

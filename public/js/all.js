@@ -2217,7 +2217,7 @@ if (typeof Object.create !== "function") {
 }(jQuery, window, document));
 $(function() {
     "use strict";
-    var topoffset = 60;
+    var topoffset = 55;
     var wheight = $(window).height();
     var story = $('#story');
     $('.fullheight').css('height', wheight);
@@ -2235,10 +2235,10 @@ $(function() {
       var hash = $(this).find('li.active a').attr('href');
 
       if (hash === '#contact'){
-        topoffset = 20; //change topoffset var if in Contact section
+        topoffset = 10; //change topoffset var if in Contact section
         console.log(hash, topoffset);
       } else {
-        topoffset = 60;
+        topoffset = 55;
         console.log(hash, topoffset);
       }
 
@@ -2250,7 +2250,7 @@ $(function() {
       } else {
         //when user is in header section
         $('header nav').removeClass('scrolledPastHeader');
-        $('.navbar').hide(1000); //navbar is invisible
+        $('.navbar').hide(); //navbar is invisible
       }
     });
 

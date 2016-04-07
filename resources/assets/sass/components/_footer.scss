@@ -3,7 +3,11 @@
 ------------------------------------*/
 footer {
   @extend %h-center;
+  margin-bottom: 10px;
+  p {
+    font-size: 1.2rem;
+  }
   a {
-    font-size: 1.05rem;
+    font-size: 1.4rem;
   }
 }

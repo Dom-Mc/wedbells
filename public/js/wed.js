@@ -2,7 +2,7 @@ $(function() {
 
   "use strict";
 
-  var topoffset = 60; //Used to determine start of a section (scrollspy)
+  var topoffset = 55; //Used to determine start of a section (scrollspy)
   var wheight = $(window).height(); //get the height of the window
   var story = $('#story');
 
@@ -29,12 +29,16 @@ $(function() {
     var hash = $(this).find('li.active a').attr('href');
 
     if (hash === '#contact'){
-      topoffset = 20; //change topoffset var if in Contact section
+      topoffset = 0; //change topoffset var if in Contact section
       console.log(hash, topoffset);
     } else {
-      topoffset = 60;
+      topoffset = 55;
       console.log(hash, topoffset);
     }
+
+album
+
+
 
     //check if user has scrolled past header (#wedding)
     if(hash !== '#wedding') {
@@ -44,7 +48,7 @@ $(function() {
     } else {
       //when user is in header section
       $('header nav').removeClass('scrolledPastHeader');
-      $('.navbar').hide(1000); //navbar is invisible
+      $('.navbar').hide(); //navbar is invisible
     }
   });
 

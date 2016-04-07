@@ -1,5 +1,5 @@
 /* --------------------------------------------------
-                  NAVIGATION
+    NAVIGATION
 -------------------------------------------------- */
 
 /**  Header Navigation **/
@@ -8,7 +8,6 @@ header {
     //transition: all 1s ease-out; //transition added via jquery
   }
   .navbar-default {
-    border: none;
     text-shadow: none;
   }
   .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse { //makes scrollable on ios devices
@@ -18,7 +17,7 @@ header {
 
 
 /* --------------------------------------------------
-              Navigation Links (tabs)
+    Navigation Links (tabs)
 -------------------------------------------------- */
 .navbar-default .navbar-nav {
 
@@ -51,7 +50,7 @@ header {
 
 
 /* --------------------------------------------------
-                  Navbar Brand
+    Navbar Brand
 -------------------------------------------------- */
 .navbar-brand {
   padding-top: 6px;
@@ -70,9 +69,9 @@ header {
 
 
 /* --------------------------------------------------
-      Navbar with .scrolledPastHeader activated
+      Navbar (.scrolledPastHeader activated)
 -------------------------------------------------- */
-.scrolledPastHeader {  //CHANGED FROM .navbar.inbody
+.scrolledPastHeader {
   @extend %b-border;
   background: $semi-transparent; //background color on navigation
   border-radius: 0; //removes rounded edge of border on navigation
@@ -82,7 +81,7 @@ header {
 
 
 /* --------------------------------------------------
-              Navbar Toggle
+    Navbar Toggle
 -------------------------------------------------- */
 .navbar-toggle {
   background-color: $color-primary; //Toggle color
@@ -94,9 +93,8 @@ header {
 @media only screen
 and (max-width: 768px) {
   .navbar-collapse.in {
-  	/*** Dropdown Toggle Menu (on small screens) ***/
+  	//Dropdown Toggle Menu (on small screens)
     background-color: $semi-transparent;
-    // z-index: 100;
   }
 }
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
