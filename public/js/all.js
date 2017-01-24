@@ -2220,6 +2220,9 @@ $(function() {
     var topoffset = 55;
     var wheight = $(window).height();
     var story = $('#story');
+
+    $('.navbar').hide();
+
     $('.fullheight').css('height', wheight);
     $(window).resize(function() {
         wheight = $(window).height();
