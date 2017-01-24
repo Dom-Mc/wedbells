@@ -7405,11 +7405,11 @@ button {
 }
 
 footer p {
-    font-size: 1.2rem
+    font-size: 95%
 }
 
 footer a {
-    font-size: 1.4rem
+    font-size: 95%
 }
 
 @media (min-width: 768px) {
