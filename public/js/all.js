@@ -2239,10 +2239,8 @@ $(function() {
 
       if (hash === '#contact'){
         topoffset = 10; //change topoffset var if in Contact section
-        console.log(hash, topoffset);
       } else {
         topoffset = 55;
-        console.log(hash, topoffset);
       }
 
       //check if user has scrolled past header (#wedding)
