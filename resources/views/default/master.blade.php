@@ -4,18 +4,18 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Dominic McKellar and Nakissa | Wedding App</title>
+	<title>Dom McKellar | Nakissa</title>
 	<meta name="description" content="Wedding application built with Laravel (PHP web framework), Owl Carousel, Twitter Bootstrap, Include Media, and Font-Awesome. Created by Dominic McKellar">
-	<meta name="keywords" content="dom mckellar, dominic mckellar"
-	<meta name="author" content="Dominic McKellar">
-	
+	<meta name="keywords" content="dom mckellar, dominic mckellar, nakissandom, domckellar"
+	<meta name="author" content="Dom McKellar">
+
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:site" content="@_dom_mc">
 	<meta name="twitter:title" content="Dominic McKellar and Nakissa | Wedding App">
 	<meta name="twitter:description" content="Wedding application built with Laravel (PHP web framework), Owl Carousel, Twitter Bootstrap, Include Media, and Font-Awesome. Created by Dominic McKellar">
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-  <link rel="stylesheet" type="text/css" href="css/all.css">
+  <link rel="stylesheet" type="text/css" href="css/all.min.css">
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -34,10 +34,7 @@
 
   	<!-- Scripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    {{-- <script src="js/bootstrap.min.js"></script>
-    <script src="js/vendor/owl.carousel.js"></script>
-    <script src="js/wed.js"></script> --}}
-    <script src="js/all.js"></script>
+    <script src="js/all.min.js"></script>
 
   </body>
 </html>
